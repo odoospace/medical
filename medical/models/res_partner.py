@@ -57,7 +57,7 @@ class ResPartner(models.Model):
     def _compute_patient_ids_and_count(self):
         for record in self:
             patients = self.env['medical.patient'].search([
-                ('partner_id', 'child_of', record.id),
+                ('partner_id', 'child_of', record.ids),
             ])
             record.count_patients = len(patients)
             record.patient_ids = [(6, 0, patients.ids)]

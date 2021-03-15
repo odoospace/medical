@@ -103,12 +103,12 @@
                 <label for="weight" string="Peso" />
                 <div>
                     <field name='weight' string="Peso" class="oe_inline" />
-                    <field
-                        name='weight_uom'
-                        class="oe_inline"
-                        placeholder="Unidad de medida"
-                        string="Unidad de medida"
-                    />
+<!--                    <field-->
+<!--                        name='weight_uom'-->
+<!--                        class="oe_inline"-->
+<!--                        placeholder="Unidad de medida"-->
+<!--                        string="Unidad de medida"-->
+<!--                    />-->
                 </div>
             </xpath>
         </field>

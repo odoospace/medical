@@ -11,7 +11,7 @@
     'category': 'Medical',
     'depends': [
         'product',
-        'base_locale_uom_default',
+        # 'base_locale_uom_default',
     ],
     'author': 'LabViv',
     'website': 'https://labviv.org.ve/',

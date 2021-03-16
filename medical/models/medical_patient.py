@@ -19,11 +19,11 @@ class MedicalPatient(models.Model):
         compute='_compute_age',
         string="Age (computed)"
     )
-    age_years = fields.Integer(
-        string="Age",
-        compute='_compute_age',
-        search='_search_age',
-    )
+    # age_years = fields.Integer(
+    #     string="Age",
+    #     compute='_compute_age',
+    #     search='_search_age',
+    # )
     identification_code = fields.Char(
         string='Identificación interna',
         help='Identificación del paciente provista por el centro de salud',

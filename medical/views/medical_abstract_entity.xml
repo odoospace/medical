@@ -5,6 +5,7 @@
     License GPL-3.0 or later (http://www.gnu.org/licenses/gpl).
 -->
 <odoo>
+
     <record id="medical_abstract_entity_view_tree" model="ir.ui.view">
         <field name="name">medical.abstract.entity.tree</field>
         <field name="model">medical.abstract.entity</field>
@@ -15,6 +16,7 @@
             </tree>
         </field>
     </record>
+
     <record id="medical_abstract_entity_view_form" model="ir.ui.view">
         <field name="name">medical.abstract.entity.form</field>
         <field name="model">medical.abstract.entity</field>
@@ -22,21 +24,10 @@
             <form string="Medical entity">
                 <header/>
                 <sheet>
-                    <!-- <field
-                        name="image"
-                        widget='image'
-                        class="oe_left oe_avatar"
-                        options="{
-                            'preview_image': 'image_medium',
-                            'size': [90, 90],
-                        }"
-                    /> -->
                     <div class="oe_title" name="title">
                         <h1>
                             <field name="name" placeholder="Name"/>
                             <field name="is_company" invisible="True"/>
-                            <!-- <field name="supplier" invisible="True" /> -->
-                            <!-- <field name="customer" invisible="True" /> -->
                             <field name="parent_id" invisible="True"/>
                         </h1>
                     </div>
@@ -45,15 +36,18 @@
                             <div class="oe_button_box" name="buttons"/>
                             <group name="group_contact_info" string="Informacion de contacto">
                                 <group name="group_contact_left">
-                                    <!--<field
-                                        name="type"
-                                        attrs="{'invisible': [('parent_id','=', False)]}"
-                                        groups="base.group_no_one"
+                                    <field
+                                            name="parent_id"
+                                            colspan="2"
+                                            string="Representante legal"
                                     />
-                                    <label for="street" string="Address"/>-->
-                                    <div class="o_address_format">
-                                        <!--<div class="oe_edit_only">
-                                            <button
+                                    <field
+                                            name="type"
+                                            attrs="{'invisible': [('parent_id','=', False)]}"
+                                            groups="base.group_no_one"
+                                    />
+                                    <!--<div class="oe_edit_only">
+                                        <button
                                                 name="open_parent"
                                                 type="object"
                                                 string="(edit)"
@@ -65,13 +59,15 @@
                                                         ('type', '!=', 'contact')
                                                     ],
                                                 }"
-                                            />
-                                        </div>
+                                        />
+                                    </div>-->
+                                    <label for="street" string="Address"/>
+                                    <div class="o_address_format">
                                         <field
-                                            name="street"
-                                            placeholder="Street"
-                                            class="o_address_street"
-                                            attrs="{
+                                                name="street"
+                                                placeholder="Street"
+                                                class="o_address_street"
+                                                attrs="{
                                                 'readonly': [
                                                     ('type', '=', 'contact'),
                                                     ('parent_id', '!=', False)
@@ -79,16 +75,16 @@
                                             }"
                                         />
                                         <field
-                                            name="street2"
-                                            placeholder="Street 2"
-                                            class="o_address_street"
-                                            attrs="{
+                                                name="street2"
+                                                placeholder="Street 2"
+                                                class="o_address_street"
+                                                attrs="{
                                                 'readonly': [
                                                     ('type', '=', 'contact'),
                                                     ('parent_id', '!=', False)
                                                 ],
                                             }"
-                                        />-->
+                                        />
                                         <field
                                                 name="city"
                                                 placeholder="City"
@@ -108,21 +104,21 @@
                                                 placeholder="ZIP"
                                                 class="o_address_zip"
                                         />
-                                        <!--<field
-                                            name="country_id"
-                                            placeholder="País"
-                                            class="o_address_country"
-                                            options='{"no_open": True, "no_create": True}'
-                                            attrs="{
+                                        <field
+                                                name="country_id"
+                                                placeholder="País"
+                                                class="o_address_country"
+                                                options='{"no_open": True, "no_create": True}'
+                                                attrs="{
                                                 'readonly': [
                                                     ('type', '=', 'contact'),
                                                     ('parent_id', '!=', False)
                                                 ],
                                             }"
-                                            domain="[
+                                                domain="[
                                                 ('name', '=', 'Venezuela')
                                             ]"
-                                        />-->
+                                        />
                                     </div>
                                     <field
                                             name="category_id"
@@ -144,7 +140,6 @@
                                             options='{"no_open": True}'
                                             attrs="{'invisible': [('is_company', '=', True)]}"
                                     />
-                                    <!-- <field name="lang" /> -->
                                     <field
                                             name="gender"
                                             attrs="{'invisible': [('is_company', '=', True)]}"
@@ -152,12 +147,8 @@
                                     />
                                 </group>
                             </group>
-                            <group name="main_data">
-                                <group name="left"/>
-                                <group name="right"/>
-                            </group>
                         </page>
-                        <!--<page name="page_contacts" string="Contact book">
+                        <page name="page_contacts" string="Contact book">
                             <field
                                     name="child_ids"
                                     mode="kanban"
@@ -297,7 +288,7 @@
                                     </sheet>
                                 </form>
                             </field>
-                        </page>-->
+                        </page>
                         <page name='page_internal_notes' string="Notas">
                             <field name="comment" placeholder="Nota interna..."/>
                         </page>
@@ -312,6 +303,7 @@
             </form>
         </field>
     </record>
+
     <record id="medical_abstract_entity_view_kanban" model="ir.ui.view">
         <field name="name">medical.abstract.entity.kanban</field>
         <field name="model">medical.abstract.entity</field>
@@ -334,27 +326,11 @@
                 <field name="mobile"/>
                 <field name="state_id"/>
                 <field name="category_id"/>
-                <!-- <field name="image_small" /> -->
                 <field name="type"/>
                 <templates>
                     <t t-name="kanban-box">
                         <div class="oe_kanban_global_click o_res_partner_kanban">
                             <div class="o_kanban_tags_section oe_kanban_partner_categories"/>
-                            <!-- <div class="o_kanban_image">
-                                <t t-if="record.image_small.raw_value">
-                                    <img t-att-src="kanban_image('res.partner', 'image_small', record.id.value)" />
-                                </t>
-                                <t t-if="!record.image_small.raw_value">
-                                    <t t-if="record.is_company.raw_value === true">
-                                        <img name="kanban_image_default_company"
-                                             t-attf-src='{{ _s }}/base/static/src/img/company_image.png' />
-                                    </t>
-                                    <t t-if="record.is_company.raw_value === false">
-                                        <img name="kanban_image_default_person"
-                                             t-attf-src='{{ _s }}/base/static/src/img/avatar.png' />
-                                    </t>
-                                </t>
-                            </div> -->
                             <div class="oe_kanban_details">
                                 <strong class="oe_partner_heading">
                                     <field name="display_name"/>
@@ -373,6 +349,7 @@
             </kanban>
         </field>
     </record>
+
     <record model="ir.ui.view" id="medical_abstract_entity_view_search">
         <field name="name">medical.abstract.entity.search</field>
         <field name="model">medical.abstract.entity</field>
@@ -408,4 +385,5 @@
             </search>
         </field>
     </record>
+
 </odoo>

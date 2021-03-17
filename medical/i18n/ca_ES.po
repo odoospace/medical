@@ -1,0 +1,1303 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* medical
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-17 11:48+0000\n"
+"PO-Revision-Date: 2021-03-17 11:48+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: medical
+#: code:addons/medical/medical/models/medical_patient.py:0
+#: code:addons/medical/models/medical_patient.py:0
+#, python-format
+msgid " (deceased)"
+msgstr " (mort)"
+
+#. module: medical
+#: model_terms:ir.ui.view,arch_db:medical.view_res_partner_form
+msgid "<span class=\"o_stat_text\">Paciente(s)</span>"
+msgstr "<span class =\"o_stat_text\"> Pacient (s) </span>"
+
+#. module: medical
+#: model_terms:ir.ui.view,arch_db:medical.medical_patient_view_kanban
+msgid "<strong>DOB:</strong>"
+msgstr ""
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__message_needaction
+#: model:ir.model.fields,field_description:medical.field_medical_patient__message_needaction
+msgid "Action Needed"
+msgstr "Acció necessària"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__active
+#: model:ir.model.fields,field_description:medical.field_medical_patient__active
+msgid "Active"
+msgstr "Actiu"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__active_lang_count
+#: model:ir.model.fields,field_description:medical.field_medical_patient__active_lang_count
+msgid "Active Lang Count"
+msgstr "Comte actiu de Lang"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__activity_ids
+#: model:ir.model.fields,field_description:medical.field_medical_patient__activity_ids
+msgid "Activities"
+msgstr "Activitats"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__activity_exception_decoration
+#: model:ir.model.fields,field_description:medical.field_medical_patient__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "Decoració d’excepcions d’activitats"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__activity_state
+#: model:ir.model.fields,field_description:medical.field_medical_patient__activity_state
+msgid "Activity State"
+msgstr "Estat de l’activitat"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__activity_type_icon
+#: model:ir.model.fields,field_description:medical.field_medical_patient__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "Icona de tipus d'activitat"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__additional_info
+#: model:ir.model.fields,field_description:medical.field_medical_patient__additional_info
+msgid "Additional info"
+msgstr "Informació addicional"
+
+#. module: medical
+#: model_terms:ir.ui.view,arch_db:medical.medical_abstract_entity_view_form
+msgid "Address"
+msgstr "Adreça"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__type
+#: model:ir.model.fields,field_description:medical.field_medical_patient__type
+#: model:ir.model.fields,field_description:medical.field_res_partner__type
+#: model:ir.model.fields,field_description:medical.field_res_users__type
+msgid "Address Type"
+msgstr "Tipus d'adreça"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_patient__age
+msgid "Age (computed)"
+msgstr "Edat (calculada)"
+
+#. module: medical
+#: model:ir.model.fields,help:medical.field_medical_abstract_entity__lang
+#: model:ir.model.fields,help:medical.field_medical_patient__lang
+msgid ""
+"All the emails and documents sent to this contact will be translated in this"
+" language."
+msgstr ""
+
+#. module: medical
+#: model:res.groups,name:medical.group_medical_assistant
+msgid "Assistant"
+msgstr "Ajudant"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__message_attachment_count
+#: model:ir.model.fields,field_description:medical.field_medical_patient__message_attachment_count
+msgid "Attachment Count"
+msgstr "Recompte de fitxers adjunts"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__bank_ids
+#: model:ir.model.fields,field_description:medical.field_medical_patient__bank_ids
+msgid "Banks"
+msgstr "Bancs"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__barcode
+#: model:ir.model.fields,field_description:medical.field_medical_patient__barcode
+msgid "Barcode"
+msgstr "Codi de barres"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__is_blacklisted
+#: model:ir.model.fields,field_description:medical.field_medical_patient__is_blacklisted
+msgid "Blacklist"
+msgstr "Llista negra"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__mobile_blacklisted
+#: model:ir.model.fields,field_description:medical.field_medical_patient__mobile_blacklisted
+msgid "Blacklisted Phone Is Mobile"
+msgstr "El telèfon de la llista negra és mòbil"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__phone_blacklisted
+#: model:ir.model.fields,field_description:medical.field_medical_patient__phone_blacklisted
+msgid "Blacklisted Phone is Phone"
+msgstr "El telèfon de la llista negra és Telèfon"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__message_bounce
+#: model:ir.model.fields,field_description:medical.field_medical_patient__message_bounce
+msgid "Bounce"
+msgstr "Rebot"
+
+#. module: medical
+#: model_terms:ir.ui.view,arch_db:medical.medical_abstract_entity_view_form
+msgid "Categories"
+msgstr "Categories"
+
+#. module: medical
+#: model:res.groups,name:medical.group_medical_center_manager
+msgid "Center Manager"
+msgstr "Director del centre"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__channel_ids
+#: model:ir.model.fields,field_description:medical.field_medical_patient__channel_ids
+msgid "Channels"
+msgstr "Canals"
+
+#. module: medical
+#: model:ir.model.fields,help:medical.field_medical_abstract_entity__is_company
+#: model:ir.model.fields,help:medical.field_medical_patient__is_company
+msgid "Check if the contact is a company, otherwise it is a person"
+msgstr "Comproveu si el contacte és una empresa, en cas contrari és una persona"
+
+#. module: medical
+#: model:ir.model.fields,help:medical.field_medical_abstract_entity__employee
+#: model:ir.model.fields,help:medical.field_medical_patient__employee
+msgid "Check this box if this contact is an Employee."
+msgstr "Marqueu aquesta casella si aquest contacte és un empleat."
+
+#. module: medical
+#: model:ir.model.fields,help:medical.field_medical_abstract_entity__country_enforce_cities
+#: model:ir.model.fields,help:medical.field_medical_patient__country_enforce_cities
+msgid ""
+"Check this box to ensure every address created in that country has a 'City' "
+"chosen in the list of the country's cities."
+msgstr ""
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__city
+#: model:ir.model.fields,field_description:medical.field_medical_patient__city
+#: model_terms:ir.ui.view,arch_db:medical.medical_abstract_entity_view_form
+msgid "City"
+msgstr "Ciutat"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__city_id
+#: model:ir.model.fields,field_description:medical.field_medical_patient__city_id
+msgid "City of Address"
+msgstr "Ciutat d’adreça"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__color
+#: model:ir.model.fields,field_description:medical.field_medical_patient__color
+msgid "Color Index"
+msgstr "Índex de colors"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__commercial_partner_id
+#: model:ir.model.fields,field_description:medical.field_medical_patient__commercial_partner_id
+msgid "Commercial Entity"
+msgstr "Entitat Comercial"
+
+#. module: medical
+#: model:ir.model.fields,help:medical.field_medical_abstract_entity__alias
+#: model:ir.model.fields,help:medical.field_medical_patient__alias
+#: model:ir.model.fields,help:medical.field_res_partner__alias
+#: model:ir.model.fields,help:medical.field_res_users__alias
+msgid "Common, not official, name"
+msgstr "Nom comú, no oficial"
+
+#. module: medical
+#: model:ir.ui.menu,name:medical.medical_root
+msgid "Community Medical"
+msgstr "Community Medical"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__company_id
+#: model:ir.model.fields,field_description:medical.field_medical_patient__company_id
+msgid "Company"
+msgstr "Empresa"
+
+#. module: medical
+#: model:res.groups,name:medical.group_medical_manager
+msgid "Company Manager"
+msgstr "Gerent d’empresa"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__company_name
+#: model:ir.model.fields,field_description:medical.field_medical_patient__company_name
+msgid "Company Name"
+msgstr "Nom de la companyia"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__commercial_company_name
+#: model:ir.model.fields,field_description:medical.field_medical_patient__commercial_company_name
+msgid "Company Name Entity"
+msgstr "Nom de l'entitat"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__company_type
+#: model:ir.model.fields,field_description:medical.field_medical_patient__company_type
+msgid "Company Type"
+msgstr "Tipus d'empresa"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__partner_gid
+#: model:ir.model.fields,field_description:medical.field_medical_patient__partner_gid
+msgid "Company database ID"
+msgstr "Identificador de la base de dades de l'empresa"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__contact_address
+#: model:ir.model.fields,field_description:medical.field_medical_patient__contact_address
+msgid "Complete Address"
+msgstr "Adreça completa"
+
+#. module: medical
+#: model:ir.ui.menu,name:medical.medical_root_sub
+msgid "Configuration"
+msgstr "Configuració"
+
+#. module: medical
+#: model:ir.model,name:medical.model_res_partner
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__child_ids
+#: model:ir.model.fields,field_description:medical.field_medical_patient__child_ids
+msgid "Contact"
+msgstr "Contacte"
+
+#. module: medical
+#: model_terms:ir.ui.view,arch_db:medical.medical_abstract_entity_view_form
+msgid "Contact book"
+msgstr "Llibre de contacte"
+
+#. module: medical
+#: model_terms:ir.ui.view,arch_db:medical.medical_abstract_entity_view_form
+msgid "Contacts / Addresses"
+msgstr "Contactes / Adreces"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__count_patients
+#: model:ir.model.fields,field_description:medical.field_medical_patient__count_patients
+#: model:ir.model.fields,field_description:medical.field_res_partner__count_patients
+#: model:ir.model.fields,field_description:medical.field_res_users__count_patients
+msgid "Count Patients"
+msgstr "Comptar pacients"
+
+#. module: medical
+#: model:ir.model.fields,help:medical.field_medical_abstract_entity__message_bounce
+#: model:ir.model.fields,help:medical.field_medical_patient__message_bounce
+msgid "Counter of the number of bounced emails for this contact"
+msgstr "Comptador del nombre de correus electrònics rebuts per a aquest contacte"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__country_id
+#: model:ir.model.fields,field_description:medical.field_medical_patient__country_id
+#: model_terms:ir.ui.view,arch_db:medical.medical_abstract_entity_view_form
+msgid "Country"
+msgstr "País"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__create_uid
+#: model:ir.model.fields,field_description:medical.field_medical_patient__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__create_date
+#: model:ir.model.fields,field_description:medical.field_medical_patient__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__credit_limit
+#: model:ir.model.fields,field_description:medical.field_medical_patient__credit_limit
+msgid "Credit Limit"
+msgstr ""
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__birthdate_date
+#: model:ir.model.fields,field_description:medical.field_medical_patient__birthdate_date
+#: model:ir.model.fields,field_description:medical.field_res_partner__birthdate_date
+#: model:ir.model.fields,field_description:medical.field_res_users__birthdate_date
+#: model_terms:ir.ui.view,arch_db:medical.medical_patient_view_kanban
+msgid "DOB"
+msgstr ""
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__date
+#: model:ir.model.fields,field_description:medical.field_medical_patient__date
+msgid "Date"
+msgstr "Data"
+
+#. module: medical
+#: model_terms:ir.ui.view,arch_db:medical.medical_abstract_entity_view_search
+msgid "Deactivated"
+msgstr "Desactivat"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_patient__date_death
+msgid "Deceased date"
+msgstr "Data de defunció"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__display_name
+#: model:ir.model.fields,field_description:medical.field_medical_patient__display_name
+#: model:ir.model.fields,field_description:medical.field_res_partner__display_name
+msgid "Display Name"
+msgstr "Nom mostrat"
+
+#. module: medical
+#: model:ir.model.fields.selection,name:medical.selection__medical_patient__marital_status__d
+msgid "Divorced"
+msgstr "Divorciada"
+
+#. module: medical
+#: model:res.groups,name:medical.group_medical_doctor
+msgid "Doctor"
+msgstr "Metge"
+
+#. module: medical
+#: model:ir.model.fields,help:medical.field_medical_abstract_entity__partner_share
+#: model:ir.model.fields,help:medical.field_medical_patient__partner_share
+msgid ""
+"Either customer (not a user), either shared user. Indicated the current "
+"partner is a customer without access or with a limited access created for "
+"sharing data."
+msgstr ""
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__email
+#: model:ir.model.fields,field_description:medical.field_medical_patient__email
+msgid "Email"
+msgstr "Correu electrònic"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__employee
+#: model:ir.model.fields,field_description:medical.field_medical_patient__employee
+msgid "Employee"
+msgstr "Empleat"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__country_enforce_cities
+#: model:ir.model.fields,field_description:medical.field_medical_patient__country_enforce_cities
+msgid "Enforce Cities"
+msgstr "Fer complir les ciutats"
+
+#. module: medical
+#: model:ir.model.fields.selection,name:medical.selection__res_partner__gender__female
+msgid "Female"
+msgstr "Dona"
+
+#. module: medical
+#: model:ir.model.fields,help:medical.field_medical_abstract_entity__phone_sanitized
+#: model:ir.model.fields,help:medical.field_medical_patient__phone_sanitized
+msgid ""
+"Field used to store sanitized phone number. Helps speeding up searches and "
+"comparisons."
+msgstr ""
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__message_follower_ids
+#: model:ir.model.fields,field_description:medical.field_medical_patient__message_follower_ids
+msgid "Followers"
+msgstr "Seguidors"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__message_channel_ids
+#: model:ir.model.fields,field_description:medical.field_medical_patient__message_channel_ids
+msgid "Followers (Channels)"
+msgstr "Seguidors (canals)"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__message_partner_ids
+#: model:ir.model.fields,field_description:medical.field_medical_patient__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Seguidors (socis)"
+
+#. module: medical
+#: model:ir.model.fields,help:medical.field_medical_abstract_entity__activity_type_icon
+#: model:ir.model.fields,help:medical.field_medical_patient__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "Icona increïble de tipus de lletra, per exemple fa-tasques"
+
+#. module: medical
+#: model:ir.model.fields,help:medical.field_medical_abstract_entity__email_formatted
+#: model:ir.model.fields,help:medical.field_medical_patient__email_formatted
+msgid "Format email address \"Name <email@domain>\""
+msgstr "Formateu l'adreça electrònica \ 'Nom <correu electrònic @ domini> \'"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__email_formatted
+#: model:ir.model.fields,field_description:medical.field_medical_patient__email_formatted
+msgid "Formatted Email"
+msgstr "Correu electrònic formatat"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__gender
+#: model:ir.model.fields,field_description:medical.field_medical_patient__gender
+#: model:ir.model.fields,field_description:medical.field_res_partner__gender
+#: model_terms:ir.ui.view,arch_db:medical.medical_abstract_entity_view_form
+msgid "Gender"
+msgstr "Gènere"
+
+#. module: medical
+#: model_terms:ir.ui.view,arch_db:medical.medical_patient_view_form
+msgid "General"
+msgstr "General"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__partner_latitude
+#: model:ir.model.fields,field_description:medical.field_medical_patient__partner_latitude
+msgid "Geo Latitude"
+msgstr "Geo Latitude"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__partner_longitude
+#: model:ir.model.fields,field_description:medical.field_medical_patient__partner_longitude
+msgid "Geo Longitude"
+msgstr "Geo Longitud"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__id
+#: model:ir.model.fields,field_description:medical.field_medical_patient__id
+#: model:ir.model.fields,field_description:medical.field_res_partner__id
+#: model_terms:ir.ui.view,arch_db:medical.medical_patient_view_tree
+msgid "ID"
+msgstr ""
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__im_status
+#: model:ir.model.fields,field_description:medical.field_medical_patient__im_status
+msgid "IM Status"
+msgstr "Estat IM"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__activity_exception_icon
+#: model:ir.model.fields,field_description:medical.field_medical_patient__activity_exception_icon
+msgid "Icon"
+msgstr "Icona"
+
+#. module: medical
+#: model:ir.model.fields,help:medical.field_medical_abstract_entity__activity_exception_icon
+#: model:ir.model.fields,help:medical.field_medical_patient__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "Icona per indicar una activitat d’excepció."
+
+#. module: medical
+#: model:ir.model.fields,help:medical.field_medical_patient__identification_code
+msgid "Identificación del paciente provista por el centro de salud"
+msgstr "Identificació de l'pacient proveïda pel centre de salut"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_patient__identification_code
+msgid "Identificación interna"
+msgstr "Identificació interna"
+
+#. module: medical
+#: model:ir.model.fields,help:medical.field_medical_abstract_entity__message_needaction
+#: model:ir.model.fields,help:medical.field_medical_abstract_entity__message_unread
+#: model:ir.model.fields,help:medical.field_medical_patient__message_needaction
+#: model:ir.model.fields,help:medical.field_medical_patient__message_unread
+msgid "If checked, new messages require your attention."
+msgstr "Si està marcat, els missatges nous requereixen la vostra atenció."
+
+#. module: medical
+#: model:ir.model.fields,help:medical.field_medical_abstract_entity__message_has_error
+#: model:ir.model.fields,help:medical.field_medical_abstract_entity__message_has_sms_error
+#: model:ir.model.fields,help:medical.field_medical_patient__message_has_error
+#: model:ir.model.fields,help:medical.field_medical_patient__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Si està marcat, alguns missatges tenen un error de lliurament."
+
+#. module: medical
+#: model:ir.model.fields,help:medical.field_medical_abstract_entity__team_id
+#: model:ir.model.fields,help:medical.field_medical_patient__team_id
+msgid ""
+"If set, this Sales Team will be used for sales and assignments related to "
+"this partner"
+msgstr ""
+
+#. module: medical
+#: model:ir.model.fields,help:medical.field_medical_abstract_entity__is_blacklisted
+#: model:ir.model.fields,help:medical.field_medical_patient__is_blacklisted
+msgid ""
+"If the email address is on the blacklist, the contact won't receive mass "
+"mailing anymore, from any list"
+msgstr ""
+
+#. module: medical
+#: model:ir.model.fields,help:medical.field_medical_abstract_entity__phone_sanitized_blacklisted
+#: model:ir.model.fields,help:medical.field_medical_patient__phone_sanitized_blacklisted
+msgid ""
+"If the sanitized phone number is on the blacklist, the contact won't receive"
+" mass mailing sms anymore, from any list"
+msgstr ""
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__image_1920
+#: model:ir.model.fields,field_description:medical.field_medical_patient__image_1920
+msgid "Image"
+msgstr "Imatge"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__image_1024
+#: model:ir.model.fields,field_description:medical.field_medical_patient__image_1024
+msgid "Image 1024"
+msgstr "Imatge 1024"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__image_128
+#: model:ir.model.fields,field_description:medical.field_medical_patient__image_128
+msgid "Image 128"
+msgstr "Imatge 128"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__image_256
+#: model:ir.model.fields,field_description:medical.field_medical_patient__image_256
+msgid "Image 256"
+msgstr "Imatge 256"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__image_512
+#: model:ir.model.fields,field_description:medical.field_medical_patient__image_512
+msgid "Image 512"
+msgstr "Imatge 512"
+
+#. module: medical
+#: model:ir.model.fields,help:medical.field_medical_abstract_entity__mobile_blacklisted
+#: model:ir.model.fields,help:medical.field_medical_patient__mobile_blacklisted
+msgid ""
+"Indicates if a blacklisted sanitized phone number is a mobile number. Helps "
+"distinguish which number is blacklisted             when there is both a "
+"mobile and phone field in a model."
+msgstr ""
+
+#. module: medical
+#: model:ir.model.fields,help:medical.field_medical_abstract_entity__phone_blacklisted
+#: model:ir.model.fields,help:medical.field_medical_patient__phone_blacklisted
+msgid ""
+"Indicates if a blacklisted sanitized phone number is a phone number. Helps "
+"distinguish which number is blacklisted             when there is both a "
+"mobile and phone field in a model."
+msgstr ""
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__industry_id
+#: model:ir.model.fields,field_description:medical.field_medical_patient__industry_id
+msgid "Industry"
+msgstr "Indústria"
+
+#. module: medical
+#: model_terms:ir.ui.view,arch_db:medical.medical_abstract_entity_view_form
+msgid "Informacion de contacto"
+msgstr "Informació de contacte"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_patient__general_info
+#: model_terms:ir.ui.view,arch_db:medical.medical_abstract_entity_view_form
+msgid "Información General"
+msgstr "Informació General"
+
+#. module: medical
+#: model_terms:ir.ui.view,arch_db:medical.medical_abstract_entity_view_form
+msgid "Internal Note..."
+msgstr "Nota interna ..."
+
+#. module: medical
+#: code:addons/medical/medical/models/medical_patient.py:0
+#: code:addons/medical/models/medical_patient.py:0
+#, python-format
+msgid "Invalid operator: %s"
+msgstr "Operador no vàlid: %s"
+
+#. module: medical
+#: code:addons/medical/medical/models/medical_patient.py:0
+#: code:addons/medical/models/medical_patient.py:0
+#, python-format
+msgid "Invalid selection - Only a `Female` may be pregnant."
+msgstr "La selecció no és vàlida: només una 'Dona' pot estar embarassada."
+
+#. module: medical
+#: model:ir.model.fields,help:medical.field_medical_abstract_entity__type
+#: model:ir.model.fields,help:medical.field_medical_patient__type
+#: model:ir.model.fields,help:medical.field_res_partner__type
+#: model:ir.model.fields,help:medical.field_res_users__type
+msgid ""
+"Invoice & Delivery addresses are used in sales orders. Private addresses are"
+" only visible by authorized users."
+msgstr ""
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_patient__is_deceased
+msgid "Is Deceased"
+msgstr "Ha mort"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__message_is_follower
+#: model:ir.model.fields,field_description:medical.field_medical_patient__message_is_follower
+msgid "Is Follower"
+msgstr "És seguidor"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_patient__is_pregnant
+msgid "Is Pregnant"
+msgstr "Està embarassada"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__is_company
+#: model:ir.model.fields,field_description:medical.field_medical_patient__is_company
+msgid "Is a Company"
+msgstr "És una empresa"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__function
+#: model:ir.model.fields,field_description:medical.field_medical_patient__function
+msgid "Job Position"
+msgstr "Posició de treball"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__lang
+#: model:ir.model.fields,field_description:medical.field_medical_patient__lang
+msgid "Language"
+msgstr "Llenguatge"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity____last_update
+#: model:ir.model.fields,field_description:medical.field_medical_patient____last_update
+#: model:ir.model.fields,field_description:medical.field_res_partner____last_update
+msgid "Last Modified on"
+msgstr "Última modificació el "
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__write_uid
+#: model:ir.model.fields,field_description:medical.field_medical_patient__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__write_date
+#: model:ir.model.fields,field_description:medical.field_medical_patient__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__calendar_last_notif_ack
+#: model:ir.model.fields,field_description:medical.field_medical_patient__calendar_last_notif_ack
+msgid "Last notification marked as read from base Calendar"
+msgstr "Darrera notificació marcada com a llegida del calendari base"
+
+#. module: medical
+#: model:ir.module.category,name:medical.ir_module_category_medical
+msgid "MBS"
+msgstr ""
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__message_main_attachment_id
+#: model:ir.model.fields,field_description:medical.field_medical_patient__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "Arxiu adjunt principal"
+
+#. module: medical
+#: model:ir.model.fields.selection,name:medical.selection__res_partner__gender__male
+msgid "Male"
+msgstr "Home"
+
+#. module: medical
+#. openerp-web
+#: code:addons/medical/medical/static/src/js/medical.tour.js:0
+#: code:addons/medical/static/src/js/medical.tour.js:0
+#, python-format
+msgid "Manage electronic medical records using the <b>Medical</b> app."
+msgstr "Gestioneu els registres mèdics electrònics mitjançant l’aplicació <b> Mèdica </b>."
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_patient__marital_status
+msgid "Marital Status"
+msgstr "Estat civil"
+
+#. module: medical
+#: model:ir.model.fields.selection,name:medical.selection__medical_patient__marital_status__m
+msgid "Married"
+msgstr "Casat"
+
+#. module: medical
+#: model:ir.model,name:medical.model_medical_abstract_entity
+msgid "Medical Abstract Entity"
+msgstr "Entitat abstracta mèdica"
+
+#. module: medical
+#: model_terms:ir.ui.view,arch_db:medical.medical_abstract_entity_view_search
+msgid "Medical Entities"
+msgstr "Entitats mèdiques"
+
+#. module: medical
+#: model:ir.model,name:medical.model_medical_patient
+#: model:ir.model.fields.selection,name:medical.selection__res_partner__type__medical_patient
+msgid "Medical Patient"
+msgstr "Pacient mèdic"
+
+#. module: medical
+#: model_terms:ir.ui.view,arch_db:medical.medical_abstract_entity_view_form
+#: model_terms:ir.ui.view,arch_db:medical.medical_abstract_entity_view_tree
+msgid "Medical entity"
+msgstr "Entitat mèdica"
+
+#. module: medical
+#: model_terms:ir.ui.view,arch_db:medical.medical_patient_view_form
+msgid "Medico"
+msgstr "Metge"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__message_has_error
+#: model:ir.model.fields,field_description:medical.field_medical_patient__message_has_error
+msgid "Message Delivery error"
+msgstr "Error de lliurament de missatges"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__message_ids
+#: model:ir.model.fields,field_description:medical.field_medical_patient__message_ids
+msgid "Messages"
+msgstr "Missatges"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__mobile
+#: model:ir.model.fields,field_description:medical.field_medical_patient__mobile
+msgid "Mobile"
+msgstr "Mòbil"
+
+#. module: medical
+#: model_terms:ir.ui.view,arch_db:medical.medical_abstract_entity_view_form
+msgid "Mobile:"
+msgstr "Mòbil:"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__name
+#: model:ir.model.fields,field_description:medical.field_medical_patient__name
+#: model_terms:ir.ui.view,arch_db:medical.medical_abstract_entity_view_form
+msgid "Name"
+msgstr "Nom"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__activity_date_deadline
+#: model:ir.model.fields,field_description:medical.field_medical_patient__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "Data límit de la propera activitat"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__activity_summary
+#: model:ir.model.fields,field_description:medical.field_medical_patient__activity_summary
+msgid "Next Activity Summary"
+msgstr "Resum de la següent activitat"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__activity_type_id
+#: model:ir.model.fields,field_description:medical.field_medical_patient__activity_type_id
+msgid "Next Activity Type"
+msgstr "Tipus d'activitat següent"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__alias
+#: model:ir.model.fields,field_description:medical.field_medical_patient__alias
+#: model:ir.model.fields,field_description:medical.field_res_partner__alias
+#: model:ir.model.fields,field_description:medical.field_res_users__alias
+msgid "Nickname"
+msgstr "Sobrenom"
+
+#. module: medical
+#: code:addons/medical/medical/models/medical_patient.py:0
+#: code:addons/medical/models/medical_patient.py:0
+#, python-format
+msgid "No DoB"
+msgstr ""
+
+#. module: medical
+#: model_terms:ir.ui.view,arch_db:medical.medical_abstract_entity_view_form
+msgid "Nombre de contacto"
+msgstr "Nom del contacte"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__email_normalized
+#: model:ir.model.fields,field_description:medical.field_medical_patient__email_normalized
+msgid "Normalized Email"
+msgstr "Correu electrònic normalitzat"
+
+#. module: medical
+#: model_terms:ir.ui.view,arch_db:medical.medical_abstract_entity_view_form
+msgid "Nota interna..."
+msgstr "Nota interna..."
+
+#. module: medical
+#: model_terms:ir.ui.view,arch_db:medical.medical_abstract_entity_view_form
+msgid "Notas"
+msgstr "Notes"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__comment
+#: model:ir.model.fields,field_description:medical.field_medical_patient__comment
+msgid "Notes"
+msgstr "Notes"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__message_needaction_counter
+#: model:ir.model.fields,field_description:medical.field_medical_patient__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Nombre d'accions"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__message_has_error_counter
+#: model:ir.model.fields,field_description:medical.field_medical_patient__message_has_error_counter
+msgid "Number of errors"
+msgstr "Nombre d'errors"
+
+#. module: medical
+#: model:ir.model.fields,help:medical.field_medical_abstract_entity__message_needaction_counter
+#: model:ir.model.fields,help:medical.field_medical_patient__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "Nombre de missatges que requereixen una acció"
+
+#. module: medical
+#: model:ir.model.fields,help:medical.field_medical_abstract_entity__message_has_error_counter
+#: model:ir.model.fields,help:medical.field_medical_patient__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Nombre de missatges amb error de lliurament"
+
+#. module: medical
+#: model:ir.model.fields,help:medical.field_medical_abstract_entity__message_unread_counter
+#: model:ir.model.fields,help:medical.field_medical_patient__message_unread_counter
+msgid "Number of unread messages"
+msgstr "Nombre de missatges no llegits"
+
+#. module: medical
+#: model:ir.model.fields.selection,name:medical.selection__res_partner__gender__other
+msgid "Other"
+msgstr "Altres"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__patient_ids
+#: model:ir.model.fields,field_description:medical.field_medical_patient__patient_ids
+#: model:ir.model.fields,field_description:medical.field_res_partner__patient_ids
+#: model:ir.model.fields,field_description:medical.field_res_users__patient_ids
+#: model_terms:ir.ui.view,arch_db:medical.medical_patient_view_form
+msgid "Paciente"
+msgstr "Pacient"
+
+#. module: medical
+#: model:ir.actions.act_window,name:medical.medical_patient_action
+#: model_terms:ir.ui.view,arch_db:medical.medical_patient_view_kanban
+#: model_terms:ir.ui.view,arch_db:medical.medical_patient_view_search
+#: model_terms:ir.ui.view,arch_db:medical.medical_patient_view_tree
+msgid "Pacientes"
+msgstr "Pacients"
+
+#. module: medical
+#: model_terms:ir.ui.view,arch_db:medical.medical_abstract_entity_view_search
+msgid "Parent"
+msgstr "Pares"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__parent_name
+#: model:ir.model.fields,field_description:medical.field_medical_patient__parent_name
+msgid "Parent name"
+msgstr "Nom del pare"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__same_vat_partner_id
+#: model:ir.model.fields,field_description:medical.field_medical_patient__same_vat_partner_id
+msgid "Partner with same Tax ID"
+msgstr "Associeu-vos amb el mateix identificador fiscal"
+
+#. module: medical
+#: code:addons/medical/medical/models/res_partner.py:0
+#: code:addons/medical/models/res_partner.py:0
+#, python-format
+msgid "Partners cannot be born in the future."
+msgstr "Els socis no poden néixer en el futur."
+
+#. module: medical
+#: model:ir.ui.menu,name:medical.medical_patient
+#: model:ir.ui.menu,name:medical.medical_patient_root
+msgid "Patients"
+msgstr "Pacients"
+
+#. module: medical
+#: model_terms:ir.ui.view,arch_db:medical.medical_abstract_entity_view_form
+msgid "País"
+msgstr "País"
+
+#. module: medical
+#: model_terms:ir.ui.view,arch_db:medical.medical_patient_view_form
+msgid "Peso"
+msgstr "Pes"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__phone
+#: model:ir.model.fields,field_description:medical.field_medical_patient__phone
+msgid "Phone"
+msgstr "Telèfon"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__phone_sanitized_blacklisted
+#: model:ir.model.fields,field_description:medical.field_medical_patient__phone_sanitized_blacklisted
+msgid "Phone Blacklisted"
+msgstr "Llista negra del telèfon"
+
+#. module: medical
+#: model_terms:ir.ui.view,arch_db:medical.medical_abstract_entity_view_form
+msgid "Phone:"
+msgstr "Telèfon:"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__property_product_pricelist
+#: model:ir.model.fields,field_description:medical.field_medical_patient__property_product_pricelist
+msgid "Pricelist"
+msgstr "Llistat de preus"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__ref
+#: model:ir.model.fields,field_description:medical.field_medical_patient__ref
+msgid "Reference"
+msgstr "Referència"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__parent_id
+#: model:ir.model.fields,field_description:medical.field_medical_patient__parent_id
+msgid "Related Company"
+msgstr "Empresa relacionada"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__partner_id
+#: model:ir.model.fields,field_description:medical.field_medical_patient__partner_id
+#: model_terms:ir.ui.view,arch_db:medical.medical_abstract_entity_view_search
+msgid "Related Partner"
+msgstr "Soci relacionat"
+
+#. module: medical
+#: model_terms:ir.ui.view,arch_db:medical.medical_abstract_entity_view_form
+msgid "Representante legal"
+msgstr "Representant legal"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__activity_user_id
+#: model:ir.model.fields,field_description:medical.field_medical_patient__activity_user_id
+msgid "Responsible User"
+msgstr "Usuari responsable"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__message_has_sms_error
+#: model:ir.model.fields,field_description:medical.field_medical_patient__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "Error d'entrega d'SMS"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__team_id
+#: model:ir.model.fields,field_description:medical.field_medical_patient__team_id
+msgid "Sales Team"
+msgstr "Equip de vendes"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__user_id
+#: model:ir.model.fields,field_description:medical.field_medical_patient__user_id
+msgid "Salesperson"
+msgstr "Vendedor"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__phone_sanitized
+#: model:ir.model.fields,field_description:medical.field_medical_patient__phone_sanitized
+msgid "Sanitized Number"
+msgstr "Número sanejat"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__self
+#: model:ir.model.fields,field_description:medical.field_medical_patient__self
+msgid "Self"
+msgstr "Jo"
+
+#. module: medical
+#: model:ir.model.fields.selection,name:medical.selection__medical_patient__marital_status__x
+msgid "Separated"
+msgstr "Separats"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__partner_share
+#: model:ir.model.fields,field_description:medical.field_medical_patient__partner_share
+msgid "Share Partner"
+msgstr "Compartir soci"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__signup_expiration
+#: model:ir.model.fields,field_description:medical.field_medical_patient__signup_expiration
+msgid "Signup Expiration"
+msgstr "Caducitat de la inscripció"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__signup_token
+#: model:ir.model.fields,field_description:medical.field_medical_patient__signup_token
+msgid "Signup Token"
+msgstr "Token de registre"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__signup_type
+#: model:ir.model.fields,field_description:medical.field_medical_patient__signup_type
+msgid "Signup Token Type"
+msgstr "Tipus de testimoni de registre"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__signup_valid
+#: model:ir.model.fields,field_description:medical.field_medical_patient__signup_valid
+msgid "Signup Token is Valid"
+msgstr "El testimoni d’inscripció és vàlid"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__signup_url
+#: model:ir.model.fields,field_description:medical.field_medical_patient__signup_url
+msgid "Signup URL"
+msgstr "URL de registre"
+
+#. module: medical
+#: model:ir.model.fields.selection,name:medical.selection__medical_patient__marital_status__s
+msgid "Single"
+msgstr "Solter"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__state_id
+#: model:ir.model.fields,field_description:medical.field_medical_patient__state_id
+#: model_terms:ir.ui.view,arch_db:medical.medical_abstract_entity_view_form
+msgid "State"
+msgstr "Estat"
+
+#. module: medical
+#: model:ir.model.fields,help:medical.field_medical_abstract_entity__activity_state
+#: model:ir.model.fields,help:medical.field_medical_patient__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__street
+#: model:ir.model.fields,field_description:medical.field_medical_patient__street
+#: model_terms:ir.ui.view,arch_db:medical.medical_abstract_entity_view_form
+msgid "Street"
+msgstr "Carrer"
+
+#. module: medical
+#: model_terms:ir.ui.view,arch_db:medical.medical_abstract_entity_view_form
+msgid "Street 2"
+msgstr "Carrer 2"
+
+#. module: medical
+#: model_terms:ir.ui.view,arch_db:medical.medical_abstract_entity_view_form
+msgid "Street 2..."
+msgstr "Carrer 2..."
+
+#. module: medical
+#: model_terms:ir.ui.view,arch_db:medical.medical_abstract_entity_view_form
+msgid "Street..."
+msgstr "Carrer..."
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__street2
+#: model:ir.model.fields,field_description:medical.field_medical_patient__street2
+msgid "Street2"
+msgstr "Carrer2"
+
+#. module: medical
+#: model:res.groups,name:medical.group_medical_configurator
+msgid "System Administrator"
+msgstr "Administrador de sistemes"
+
+#. module: medical
+#: model_terms:ir.ui.view,arch_db:medical.medical_abstract_entity_view_search
+msgid "Tag"
+msgstr "Etiqueta"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__category_id
+#: model:ir.model.fields,field_description:medical.field_medical_patient__category_id
+msgid "Tags"
+msgstr "Etiquetes"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__vat
+#: model:ir.model.fields,field_description:medical.field_medical_patient__vat
+msgid "Tax ID"
+msgstr "Identificació fiscal"
+
+#. module: medical
+#: model:ir.model.fields,help:medical.field_medical_abstract_entity__vat
+#: model:ir.model.fields,help:medical.field_medical_patient__vat
+msgid ""
+"The Tax Identification Number. Complete it if the contact is subjected to "
+"government taxes. Used in some legal statements."
+msgstr ""
+
+#. module: medical
+#: model:ir.model.fields,help:medical.field_medical_abstract_entity__user_id
+#: model:ir.model.fields,help:medical.field_medical_patient__user_id
+msgid "The internal user in charge of this contact."
+msgstr "L'usuari intern responsable d'aquest contacte."
+
+#. module: medical
+#: model:ir.model.fields,help:medical.field_medical_abstract_entity__email_normalized
+#: model:ir.model.fields,help:medical.field_medical_patient__email_normalized
+msgid ""
+"This field is used to search on email address as the primary email field can"
+" contain more than strictly an email address."
+msgstr ""
+
+#. module: medical
+#: model:ir.model.fields,help:medical.field_medical_abstract_entity__property_product_pricelist
+#: model:ir.model.fields,help:medical.field_medical_patient__property_product_pricelist
+msgid ""
+"This pricelist will be used, instead of the default one, for sales to the "
+"current partner"
+msgstr ""
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__tz
+#: model:ir.model.fields,field_description:medical.field_medical_patient__tz
+msgid "Timezone"
+msgstr "Fus horari"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__tz_offset
+#: model:ir.model.fields,field_description:medical.field_medical_patient__tz_offset
+msgid "Timezone offset"
+msgstr "Desplaçament de la zona horària"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__title
+#: model:ir.model.fields,field_description:medical.field_medical_patient__title
+msgid "Title"
+msgstr "Títol"
+
+#. module: medical
+#: model:ir.model.fields,help:medical.field_medical_abstract_entity__activity_exception_decoration
+#: model:ir.model.fields,help:medical.field_medical_patient__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "Tipus d'activitat d'excepció registrada."
+
+#. module: medical
+#: model_terms:ir.ui.view,arch_db:medical.medical_patient_view_form
+msgid "Unidad de medida"
+msgstr "Unitat de mesura"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__message_unread
+#: model:ir.model.fields,field_description:medical.field_medical_patient__message_unread
+msgid "Unread Messages"
+msgstr "Missatges no llegits"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__message_unread_counter
+#: model:ir.model.fields,field_description:medical.field_medical_patient__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "Comptador de missatges no llegits"
+
+#. module: medical
+#: model:ir.model.fields,help:medical.field_medical_abstract_entity__barcode
+#: model:ir.model.fields,help:medical.field_medical_patient__barcode
+msgid "Use a barcode to identify this contact."
+msgstr "Utilitzeu un codi de barres per identificar aquest contacte."
+
+#. module: medical
+#: model:res.groups,name:medical.group_medical_user
+msgid "User"
+msgstr "Usuari"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__user_ids
+#: model:ir.model.fields,field_description:medical.field_medical_patient__user_ids
+msgid "Users"
+msgstr "Usuaris"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__website
+#: model:ir.model.fields,field_description:medical.field_medical_patient__website
+msgid "Website Link"
+msgstr "Enllaç al lloc web"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__website_message_ids
+#: model:ir.model.fields,field_description:medical.field_medical_patient__website_message_ids
+msgid "Website Messages"
+msgstr "Missatges del lloc web"
+
+#. module: medical
+#: model:ir.model.fields,help:medical.field_medical_abstract_entity__website_message_ids
+#: model:ir.model.fields,help:medical.field_medical_patient__website_message_ids
+msgid "Website communication history"
+msgstr "Historial de comunicacions de llocs web"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__weight
+#: model:ir.model.fields,field_description:medical.field_medical_patient__weight
+#: model:ir.model.fields,field_description:medical.field_res_partner__weight
+#: model:ir.model.fields,field_description:medical.field_res_users__weight
+msgid "Weight"
+msgstr "Pes"
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__weight_uom
+#: model:ir.model.fields,field_description:medical.field_medical_patient__weight_uom
+#: model:ir.model.fields,field_description:medical.field_res_partner__weight_uom
+#: model:ir.model.fields,field_description:medical.field_res_users__weight_uom
+msgid "Weight unit"
+msgstr "Unitat de pes"
+
+#. module: medical
+#: model:ir.model.fields,help:medical.field_medical_abstract_entity__tz
+#: model:ir.model.fields,help:medical.field_medical_patient__tz
+msgid ""
+"When printing documents and exporting/importing data, time values are computed according to this timezone.\n"
+"If the timezone is not set, UTC (Coordinated Universal Time) is used.\n"
+"Anywhere else, time values are computed according to the time offset of your web client."
+msgstr ""
+
+#. module: medical
+#: model:ir.model.fields.selection,name:medical.selection__medical_patient__marital_status__w
+msgid "Widow(er)"
+msgstr "Viudo (a)"
+
+#. module: medical
+#: model_terms:ir.ui.view,arch_db:medical.medical_abstract_entity_view_form
+msgid "ZIP"
+msgstr ""
+
+#. module: medical
+#: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__zip
+#: model:ir.model.fields,field_description:medical.field_medical_patient__zip
+msgid "Zip"
+msgstr "ZIP"
+
+#. module: medical
+#: model_terms:ir.ui.view,arch_db:medical.medical_abstract_entity_view_form
+msgid "e.g. Mr."
+msgstr "Per exemple. Sr."
+
+#. module: medical
+#: model_terms:ir.ui.view,arch_db:medical.medical_abstract_entity_view_form
+msgid "e.g. Sales Director"
+msgstr "Per exemple. Director de vendes"
+
+#. module: medical
+#: model:ir.model.fields,help:medical.field_medical_patient__is_pregnant
+msgid "¿Esta embarazada?"
+msgstr "¿Aquesta embarassada?"

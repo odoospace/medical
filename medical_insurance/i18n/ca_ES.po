@@ -1,0 +1,1455 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* medical_insurance
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-17 11:14+0000\n"
+"PO-Revision-Date: 2021-03-17 11:14+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__meeting_count
+msgid "# Meetings"
+msgstr "# Cites"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__product_variant_count
+msgid "# Product Variants"
+msgstr "# Variants de producte"
+
+#. module: medical_insurance
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_template__description_sale
+msgid ""
+"A description of the Product that you want to communicate to your customers."
+" This description will be copied to every Sales Order, Delivery Order and "
+"Customer Invoice/Credit Note"
+msgstr ""
+
+#. module: medical_insurance
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_template__type
+msgid ""
+"A storable product is a product for which you manage stock. The Inventory app has to be installed.\n"
+"A consumable product is a product for which stock is not managed.\n"
+"A service is a non-material product you provide."
+msgstr ""
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__message_needaction
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__message_needaction
+msgid "Action Needed"
+msgstr "Acció necessària"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__active
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__active
+msgid "Active"
+msgstr "Actiu"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__active_lang_count
+msgid "Active Lang Count"
+msgstr "Recompte d'idiomes actiu"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__activity_ids
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__activity_ids
+msgid "Activities"
+msgstr "Activitats"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__activity_exception_decoration
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "Decoració d’excepcions d’activitats"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__activity_state
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__activity_state
+msgid "Activity State"
+msgstr "Estat de l’activitat"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__activity_type_icon
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "Icona de tipus d'activitat"
+
+#. module: medical_insurance
+#: model_terms:ir.ui.view,arch_db:medical_insurance.medical_insurance_plan_view_form
+#: model_terms:ir.ui.view,arch_db:medical_insurance.medical_insurance_template_view_form
+msgid "Additional"
+msgstr "Addicional"
+
+#. module: medical_insurance
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_plan__notes
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_template__notes
+msgid "Additional Information"
+msgstr "Informació adicional"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__additional_info
+msgid "Additional info"
+msgstr "Informació addicional"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__type
+#: model:ir.model.fields,field_description:medical_insurance.field_res_partner__type
+#: model:ir.model.fields,field_description:medical_insurance.field_res_users__type
+msgid "Address Type"
+msgstr "Tipus d'adreça"
+
+#. module: medical_insurance
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_company__lang
+msgid ""
+"All the emails and documents sent to this contact will be translated in this"
+" language."
+msgstr ""
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__message_attachment_count
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__message_attachment_count
+msgid "Attachment Count"
+msgstr "Recompte de fitxers adjunts"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__product_template_attribute_value_ids
+msgid "Attribute Values"
+msgstr "Valors de l'atribut"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__bank_ids
+msgid "Banks"
+msgstr "Bancs"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__barcode
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__barcode
+msgid "Barcode"
+msgstr "Codi de barres"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__is_blacklisted
+msgid "Blacklist"
+msgstr "Llista negra"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__mobile_blacklisted
+msgid "Blacklisted Phone Is Mobile"
+msgstr "El telèfon de la llista negra és mòbil"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__phone_blacklisted
+msgid "Blacklisted Phone is Phone"
+msgstr "El telèfon de la llista negra és Telèfon"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__message_bounce
+msgid "Bounce"
+msgstr "Rebot"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__can_image_1024_be_zoomed
+msgid "Can Image 1024 be zoomed"
+msgstr "Es pot ampliar la imatge 1024"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__can_image_variant_1024_be_zoomed
+msgid "Can Variant Image 1024 be zoomed"
+msgstr "Es pot ampliar la imatge variant 1024"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__purchase_ok
+msgid "Can be Purchased"
+msgstr "Es pot comprar"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__sale_ok
+msgid "Can be Sold"
+msgstr "Es pot vendre"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__channel_ids
+msgid "Channels"
+msgstr "Canals"
+
+#. module: medical_insurance
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_company__is_company
+msgid "Check if the contact is a company, otherwise it is a person"
+msgstr "Comproveu si el contacte és una empresa, en cas contrari és una persona"
+
+#. module: medical_insurance
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_company__employee
+msgid "Check this box if this contact is an Employee."
+msgstr "Marqueu aquesta casella si aquest contacte és un empleat."
+
+#. module: medical_insurance
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_company__country_enforce_cities
+msgid ""
+"Check this box to ensure every address created in that country has a 'City' "
+"chosen in the list of the country's cities."
+msgstr ""
+
+#. module: medical_insurance
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_template__is_default
+msgid ""
+"Check this if the plan should be the default when assigningcompany to "
+"patient"
+msgstr ""
+
+#. module: medical_insurance
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_template__is_insurance_plan
+#: model:ir.model.fields,help:medical_insurance.field_product_product__is_insurance_plan
+msgid "Check this if the product is an insurance plan"
+msgstr "Comproveu-ho si el producte és un pla d’assegurança"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__city
+msgid "City"
+msgstr "Ciutat"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__city_id
+msgid "City of Address"
+msgstr "Ciutat d’adreça"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__color
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__color
+msgid "Color Index"
+msgstr "Índex de colors"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__combination_indices
+msgid "Combination Indices"
+msgstr "Índexs de combinació"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__commercial_partner_id
+msgid "Commercial Entity"
+msgstr "Entitat Comercial"
+
+#. module: medical_insurance
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_company__alias
+msgid "Common, not official, name"
+msgstr "Nom comú, no oficial"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__company_id
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__company_id
+#: model_terms:ir.ui.view,arch_db:medical_insurance.medical_insurance_company_view_search
+msgid "Company"
+msgstr "Empresa"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__company_name
+msgid "Company Name"
+msgstr "Nom de la companyia"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__commercial_company_name
+msgid "Company Name Entity"
+msgstr "Nom de l'entitat"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__company_type
+msgid "Company Type"
+msgstr "Tipus d'empresa"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__partner_gid
+msgid "Company database ID"
+msgstr "ID de la base de dades de l'empresa"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__contact_address
+msgid "Complete Address"
+msgstr "Adreça completa"
+
+#. module: medical_insurance
+#: model:ir.model,name:medical_insurance.model_res_partner
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__child_ids
+msgid "Contact"
+msgstr "Contacte"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__standard_price
+msgid "Cost"
+msgstr "Cost"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__cost_currency_id
+msgid "Cost Currency"
+msgstr "Cost de moneda"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__count_patients
+msgid "Count Patients"
+msgstr "Comptar pacients"
+
+#. module: medical_insurance
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_company__message_bounce
+msgid "Counter of the number of bounced emails for this contact"
+msgstr "Comptador del nombre de correus electrònics rebuts per a aquest contacte"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__country_id
+msgid "Country"
+msgstr "País"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__create_uid
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_plan__create_uid
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__create_date
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_plan__create_date
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__credit_limit
+msgid "Credit Limit"
+msgstr "Límit de crèdit"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__currency_id
+msgid "Currency"
+msgstr "Moneda"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__partner_ref
+msgid "Customer Ref"
+msgstr "Ref. Client"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__birthdate_date
+msgid "DOB"
+msgstr ""
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__date
+msgid "Date"
+msgstr "Data"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__is_default
+msgid "Default Plan"
+msgstr "Pla per defecte"
+
+#. module: medical_insurance
+#: model_terms:ir.ui.view,arch_db:medical_insurance.medical_insurance_template_view_search
+msgid "Default template"
+msgstr "Plantilla predeterminada"
+
+#. module: medical_insurance
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_template__uom_id
+msgid "Default unit of measure used for all stock operations."
+msgstr "Unitat de mesura predeterminada que s’utilitza per a totes les operacions d’estoc."
+
+#. module: medical_insurance
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_template__uom_po_id
+msgid ""
+"Default unit of measure used for purchase orders. It must be in the same "
+"category as the default unit of measure."
+msgstr ""
+
+#. module: medical_insurance
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_template__seller_ids
+msgid "Define vendor pricelists."
+msgstr "Definiu les llistes de preus del proveïdor."
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__description
+msgid "Description"
+msgstr "Descripció"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__display_name
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_plan__display_name
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__display_name
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_patient__display_name
+#: model:ir.model.fields,field_description:medical_insurance.field_product_product__display_name
+#: model:ir.model.fields,field_description:medical_insurance.field_res_partner__display_name
+msgid "Display Name"
+msgstr "Nom mostrat"
+
+#. module: medical_insurance
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_company__partner_share
+msgid ""
+"Either customer (not a user), either shared user. Indicated the current "
+"partner is a customer without access or with a limited access created for "
+"sharing data."
+msgstr ""
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__email
+msgid "Email"
+msgstr "Correu electrònic"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__employee
+msgid "Employee"
+msgstr "Empleat"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__country_enforce_cities
+msgid "Enforce Cities"
+msgstr "Fer complir les ciutats"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_plan__member_exp
+msgid "Expiration Date"
+msgstr "Data de caducitat"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_plan__notes
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__notes
+msgid "Extra Info"
+msgstr "Informació addicional"
+
+#. module: medical_insurance
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_company__phone_sanitized
+msgid ""
+"Field used to store sanitized phone number. Helps speeding up searches and "
+"comparisons."
+msgstr ""
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__message_follower_ids
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__message_follower_ids
+msgid "Followers"
+msgstr "Seguidors"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__message_channel_ids
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__message_channel_ids
+msgid "Followers (Channels)"
+msgstr "Seguidors (canals)"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__message_partner_ids
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Seguidors (socis)"
+
+#. module: medical_insurance
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_company__activity_type_icon
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_template__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "Icona increïble de tipus de lletra, per exemple fa-tasques"
+
+#. module: medical_insurance
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_company__email_formatted
+msgid "Format email address \"Name <email@domain>\""
+msgstr "Formateu l'adreça electrònica \ 'Nom <correu electrònic @ domini> \'"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__email_formatted
+msgid "Formatted Email"
+msgstr "Correu electrònic formatat"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__gender
+msgid "Gender"
+msgstr "Gènere"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__partner_latitude
+msgid "Geo Latitude"
+msgstr "Geo Latitude"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__partner_longitude
+msgid "Geo Longitude"
+msgstr "Geo Longitud"
+
+#. module: medical_insurance
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_template__packaging_ids
+msgid "Gives the different ways to package the same product."
+msgstr "Proporciona les diferents maneres d’envasar el mateix producte."
+
+#. module: medical_insurance
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_template__sequence
+msgid "Gives the sequence order when displaying a product list"
+msgstr "Ofereix l'ordre de seqüència quan es mostra una llista de productes"
+
+#. module: medical_insurance
+#: model_terms:ir.ui.view,arch_db:medical_insurance.medical_insurance_plan_view_search
+#: model_terms:ir.ui.view,arch_db:medical_insurance.medical_insurance_template_view_search
+msgid "Group By..."
+msgstr "Agrupar per..."
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__id
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_plan__id
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__id
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_patient__id
+#: model:ir.model.fields,field_description:medical_insurance.field_product_product__id
+#: model:ir.model.fields,field_description:medical_insurance.field_res_partner__id
+msgid "ID"
+msgstr ""
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__im_status
+msgid "IM Status"
+msgstr "Estat IM"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__activity_exception_icon
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__activity_exception_icon
+msgid "Icon"
+msgstr "Icona"
+
+#. module: medical_insurance
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_company__activity_exception_icon
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_template__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "Icona per indicar una activitat d’excepció."
+
+#. module: medical_insurance
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_plan__number
+msgid "Identification number for insurance account"
+msgstr "Número d'identificació del compte d'assegurança"
+
+#. module: medical_insurance
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_plan__plan_number
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_template__plan_number
+msgid "Identification number for plan"
+msgstr "Número d'identificació del pla"
+
+#. module: medical_insurance
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_company__message_needaction
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_company__message_unread
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_template__message_needaction
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_template__message_unread
+msgid "If checked, new messages require your attention."
+msgstr "Si està marcat, els missatges nous requereixen la vostra atenció."
+
+#. module: medical_insurance
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_company__message_has_error
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_company__message_has_sms_error
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_template__message_has_error
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_template__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Si està marcat, alguns missatges tenen un error de lliurament."
+
+#. module: medical_insurance
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_company__team_id
+msgid ""
+"If set, this Sales Team will be used for sales and assignments related to "
+"this partner"
+msgstr ""
+
+#. module: medical_insurance
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_company__is_blacklisted
+msgid ""
+"If the email address is on the blacklist, the contact won't receive mass "
+"mailing anymore, from any list"
+msgstr ""
+
+#. module: medical_insurance
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_company__phone_sanitized_blacklisted
+msgid ""
+"If the sanitized phone number is on the blacklist, the contact won't receive"
+" mass mailing sms anymore, from any list"
+msgstr ""
+
+#. module: medical_insurance
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_template__active
+msgid ""
+"If unchecked, it will allow you to hide the product without removing it."
+msgstr ""
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__image_1920
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__image_1920
+msgid "Image"
+msgstr "Imatge"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__image_1024
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__image_1024
+msgid "Image 1024"
+msgstr "Imatge 1024"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__image_128
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__image_128
+msgid "Image 128"
+msgstr "Imatge 128"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__image_256
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__image_256
+msgid "Image 256"
+msgstr "Imatge 256"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__image_512
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__image_512
+msgid "Image 512"
+msgstr "Imatge 512"
+
+#. module: medical_insurance
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_template__standard_price
+msgid ""
+"In Standard Price & AVCO: value of the product (automatically computed in AVCO).\n"
+"        In FIFO: value of the last unit that left the stock (automatically computed).\n"
+"        Used to value the product when the purchase cost is not known (e.g. inventory adjustment).\n"
+"        Used to compute margins on sale orders."
+msgstr ""
+
+#. module: medical_insurance
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_company__mobile_blacklisted
+msgid ""
+"Indicates if a blacklisted sanitized phone number is a mobile number. Helps "
+"distinguish which number is blacklisted             when there is both a "
+"mobile and phone field in a model."
+msgstr ""
+
+#. module: medical_insurance
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_company__phone_blacklisted
+msgid ""
+"Indicates if a blacklisted sanitized phone number is a phone number. Helps "
+"distinguish which number is blacklisted             when there is both a "
+"mobile and phone field in a model."
+msgstr ""
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__industry_id
+msgid "Industry"
+msgstr "Indústria"
+
+#. module: medical_insurance
+#: model_terms:ir.ui.view,arch_db:medical_insurance.medical_patient_view_form
+msgid "Insurance"
+msgstr "Assegurança"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_plan__insurance_affiliation
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__insurance_affiliation
+#: model_terms:ir.ui.view,arch_db:medical_insurance.medical_insurance_plan_view_search
+msgid "Insurance Affiliation"
+msgstr "Afiliació d'assegurances"
+
+#. module: medical_insurance
+#: model_terms:ir.ui.view,arch_db:medical_insurance.medical_insurance_plan_view_search
+#: model_terms:ir.ui.view,arch_db:medical_insurance.medical_insurance_template_view_search
+msgid "Insurance Company"
+msgstr "Companyia asseguradora"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__is_insurance_plan
+#: model:ir.model.fields,field_description:medical_insurance.field_product_product__is_insurance_plan
+#: model_terms:ir.ui.view,arch_db:medical_insurance.medical_insurance_plan_view_form
+msgid "Insurance Plan"
+msgstr "Pla d'assegurances"
+
+#. module: medical_insurance
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_plan__insurance_template_id
+#: model_terms:ir.ui.view,arch_db:medical_insurance.medical_insurance_template_view_form
+msgid "Insurance Plan Template"
+msgstr "Plantilla de pla d’assegurança"
+
+#. module: medical_insurance
+#: model:ir.actions.act_window,name:medical_insurance.medical_insurance_template_action
+#: model_terms:ir.ui.view,arch_db:medical_insurance.medical_insurance_template_view_search
+#: model_terms:ir.ui.view,arch_db:medical_insurance.medical_insurance_template_view_tree
+msgid "Insurance Plan Templates"
+msgstr "Plantilles de pla d’assegurança"
+
+#. module: medical_insurance
+#: model:ir.actions.act_window,name:medical_insurance.medical_insurance_plan_action
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_patient__insurance_plan_ids
+#: model_terms:ir.ui.view,arch_db:medical_insurance.medical_insurance_plan_view_search
+#: model_terms:ir.ui.view,arch_db:medical_insurance.medical_insurance_plan_view_tree
+msgid "Insurance Plans"
+msgstr "Plans d’assegurança"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_plan__product_id
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__product_id
+#: model_terms:ir.ui.view,arch_db:medical_insurance.medical_insurance_plan_view_search
+#: model_terms:ir.ui.view,arch_db:medical_insurance.medical_insurance_template_view_search
+msgid "Insurance Product"
+msgstr "Producte d'assegurances"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_plan__insurance_company_id
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__insurance_company_id
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_plan__insurance_company_id
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_template__insurance_company_id
+#: model_terms:ir.ui.view,arch_db:medical_insurance.medical_insurance_company_view_form
+msgid "Insurance Provider"
+msgstr "Proveïdor d’assegurances"
+
+#. module: medical_insurance
+#: model:ir.actions.act_window,name:medical_insurance.medical_insurance_company_action
+#: model_terms:ir.ui.view,arch_db:medical_insurance.medical_insurance_company_view_kanban
+#: model_terms:ir.ui.view,arch_db:medical_insurance.medical_insurance_company_view_search
+#: model_terms:ir.ui.view,arch_db:medical_insurance.medical_insurance_company_view_tree
+msgid "Insurance Providers"
+msgstr "Proveïdors d’assegurances"
+
+#. module: medical_insurance
+#: model_terms:ir.ui.view,arch_db:medical_insurance.medical_insurance_plan_view_search
+msgid "Insurance Template"
+msgstr "Plantilla d'assegurança"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__default_code
+msgid "Internal Reference"
+msgstr "Referència interna"
+
+#. module: medical_insurance
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_template__barcode
+msgid "International Article Number used for product identification."
+msgstr "Número d'article internacional utilitzat per a la identificació del producte."
+
+#. module: medical_insurance
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_company__type
+#: model:ir.model.fields,help:medical_insurance.field_res_partner__type
+#: model:ir.model.fields,help:medical_insurance.field_res_users__type
+msgid ""
+"Invoice & Delivery addresses are used in sales orders. Private addresses are"
+" only visible by authorized users."
+msgstr ""
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__message_is_follower
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__message_is_follower
+msgid "Is Follower"
+msgstr "És seguidor"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__is_product_variant
+msgid "Is Product Variant"
+msgstr "És la variant del producte"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__is_company
+msgid "Is a Company"
+msgstr "És una empresa"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__has_configurable_attributes
+msgid "Is a configurable product"
+msgstr "És un producte configurable"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__function
+msgid "Job Position"
+msgstr "Posició de treball"
+
+#. module: medical_insurance
+#: model:ir.model.fields.selection,name:medical_insurance.selection__medical_insurance_template__insurance_affiliation__labor_union
+msgid "Labor Union / Syndical"
+msgstr "Sindicat / sindicat"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__lang
+msgid "Language"
+msgstr "Llenguatge"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company____last_update
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_plan____last_update
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template____last_update
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_patient____last_update
+#: model:ir.model.fields,field_description:medical_insurance.field_product_product____last_update
+#: model:ir.model.fields,field_description:medical_insurance.field_res_partner____last_update
+msgid "Last Modified on"
+msgstr "Última modificació el "
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__write_uid
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_plan__write_uid
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__write_date
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_plan__write_date
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__calendar_last_notif_ack
+msgid "Last notification marked as read from base Calendar"
+msgstr "Darrera notificació marcada com a llegida del calendari base"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__message_main_attachment_id
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "Arxiu adjunt principal"
+
+#. module: medical_insurance
+#: model:ir.model.fields.selection,name:medical_insurance.selection__res_partner__type__medical_insurance_company
+msgid "Medical Insurance Company"
+msgstr "Companyia d’Assegurances Mèdiques"
+
+#. module: medical_insurance
+#: model:ir.model,name:medical_insurance.model_medical_insurance_plan
+msgid "Medical Insurance Plans"
+msgstr "Plans d’assegurança mèdica"
+
+#. module: medical_insurance
+#: model:ir.model,name:medical_insurance.model_medical_insurance_company
+msgid "Medical Insurance Providers"
+msgstr "Proveïdors d’assegurances mèdiques"
+
+#. module: medical_insurance
+#: model:ir.model,name:medical_insurance.model_medical_insurance_template
+msgid "Medical Insurance Templates"
+msgstr "Plantilles d'assegurança mèdica"
+
+#. module: medical_insurance
+#: model:ir.model,name:medical_insurance.model_medical_patient
+msgid "Medical Patient"
+msgstr "Pacient mèdic"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__meeting_ids
+msgid "Meetings"
+msgstr "Cites"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_plan__member_since
+msgid "Member Since"
+msgstr "Membre des de"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__message_has_error
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__message_has_error
+msgid "Message Delivery error"
+msgstr "Error de lliurament de missatges"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__message_ids
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__message_ids
+msgid "Messages"
+msgstr "Missatges"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__mobile
+msgid "Mobile"
+msgstr "Mòbil"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__name
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_plan__name
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__name
+msgid "Name"
+msgstr "Nom"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__activity_date_deadline
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "Data límit de la propera activitat"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__activity_summary
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__activity_summary
+msgid "Next Activity Summary"
+msgstr "Resum de la següent activitat"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__activity_type_id
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__activity_type_id
+msgid "Next Activity Type"
+msgstr "Tipus d'activitat següent"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__alias
+msgid "Nickname"
+msgstr "Sobrenom"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__email_normalized
+msgid "Normalized Email"
+msgstr "Correu electrònic normalitzat"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__comment
+msgid "Notes"
+msgstr "Notes"
+
+#. module: medical_insurance
+#: model_terms:ir.ui.view,arch_db:medical_insurance.medical_insurance_plan_view_form
+msgid "Notes..."
+msgstr "Notes..."
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_plan__number
+msgid "Number"
+msgstr "Número"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__message_needaction_counter
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Nombre d'accions"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__message_has_error_counter
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__message_has_error_counter
+msgid "Number of errors"
+msgstr "Nombre d'errors"
+
+#. module: medical_insurance
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_company__message_needaction_counter
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_template__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "Nombre de missatges que requereixen una acció"
+
+#. module: medical_insurance
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_company__message_has_error_counter
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_template__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Nombre de missatges amb error de lliurament"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__pricelist_item_count
+msgid "Number of price rules"
+msgstr "Nombre de regles de preus"
+
+#. module: medical_insurance
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_company__message_unread_counter
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_template__message_unread_counter
+msgid "Number of unread messages"
+msgstr "Nombre de missatges no llegits"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__opportunity_ids
+msgid "Opportunities"
+msgstr "Oportunitats"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__opportunity_count
+msgid "Opportunity"
+msgstr "Oportunitat"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__patient_ids
+msgid "Paciente"
+msgstr "Pacient"
+
+#. module: medical_insurance
+#: model_terms:ir.ui.view,arch_db:medical_insurance.medical_insurance_company_view_form
+msgid "Parent Company"
+msgstr "Empresa matriu"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__parent_name
+msgid "Parent name"
+msgstr "Nom del pare"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__same_vat_partner_id
+msgid "Partner with same Tax ID"
+msgstr "Associeu-vos amb el mateix identificador fiscal"
+
+#. module: medical_insurance
+#: model:ir.model.fields,help:medical_insurance.field_medical_patient__insurance_plan_ids
+msgid "Past & Present Insurance Plans"
+msgstr "Plans d'assegurança passats i actuals"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_plan__patient_id
+msgid "Patient"
+msgstr "Pacient"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__phone
+msgid "Phone"
+msgstr "Telèfon"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__phone_sanitized_blacklisted
+msgid "Phone Blacklisted"
+msgstr "Llista negra del telèfon"
+
+#. module: medical_insurance
+#: model_terms:ir.ui.view,arch_db:medical_insurance.medical_insurance_template_view_search
+msgid "Plan"
+msgstr "Pla"
+
+#. module: medical_insurance
+#: model_terms:ir.ui.view,arch_db:medical_insurance.medical_insurance_template_view_form
+msgid "Plan Info"
+msgstr "Informació del pla"
+
+#. module: medical_insurance
+#: model_terms:ir.ui.view,arch_db:medical_insurance.medical_insurance_plan_view_form
+msgid "Plan Information"
+msgstr "Informació del pla"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_plan__plan_number
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__plan_number
+#: model_terms:ir.ui.view,arch_db:medical_insurance.medical_insurance_plan_view_search
+msgid "Plan Number"
+msgstr "Número de pla"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_plan__insurance_template_id
+msgid "Plan Template"
+msgstr "Plantilla de pla"
+
+#. module: medical_insurance
+#: model:ir.ui.menu,name:medical_insurance.medical_insurance_plan_menu
+msgid "Planes de Seguros"
+msgstr "Plans d'Assegurances"
+
+#. module: medical_insurance
+#: model:ir.ui.menu,name:medical_insurance.medical_insurance_template_menu
+msgid "Planes temporales de Seguros"
+msgstr "Plans temporals d'Assegurances"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__price
+msgid "Price"
+msgstr "Preu"
+
+#. module: medical_insurance
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_template__list_price
+msgid "Price at which the product is sold to customers."
+msgstr "Preu al qual es ven el producte als clients."
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__property_product_pricelist
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__pricelist_id
+msgid "Pricelist"
+msgstr "Llistat de preus"
+
+#. module: medical_insurance
+#: model:ir.model.fields.selection,name:medical_insurance.selection__medical_insurance_template__insurance_affiliation__private
+msgid "Private"
+msgstr "Privat"
+
+#. module: medical_insurance
+#: model:ir.model,name:medical_insurance.model_product_product
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__product_variant_id
+msgid "Product"
+msgstr "Producte"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__attribute_line_ids
+msgid "Product Attributes"
+msgstr "Atributs del producte"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__categ_id
+msgid "Product Category"
+msgstr "Categoria del Producte"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__packaging_ids
+msgid "Product Packages"
+msgstr "Paquets de productes"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__product_tmpl_id
+msgid "Product Template"
+msgstr "Plantilla de producte"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__type
+msgid "Product Type"
+msgstr "Tipus de Producte"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__product_variant_ids
+msgid "Products"
+msgstr "Productes"
+
+#. module: medical_insurance
+#: model:ir.ui.menu,name:medical_insurance.medical_insurance_company_menu
+msgid "Proveedores de Seguros"
+msgstr "Proveïdors d'Assegurances"
+
+#. module: medical_insurance
+#: model_terms:ir.ui.view,arch_db:medical_insurance.medical_insurance_template_view_form
+msgid "Provider Info"
+msgstr "Informació del proveïdor"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__lst_price
+msgid "Public Price"
+msgstr "Preu públic"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__description_purchase
+msgid "Purchase Description"
+msgstr "Descripció de la compra"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__uom_po_id
+msgid "Purchase Unit of Measure"
+msgstr "Unitat de mesura de compra"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__ref
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__code
+msgid "Reference"
+msgstr "Referència"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__parent_id
+msgid "Related Company"
+msgstr "Empresa relacionada"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__partner_id
+msgid "Related Partner"
+msgstr "Soci relacionat"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__activity_user_id
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__activity_user_id
+msgid "Responsible User"
+msgstr "Usuari responsable"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__message_has_sms_error
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "Error d'entrega d'SMS"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__description_sale
+msgid "Sales Description"
+msgstr "Descripció de vendes"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__list_price
+msgid "Sales Price"
+msgstr "Preu de venda"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__team_id
+msgid "Sales Team"
+msgstr "Equip de vendes"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__user_id
+msgid "Salesperson"
+msgstr "Vendedor"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__phone_sanitized
+msgid "Sanitized Number"
+msgstr "Número sanejat"
+
+#. module: medical_insurance
+#: model:ir.ui.menu,name:medical_insurance.medical_conf_insurance_menu
+msgid "Seguros"
+msgstr "Assegurances"
+
+#. module: medical_insurance
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_template__categ_id
+msgid "Select category for the current product"
+msgstr "Seleccioneu la categoria per al producte actual"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__self
+msgid "Self"
+msgstr "Jo"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__sequence
+msgid "Sequence"
+msgstr "Seqüència"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__partner_share
+msgid "Share Partner"
+msgstr "Compartir soci"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__signup_expiration
+msgid "Signup Expiration"
+msgstr "Caducitat de la inscripció"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__signup_token
+msgid "Signup Token"
+msgstr "Token de registre"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__signup_type
+msgid "Signup Token Type"
+msgstr "Tipus de testimoni de registre"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__signup_valid
+msgid "Signup Token is Valid"
+msgstr "El testimoni d’inscripció és vàlid"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__signup_url
+msgid "Signup URL"
+msgstr "URL de registre"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__state_id
+#: model:ir.model.fields.selection,name:medical_insurance.selection__medical_insurance_template__insurance_affiliation__state
+#: model_terms:ir.ui.view,arch_db:medical_insurance.medical_insurance_company_view_search
+msgid "State"
+msgstr "Estat"
+
+#. module: medical_insurance
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_company__activity_state
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_template__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__street
+msgid "Street"
+msgstr "Carrer"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__street2
+msgid "Street2"
+msgstr "Carrer2"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__category_id
+msgid "Tags"
+msgstr "Etiquetes"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__vat
+msgid "Tax ID"
+msgstr "Identificació fiscal"
+
+#. module: medical_insurance
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_template__valid_product_template_attribute_line_ids
+msgid "Technical compute"
+msgstr "Càlcul tècnic"
+
+#. module: medical_insurance
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_template__pricelist_id
+msgid ""
+"Technical field. Used for searching on pricelists, not stored in database."
+msgstr ""
+
+#. module: medical_insurance
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_company__vat
+msgid ""
+"The Tax Identification Number. Complete it if the contact is subjected to "
+"government taxes. Used in some legal statements."
+msgstr ""
+
+#. module: medical_insurance
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_company__user_id
+msgid "The internal user in charge of this contact."
+msgstr "L'usuari intern responsable d'aquest contacte."
+
+#. module: medical_insurance
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_template__lst_price
+msgid ""
+"The sale price is managed from the product template. Click on the 'Configure"
+" Variants' button to set the extra attribute prices."
+msgstr ""
+
+#. module: medical_insurance
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_company__email_normalized
+msgid ""
+"This field is used to search on email address as the primary email field can"
+" contain more than strictly an email address."
+msgstr ""
+
+#. module: medical_insurance
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_template__price_extra
+msgid "This is the sum of the extra price of all attributes"
+msgstr "Aquesta és la suma del preu addicional de tots els atributs"
+
+#. module: medical_insurance
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_company__property_product_pricelist
+msgid ""
+"This pricelist will be used, instead of the default one, for sales to the "
+"current partner"
+msgstr ""
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__tz
+msgid "Timezone"
+msgstr "Fus horari"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__tz_offset
+msgid "Timezone offset"
+msgstr "Desplaçament de la zona horària"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__title
+msgid "Title"
+msgstr "Títol"
+
+#. module: medical_insurance
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_company__activity_exception_decoration
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_template__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "Tipus d'activitat d'excepció registrada."
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__uom_id
+msgid "Unit of Measure"
+msgstr "Unitat de mesura"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__uom_name
+msgid "Unit of Measure Name"
+msgstr "Nom de la unitat de mesura"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__message_unread
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__message_unread
+msgid "Unread Messages"
+msgstr "Missatges no llegits"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__message_unread_counter
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "Comptador de missatges no llegits"
+
+#. module: medical_insurance
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_company__barcode
+msgid "Use a barcode to identify this contact."
+msgstr "Utilitzeu un codi de barres per identificar aquest contacte."
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__user_ids
+msgid "Users"
+msgstr "Usuaris"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__valid_product_template_attribute_line_ids
+msgid "Valid Product Attribute Lines"
+msgstr "Línies d’atributs de producte vàlides"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__image_variant_1920
+msgid "Variant Image"
+msgstr "Imatge variant"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__image_variant_1024
+msgid "Variant Image 1024"
+msgstr "Imatge variant 1024"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__image_variant_128
+msgid "Variant Image 128"
+msgstr "Imatge variant 128"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__image_variant_256
+msgid "Variant Image 256"
+msgstr "Imatge variant 256"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__image_variant_512
+msgid "Variant Image 512"
+msgstr "Imatge variant 512"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__price_extra
+msgid "Variant Price Extra"
+msgstr "Preu variant addicional"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__variant_seller_ids
+msgid "Variant Seller"
+msgstr "Venedor variant"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__seller_ids
+msgid "Vendors"
+msgstr "Venedors"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__volume
+msgid "Volume"
+msgstr "Volum"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__volume_uom_name
+msgid "Volume unit of measure label"
+msgstr "Etiqueta d'unitat de mesura de volum"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__website
+msgid "Website Link"
+msgstr "Enllaç al lloc web"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__website_message_ids
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__website_message_ids
+msgid "Website Messages"
+msgstr "Missatges del lloc web"
+
+#. module: medical_insurance
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_company__website_message_ids
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_template__website_message_ids
+msgid "Website communication history"
+msgstr "Historial de comunicacions de llocs web"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__weight
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__weight
+msgid "Weight"
+msgstr "Pes"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__weight_uom
+msgid "Weight unit"
+msgstr "Unitat de pes"
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_template__weight_uom_name
+msgid "Weight unit of measure label"
+msgstr "Etiqueta d'unitat de mesura de pes"
+
+#. module: medical_insurance
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_plan__insurance_affiliation
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_template__insurance_affiliation
+msgid "What type of entity is this insurance provided to?"
+msgstr "A quin tipus d'entitat es proporciona aquesta assegurança?"
+
+#. module: medical_insurance
+#: model:ir.model.fields,help:medical_insurance.field_medical_insurance_company__tz
+msgid ""
+"When printing documents and exporting/importing data, time values are computed according to this timezone.\n"
+"If the timezone is not set, UTC (Coordinated Universal Time) is used.\n"
+"Anywhere else, time values are computed according to the time offset of your web client."
+msgstr ""
+
+#. module: medical_insurance
+#: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__zip
+#: model_terms:ir.ui.view,arch_db:medical_insurance.medical_insurance_company_view_search
+msgid "Zip"
+msgstr "ZIP"

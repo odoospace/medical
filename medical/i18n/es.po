@@ -439,7 +439,7 @@ msgstr "Icono de fuente impresionante p. Ej. fa-tareas"
 #: model:ir.model.fields,help:medical.field_medical_abstract_entity__email_formatted
 #: model:ir.model.fields,help:medical.field_medical_patient__email_formatted
 msgid "Format email address \"Name <email@domain>\""
-msgstr "Dar formato a la dirección de correo electrónico \ "Nombre <correo electrónico @ dominio> \""
+msgstr "Dar formato a la dirección de correo electrónico \ 'Nombre <correo electrónico @ dominio> \'"
 
 #. module: medical
 #: model:ir.model.fields,field_description:medical.field_medical_abstract_entity__email_formatted
@@ -630,7 +630,7 @@ msgstr "Operador no válido:% s"
 #: code:addons/medical/models/medical_patient.py:0
 #, python-format
 msgid "Invalid selection - Only a `Female` may be pregnant."
-msgstr "Selección no válida: solo una "mujer" puede estar embarazada."
+msgstr "Selección no válida: solo una 'mujer' puede estar embarazada."
 
 #. module: medical
 #: model:ir.model.fields,help:medical.field_medical_abstract_entity__type

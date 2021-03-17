@@ -453,7 +453,7 @@ msgstr "Icono de fuente p. Ej. fa-tareas"
 #. module: medical_insurance
 #: model:ir.model.fields,help:medical_insurance.field_medical_insurance_company__email_formatted
 msgid "Format email address \"Name <email@domain>\""
-msgstr "Dar formato a la dirección de correo electrónico \ "Nombre <correo electrónico @ dominio> \""
+msgstr "Dar formato a la dirección de correo electrónico \ 'Nombre <correo electrónico @ dominio> \'"
 
 #. module: medical_insurance
 #: model:ir.model.fields,field_description:medical_insurance.field_medical_insurance_company__email_formatted

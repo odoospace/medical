@@ -1,0 +1,1304 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* medical_extras
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-26 15:44+0000\n"
+"PO-Revision-Date: 2021-03-26 15:44+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: medical_extras
+#: model:ir.model.fields,help:medical_extras.field_medical_medicament__pregnancy_category
+msgid ""
+"** FDA Pregnancy Categories ***\n"
+"CATEGORY A :Adequate and well-controlled human studies have failed to demonstrate a risk to the fetus in the first trimester of pregnancy (and there is no evidence of risk in later trimesters).\n"
+"\n"
+"CATEGORY B : Animal reproduction studies have failed todemonstrate a risk to the fetus and there are no adequate and well-controlled studies in pregnant women OR Animal studies have shown an adverse effect, but adequate and well-controlled studies in pregnant women have failed to demonstrate a risk to the fetus in any trimester.\n"
+"\n"
+"CATEGORY C : Animal reproduction studies have shown an adverse effect on the fetus and there are no adequate and well-controlled studies in humans, but potential benefits may warrant use of the drug in pregnant women despite potential risks. \n"
+"\n"
+" CATEGORY D : There is positive evidence of human fetal  risk based on adverse reaction data from investigational or marketing experience or studies in humans, but potential benefits may warrant use of the drug in pregnant women despite potential risks.\n"
+"\n"
+"CATEGORY X : Studies in animals or humans have demonstrated fetal abnormalities and/or there is positive evidence of human fetal risk based on adverse reaction data from investigational or marketing experience, and the risks involved in use of the drug in pregnant women clearly outweigh potential benefits.\n"
+"\n"
+"CATEGORY N : Not yet classified"
+msgstr ""
+"** Categories d'embaràs de la FDA *** \ n"
+"CATEGORIA A: estudis humans adequats i ben controlats no han demostrat un risc per al fetus durant el primer trimestre de l'embaràs (i no hi ha evidències de risc en trimestres posteriors). \ N"
+"\ n"
+"CATEGORIA B: els estudis de reproducció animal han fracassat en demostrar un risc per al fetus i no hi ha estudis adequats i ben controlats en dones embarassades O els estudis en animals han demostrat un efecte advers, però els estudis adequats i ben controlats en dones embarassades no han pogut demostrar un risc per al fetus en qualsevol trimestre. \ n "
+"\ n"
+"CATEGORIA C: els estudis de reproducció animal han demostrat un efecte advers sobre el fetus i no hi ha estudis adequats i ben controlats en humans, però els beneficis potencials poden justificar l'ús del medicament en dones embarassades malgrat els possibles riscos. \ N"
+"\ n"
+"CATEGORIA D: hi ha evidències positives de risc fetal humà basades en dades de reaccions adverses de l'experiència o estudis en investigació o màrqueting en humans, però els beneficis potencials poden justificar l'ús del medicament en dones embarassades malgrat els possibles riscos. \ N"
+"\ n"
+"CATEGORIA X: estudis en animals o humans han demostrat anomalies fetals i / o hi ha evidències positives de risc fetal humà basades en dades de reaccions adverses de l'experiència investigadora o de màrqueting, i els riscos que comporta l'ús del medicament en dones embarassades superen clarament el potencial avantatges. \ n "
+"\ n"
+"CATEGORIA N: encara no classificat"
+
+#. module: medical_extras
+#: model:ir.model.fields.selection,name:medical_extras.selection__medical_patient__hb__athal
+msgid "A-THAL"
+msgstr ""
+
+#. module: medical_extras
+#: model:ir.model.fields.selection,name:medical_extras.selection__medical_patient__hb__aa
+msgid "AA"
+msgstr ""
+
+#. module: medical_extras
+#: model:ir.model.fields.selection,name:medical_extras.selection__medical_patient__blood_type__ab
+msgid "AB"
+msgstr ""
+
+#. module: medical_extras
+#: model:ir.model.fields.selection,name:medical_extras.selection__medical_patient__hb__as
+msgid "AS"
+msgstr ""
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_medicament__active
+#: model:ir.model.fields,field_description:medical_extras.field_medical_pathology__active
+msgid "Active"
+msgstr "Actiu"
+
+#. module: medical_extras
+#: model:ir.model.fields,help:medical_extras.field_medical_medicament__active_component
+msgid "Active Component"
+msgstr "Component actiu"
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_medicament__active_component
+msgid "Active component"
+msgstr "Component actiu"
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_medicament__route
+msgid "Administration Route"
+msgstr "Ruta d’administració"
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_medicament__adverse_reaction
+msgid "Adverse Reactions"
+msgstr "Reaccions adverses"
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_pathology__chromosome
+msgid "Affected Chromosome"
+msgstr "Cromosoma afectat"
+
+#. module: medical_extras
+#: model:ir.model.fields,help:medical_extras.field_medical_medicament__strength
+msgid "Amount of medication (eg, 250 mg) per dose"
+msgstr "Quantitat de medicament (per exemple, 250 mg) per dosi"
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_appointment__name
+msgid "Appointment ID"
+msgstr "Identificador de cita"
+
+#. module: medical_extras
+#: model:ir.model.fields.selection,name:medical_extras.selection__medical_patient__hb__bthal
+msgid "B-THAL"
+msgstr ""
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_hospital_bed__name
+#: model:ir.model.fields,field_description:medical_extras.field_medical_insurance_template__is_bed
+#: model:ir.model.fields,field_description:medical_extras.field_product_product__is_bed
+#: model:ir.model.fields,field_description:medical_extras.field_product_template__is_bed
+msgid "Bed"
+msgstr "Llit"
+
+#. module: medical_extras
+#: model:ir.model.fields,help:medical_extras.field_medical_hospital_bed__name
+msgid "Bed Number"
+msgstr "Número de llit"
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_hospital_bed__bed_type
+msgid "Bed Type"
+msgstr "Tipus de llit"
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_abstract_entity__beds
+#: model:ir.model.fields,field_description:medical_extras.field_medical_insurance_company__beds
+#: model:ir.model.fields,field_description:medical_extras.field_medical_patient__beds
+#: model:ir.model.fields,field_description:medical_extras.field_res_partner__beds
+#: model:ir.model.fields,field_description:medical_extras.field_res_users__beds
+msgid "Beds"
+msgstr "Llits"
+
+#. module: medical_extras
+#: model_terms:ir.ui.view,arch_db:medical_extras.view_medical_patient_extends_form
+msgid "Blood Info"
+msgstr "Informació sobre la sang"
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_patient__blood_type
+msgid "Blood Type"
+msgstr "Grup sanguini"
+
+#. module: medical_extras
+#: model:ir.model.fields.selection,name:medical_extras.selection__medical_patient__hb__cc
+msgid "CC"
+msgstr ""
+
+#. module: medical_extras
+#: model:ir.model.fields.selection,name:medical_extras.selection__medical_appointment__state__center_cancelled
+msgid "Cancelled by Health Center"
+msgstr "Cancel·lat pel Centre de Salut"
+
+#. module: medical_extras
+#: model:ir.model.fields.selection,name:medical_extras.selection__medical_appointment__state__user_cancelled
+msgid "Cancelled by patient"
+msgstr "Cancel·lat pel pacient"
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_medicament__category
+msgid "Category"
+msgstr "Categoria"
+
+#. module: medical_extras
+#: model:ir.model.fields,help:medical_extras.field_medical_insurance_template__is_bed
+#: model:ir.model.fields,help:medical_extras.field_product_product__is_bed
+#: model:ir.model.fields,help:medical_extras.field_product_template__is_bed
+msgid "Check if the product is a bed on the gnuhealth.center"
+msgstr "Comproveu si el producte és un llit al gnuhealth.center"
+
+#. module: medical_extras
+#: model:ir.model.fields,help:medical_extras.field_medical_insurance_template__is_medical_supply
+#: model:ir.model.fields,help:medical_extras.field_product_product__is_medical_supply
+#: model:ir.model.fields,help:medical_extras.field_product_template__is_medical_supply
+msgid "Check if the product is a medical supply"
+msgstr "Comproveu si el producte és un subministrament mèdic"
+
+#. module: medical_extras
+#: model:ir.model.fields,help:medical_extras.field_medical_insurance_template__is_medicament
+#: model:ir.model.fields,help:medical_extras.field_product_product__is_medicament
+#: model:ir.model.fields,help:medical_extras.field_product_template__is_medicament
+msgid "Check if the product is a medicament"
+msgstr "Comproveu si el producte és un medicament"
+
+#. module: medical_extras
+#: model:ir.model.fields,help:medical_extras.field_medical_insurance_template__is_vaccine
+#: model:ir.model.fields,help:medical_extras.field_product_product__is_vaccine
+#: model:ir.model.fields,help:medical_extras.field_product_template__is_vaccine
+msgid "Check if the product is a vaccine"
+msgstr "Comproveu si el producte és una vacuna"
+
+#. module: medical_extras
+#: model:ir.model.fields,help:medical_extras.field_product_template__is_insurance_plan
+msgid "Check if the product is an insurance plan"
+msgstr "Comproveu si el producte és un pla d’assegurança"
+
+#. module: medical_extras
+#: model:ir.model.fields,help:medical_extras.field_medical_abstract_entity__operating_room
+#: model:ir.model.fields,help:medical_extras.field_medical_insurance_company__operating_room
+#: model:ir.model.fields,help:medical_extras.field_medical_patient__operating_room
+#: model:ir.model.fields,help:medical_extras.field_res_partner__operating_room
+#: model:ir.model.fields,help:medical_extras.field_res_users__operating_room
+msgid "Check this box if the institution has operating rooms"
+msgstr "Marqueu aquesta casella si la institució té quiròfans"
+
+#. module: medical_extras
+#: model:ir.model.fields.selection,name:medical_extras.selection__medical_appointment__state__checked_in
+#: model_terms:ir.ui.view,arch_db:medical_extras.medical_appointment_tree
+msgid "Checked in"
+msgstr "Facturat"
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_appointment__checked_in_date
+msgid "Checked-in Time"
+msgstr "Hora d’entrada"
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_medicament_category__child_ids
+msgid "Children"
+msgstr "Nens"
+
+#. module: medical_extras
+#: model:ir.model.fields.selection,name:medical_extras.selection__medical_hospital_bed__bed_type__circo_electric
+msgid "Circo Electric"
+msgstr "Circo Electric"
+
+#. module: medical_extras
+#: model_terms:ir.ui.view,arch_db:medical_extras.medical_hospital_bed_form
+msgid "Click when Bed has been fixed / cleaned"
+msgstr "Feu clic quan s'hagi arreglat o netejat el llit"
+
+#. module: medical_extras
+#: model:ir.model.fields.selection,name:medical_extras.selection__res_partner__institution_type__clinic
+msgid "Clinic"
+msgstr "Clínica"
+
+#. module: medical_extras
+#: model:ir.model.fields,help:medical_extras.field_medical_patient__hb
+msgid ""
+"Clinically relevant Hemoglobin types\n"
+"AA = Normal Hemoglobin\n"
+"AS = Sickle Cell Trait\n"
+"SS = Sickle Cell Anemia\n"
+"AC = Sickle Cell Hemoglobin C Disease\n"
+"CC = Hemoglobin C Disease\n"
+"A-THAL = A Thalassemia groups\n"
+"B-THAL = B Thalassemia groups\n"
+msgstr ""
+"Tipus d'hemoglobina clínicament rellevants \ n"
+"AA = Hemoglobina normal \ n"
+"AS = Tret de cèl·lula falciforme \ n"
+"SS = Anèmia falciforme \ n"
+"AC = malaltia de l'hemoglobina C de falç falcera \ n"
+"CC = malaltia de l'hemoglobina C \ n"
+"A-THAL = A grups de talassèmia \ n"
+"B-THAL = B Grups de talassèmia \ n"
+
+#. module: medical_extras
+#: model:ir.model.fields.selection,name:medical_extras.selection__medical_hospital_bed__bed_type__clinitron
+msgid "Clinitron"
+msgstr "Clinitron"
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_abstract_entity__code
+#: model:ir.model.fields,field_description:medical_extras.field_medical_drug_form__code
+#: model:ir.model.fields,field_description:medical_extras.field_medical_drug_route__code
+#: model:ir.model.fields,field_description:medical_extras.field_medical_insurance_company__code
+#: model:ir.model.fields,field_description:medical_extras.field_medical_pathology__code
+#: model:ir.model.fields,field_description:medical_extras.field_medical_patient__code
+#: model:ir.model.fields,field_description:medical_extras.field_medical_specialty__code
+#: model:ir.model.fields,field_description:medical_extras.field_res_partner__code
+#: model:ir.model.fields,field_description:medical_extras.field_res_users__code
+msgid "Code"
+msgstr "Codi"
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_appointment__comments
+msgid "Comments"
+msgstr "Comentaris"
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_medicament_category__complete_name
+msgid "Complete Name"
+msgstr "Nom complet"
+
+#. module: medical_extras
+#: model:ir.model.fields,help:medical_extras.field_medical_medicament__composition
+msgid "Components"
+msgstr "Components"
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_medicament__composition
+msgid "Composition"
+msgstr "Composició"
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_medicament__sol_conc
+msgid "Concentration"
+msgstr "Concentració"
+
+#. module: medical_extras
+#: model_terms:ir.ui.view,arch_db:medical_extras.medical_hospital_bed_form
+msgid "Confirm that the bed has been cleaned / fixed and is now ready to use"
+msgstr "Confirmeu que el llit s’ha netejat / fixat i que ja està a punt per utilitzar-lo"
+
+#. module: medical_extras
+#: model:ir.model.fields.selection,name:medical_extras.selection__medical_appointment__state__confirmed
+msgid "Confirmed"
+msgstr "Confirmat"
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_appointment__consultations
+#: model:ir.model.fields,help:medical_extras.field_medical_appointment__consultations
+msgid "Consultation Services"
+msgstr "Serveis de consulta"
+
+#. module: medical_extras
+#: model:ir.model,name:medical_extras.model_res_partner
+msgid "Contact"
+msgstr "Contacte"
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_appointment__create_uid
+#: model:ir.model.fields,field_description:medical_extras.field_medical_dose_unit__create_uid
+#: model:ir.model.fields,field_description:medical_extras.field_medical_drug_form__create_uid
+#: model:ir.model.fields,field_description:medical_extras.field_medical_drug_route__create_uid
+#: model:ir.model.fields,field_description:medical_extras.field_medical_hospital_bed__create_uid
+#: model:ir.model.fields,field_description:medical_extras.field_medical_hp_specialty__create_uid
+#: model:ir.model.fields,field_description:medical_extras.field_medical_medicament__create_uid
+#: model:ir.model.fields,field_description:medical_extras.field_medical_medicament_category__create_uid
+#: model:ir.model.fields,field_description:medical_extras.field_medical_pathology__create_uid
+#: model:ir.model.fields,field_description:medical_extras.field_medical_specialty__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_appointment__create_date
+#: model:ir.model.fields,field_description:medical_extras.field_medical_dose_unit__create_date
+#: model:ir.model.fields,field_description:medical_extras.field_medical_drug_form__create_date
+#: model:ir.model.fields,field_description:medical_extras.field_medical_drug_route__create_date
+#: model:ir.model.fields,field_description:medical_extras.field_medical_hospital_bed__create_date
+#: model:ir.model.fields,field_description:medical_extras.field_medical_hp_specialty__create_date
+#: model:ir.model.fields,field_description:medical_extras.field_medical_medicament__create_date
+#: model:ir.model.fields,field_description:medical_extras.field_medical_medicament_category__create_date
+#: model:ir.model.fields,field_description:medical_extras.field_medical_pathology__create_date
+#: model:ir.model.fields,field_description:medical_extras.field_medical_specialty__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: medical_extras
+#: model_terms:ir.ui.view,arch_db:medical_extras.medical_appointment_tree
+msgid "Date"
+msgstr "Data"
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_appointment__appointment_date
+msgid "Date and Time"
+msgstr "Data i hora"
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_dose_unit__desc
+msgid "Description"
+msgstr "Descripció"
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_appointment__display_name
+#: model:ir.model.fields,field_description:medical_extras.field_medical_dose_unit__display_name
+#: model:ir.model.fields,field_description:medical_extras.field_medical_drug_form__display_name
+#: model:ir.model.fields,field_description:medical_extras.field_medical_drug_route__display_name
+#: model:ir.model.fields,field_description:medical_extras.field_medical_hospital_bed__display_name
+#: model:ir.model.fields,field_description:medical_extras.field_medical_hp_specialty__display_name
+#: model:ir.model.fields,field_description:medical_extras.field_medical_medicament__display_name
+#: model:ir.model.fields,field_description:medical_extras.field_medical_medicament_category__display_name
+#: model:ir.model.fields,field_description:medical_extras.field_medical_pathology__display_name
+#: model:ir.model.fields,field_description:medical_extras.field_medical_patient__display_name
+#: model:ir.model.fields,field_description:medical_extras.field_medical_specialty__display_name
+#: model:ir.model.fields,field_description:medical_extras.field_product_template__display_name
+#: model:ir.model.fields,field_description:medical_extras.field_res_partner__display_name
+msgid "Display Name"
+msgstr "Nom mostrat"
+
+#. module: medical_extras
+#: model:ir.model.fields.selection,name:medical_extras.selection__res_partner__institution_type__doctor_office
+msgid "Doctor office"
+msgstr "Consultori mèdic"
+
+#. module: medical_extras
+#: model:ir.model.fields.selection,name:medical_extras.selection__medical_appointment__state__done
+msgid "Done"
+msgstr "Fet"
+
+#. module: medical_extras
+#: model:ir.model.fields,help:medical_extras.field_medical_medicament__dosage
+msgid "Dosage / Indications"
+msgstr "Dosi / Indicacions"
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_medicament__dosage
+msgid "Dosage Instructions"
+msgstr "Instruccions de dosificació"
+
+#. module: medical_extras
+#: model:ir.model,name:medical_extras.model_medical_drug_route
+msgid "Drug Administration Route"
+msgstr "Ruta de l’administració de medicaments"
+
+#. module: medical_extras
+#: model:ir.model,name:medical_extras.model_medical_dose_unit
+msgid "Drug Dose Unit"
+msgstr "Unitat de dosis de drogues"
+
+#. module: medical_extras
+#: model:ir.model,name:medical_extras.model_medical_drug_form
+msgid "Drug Form"
+msgstr "Formulari de drogues"
+
+#. module: medical_extras
+#: model:ir.model.fields,help:medical_extras.field_medical_medicament__route
+msgid "Drug administration route code."
+msgstr "Codi de ruta d'administració de medicaments."
+
+#. module: medical_extras
+#: model:ir.model.fields,help:medical_extras.field_medical_medicament__form
+msgid "Drug form, such as tablet, suspension, liquid .."
+msgstr "Forma de fàrmac, com ara comprimit, suspensió, líquid .."
+
+#. module: medical_extras
+#: model:ir.model.fields.selection,name:medical_extras.selection__medical_hospital_bed__bed_type__electric
+msgid "Electric"
+msgstr "Elèctric"
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_abstract_entity__extra_info
+#: model:ir.model.fields,field_description:medical_extras.field_medical_hospital_bed__extra_info
+#: model:ir.model.fields,field_description:medical_extras.field_medical_insurance_company__extra_info
+#: model:ir.model.fields,field_description:medical_extras.field_medical_medicament__notes
+#: model:ir.model.fields,field_description:medical_extras.field_medical_pathology__info
+#: model:ir.model.fields,field_description:medical_extras.field_medical_patient__extra_info
+#: model:ir.model.fields,field_description:medical_extras.field_res_partner__extra_info
+#: model:ir.model.fields,field_description:medical_extras.field_res_users__extra_info
+msgid "Extra Info"
+msgstr "Informació addicional"
+
+#. module: medical_extras
+#: model_terms:ir.ui.view,arch_db:medical_extras.medical_hospital_bed_form
+msgid "Fix Bed"
+msgstr "Fix Bed"
+
+#. module: medical_extras
+#: model:ir.model.fields.selection,name:medical_extras.selection__medical_appointment__visit_type__followup
+msgid "Followup"
+msgstr "Segueix"
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_drug_form__name
+#: model:ir.model.fields,field_description:medical_extras.field_medical_medicament__form
+msgid "Form"
+msgstr "Formulari"
+
+#. module: medical_extras
+#: model:ir.model.fields.selection,name:medical_extras.selection__medical_appointment__state__free
+#: model:ir.model.fields.selection,name:medical_extras.selection__medical_hospital_bed__state__free
+msgid "Free"
+msgstr "Gratuït"
+
+#. module: medical_extras
+#: model:ir.model.fields.selection,name:medical_extras.selection__medical_hospital_bed__bed_type__gatch
+msgid "Gatch Bed"
+msgstr ""
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_pathology__gene
+msgid "Gene"
+msgstr "Gèn"
+
+#. module: medical_extras
+#: model:ir.model.fields.selection,name:medical_extras.selection__res_partner__institution_type__hospital
+msgid "General Hospital"
+msgstr "Hospital General"
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_patient__hb
+msgid "Hb"
+msgstr ""
+
+#. module: medical_extras
+#: model:ir.model.fields,help:medical_extras.field_medical_appointment__institution
+msgid "Health Care Institution"
+msgstr "Institució sanitària"
+
+#. module: medical_extras
+#: model:ir.model,name:medical_extras.model_medical_pathology
+msgid "Health Conditions"
+msgstr "Condicions de salut"
+
+#. module: medical_extras
+#: model:ir.model.fields,help:medical_extras.field_medical_hospital_bed__institution
+msgid "Health Institution"
+msgstr "Institució sanitària"
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_appointment__healthprof
+msgid "Health Prof"
+msgstr "Salut Prof."
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_abstract_entity__is_healthprof
+#: model:ir.model.fields,field_description:medical_extras.field_medical_hp_specialty__name
+#: model:ir.model.fields,field_description:medical_extras.field_medical_insurance_company__is_healthprof
+#: model:ir.model.fields,field_description:medical_extras.field_medical_patient__is_healthprof
+#: model:ir.model.fields,field_description:medical_extras.field_res_partner__is_healthprof
+#: model:ir.model.fields,field_description:medical_extras.field_res_users__is_healthprof
+#: model:ir.model.fields,help:medical_extras.field_medical_appointment__healthprof
+msgid "Health Professional"
+msgstr "Professional de la salut"
+
+#. module: medical_extras
+#: model:ir.model,name:medical_extras.model_medical_hp_specialty
+msgid "Health Professional Specialties"
+msgstr "Especialitats professionals de la salut"
+
+#. module: medical_extras
+#: model:ir.model.fields,help:medical_extras.field_medical_pathology__name
+msgid "Health condition name"
+msgstr "Nom de la condició de salut"
+
+#. module: medical_extras
+#: model_terms:ir.ui.view,arch_db:medical_extras.medical_healthprofessional_view
+msgid "HealthProfessional"
+msgstr "Professional de la salut"
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_abstract_entity__heliport
+#: model:ir.model.fields,field_description:medical_extras.field_medical_insurance_company__heliport
+#: model:ir.model.fields,field_description:medical_extras.field_medical_patient__heliport
+#: model:ir.model.fields,field_description:medical_extras.field_res_partner__heliport
+#: model:ir.model.fields,field_description:medical_extras.field_res_users__heliport
+msgid "Heliport"
+msgstr "Heliport"
+
+#. module: medical_extras
+#: model:ir.model.fields.selection,name:medical_extras.selection__res_partner__institution_type__hospice
+msgid "Hospice"
+msgstr "Hospici"
+
+#. module: medical_extras
+#: model:ir.actions.act_window,name:medical_extras.medical_hospital_bed_action
+#: model:ir.model,name:medical_extras.model_medical_hospital_bed
+#: model:ir.ui.menu,name:medical_extras.medical_hospital_bed_menu
+msgid "Hospital Bed"
+msgstr "Llit d’hospital"
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_appointment__id
+#: model:ir.model.fields,field_description:medical_extras.field_medical_dose_unit__id
+#: model:ir.model.fields,field_description:medical_extras.field_medical_drug_form__id
+#: model:ir.model.fields,field_description:medical_extras.field_medical_drug_route__id
+#: model:ir.model.fields,field_description:medical_extras.field_medical_hospital_bed__id
+#: model:ir.model.fields,field_description:medical_extras.field_medical_hp_specialty__id
+#: model:ir.model.fields,field_description:medical_extras.field_medical_medicament__id
+#: model:ir.model.fields,field_description:medical_extras.field_medical_medicament_category__id
+#: model:ir.model.fields,field_description:medical_extras.field_medical_pathology__id
+#: model:ir.model.fields,field_description:medical_extras.field_medical_patient__id
+#: model:ir.model.fields,field_description:medical_extras.field_medical_specialty__id
+#: model:ir.model.fields,field_description:medical_extras.field_product_template__id
+#: model:ir.model.fields,field_description:medical_extras.field_res_partner__id
+msgid "ID"
+msgstr ""
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_medicament__indications
+msgid "Indication"
+msgstr "Indicació"
+
+#. module: medical_extras
+#: model:ir.model.fields,help:medical_extras.field_medical_medicament__indications
+msgid "Indications"
+msgstr "Indicacions"
+
+#. module: medical_extras
+#: model_terms:ir.ui.view,arch_db:medical_extras.medical_appointment_form
+msgid "Information"
+msgstr "Informació"
+
+#. module: medical_extras
+#: model:ir.model.fields.selection,name:medical_extras.selection__medical_appointment__appointment_type__inpatient
+msgid "Inpatient"
+msgstr "Pacient intern"
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_abstract_entity__institution
+#: model:ir.model.fields,field_description:medical_extras.field_medical_appointment__institution
+#: model:ir.model.fields,field_description:medical_extras.field_medical_hospital_bed__institution
+#: model:ir.model.fields,field_description:medical_extras.field_medical_insurance_company__institution
+#: model:ir.model.fields,field_description:medical_extras.field_medical_patient__institution
+#: model:ir.model.fields,field_description:medical_extras.field_res_partner__institution
+#: model:ir.model.fields,field_description:medical_extras.field_res_users__institution
+#: model_terms:ir.ui.view,arch_db:medical_extras.medical_institution_form
+msgid "Institution"
+msgstr "Institució"
+
+#. module: medical_extras
+#: model:ir.model.fields,help:medical_extras.field_medical_abstract_entity__code
+#: model:ir.model.fields,help:medical_extras.field_medical_insurance_company__code
+#: model:ir.model.fields,help:medical_extras.field_medical_patient__code
+#: model:ir.model.fields,help:medical_extras.field_res_partner__code
+#: model:ir.model.fields,help:medical_extras.field_res_users__code
+msgid "Institution code"
+msgstr "Codi de la institució"
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_product_template__is_insurance_plan
+msgid "Insurance Plan"
+msgstr "Pla d'assegurances"
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_abstract_entity__is_institution
+#: model:ir.model.fields,field_description:medical_extras.field_medical_insurance_company__is_institution
+#: model:ir.model.fields,field_description:medical_extras.field_medical_patient__is_institution
+#: model:ir.model.fields,field_description:medical_extras.field_res_partner__is_institution
+#: model:ir.model.fields,field_description:medical_extras.field_res_users__is_institution
+msgid "Is institution"
+msgstr "És institució"
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_abstract_entity__code_healthprof
+#: model:ir.model.fields,field_description:medical_extras.field_medical_insurance_company__code_healthprof
+#: model:ir.model.fields,field_description:medical_extras.field_medical_patient__code_healthprof
+#: model:ir.model.fields,field_description:medical_extras.field_res_partner__code_healthprof
+#: model:ir.model.fields,field_description:medical_extras.field_res_users__code_healthprof
+msgid "LICENSE ID"
+msgstr "DNI DE LLICÈNCIA"
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_appointment____last_update
+#: model:ir.model.fields,field_description:medical_extras.field_medical_dose_unit____last_update
+#: model:ir.model.fields,field_description:medical_extras.field_medical_drug_form____last_update
+#: model:ir.model.fields,field_description:medical_extras.field_medical_drug_route____last_update
+#: model:ir.model.fields,field_description:medical_extras.field_medical_hospital_bed____last_update
+#: model:ir.model.fields,field_description:medical_extras.field_medical_hp_specialty____last_update
+#: model:ir.model.fields,field_description:medical_extras.field_medical_medicament____last_update
+#: model:ir.model.fields,field_description:medical_extras.field_medical_medicament_category____last_update
+#: model:ir.model.fields,field_description:medical_extras.field_medical_pathology____last_update
+#: model:ir.model.fields,field_description:medical_extras.field_medical_patient____last_update
+#: model:ir.model.fields,field_description:medical_extras.field_medical_specialty____last_update
+#: model:ir.model.fields,field_description:medical_extras.field_product_template____last_update
+#: model:ir.model.fields,field_description:medical_extras.field_res_partner____last_update
+msgid "Last Modified on"
+msgstr "Última modificació el "
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_appointment__write_uid
+#: model:ir.model.fields,field_description:medical_extras.field_medical_dose_unit__write_uid
+#: model:ir.model.fields,field_description:medical_extras.field_medical_drug_form__write_uid
+#: model:ir.model.fields,field_description:medical_extras.field_medical_drug_route__write_uid
+#: model:ir.model.fields,field_description:medical_extras.field_medical_hospital_bed__write_uid
+#: model:ir.model.fields,field_description:medical_extras.field_medical_hp_specialty__write_uid
+#: model:ir.model.fields,field_description:medical_extras.field_medical_medicament__write_uid
+#: model:ir.model.fields,field_description:medical_extras.field_medical_medicament_category__write_uid
+#: model:ir.model.fields,field_description:medical_extras.field_medical_pathology__write_uid
+#: model:ir.model.fields,field_description:medical_extras.field_medical_specialty__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_appointment__write_date
+#: model:ir.model.fields,field_description:medical_extras.field_medical_dose_unit__write_date
+#: model:ir.model.fields,field_description:medical_extras.field_medical_drug_form__write_date
+#: model:ir.model.fields,field_description:medical_extras.field_medical_drug_route__write_date
+#: model:ir.model.fields,field_description:medical_extras.field_medical_hospital_bed__write_date
+#: model:ir.model.fields,field_description:medical_extras.field_medical_hp_specialty__write_date
+#: model:ir.model.fields,field_description:medical_extras.field_medical_medicament__write_date
+#: model:ir.model.fields,field_description:medical_extras.field_medical_medicament_category__write_date
+#: model:ir.model.fields,field_description:medical_extras.field_medical_pathology__write_date
+#: model:ir.model.fields,field_description:medical_extras.field_medical_specialty__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: medical_extras
+#: model:ir.model.fields.selection,name:medical_extras.selection__res_partner__trauma_level__one
+msgid "Level I"
+msgstr "Nivell I"
+
+#. module: medical_extras
+#: model:ir.model.fields.selection,name:medical_extras.selection__res_partner__trauma_level__two
+msgid "Level II"
+msgstr "Nivell II"
+
+#. module: medical_extras
+#: model:ir.model.fields.selection,name:medical_extras.selection__res_partner__trauma_level__three
+msgid "Level III"
+msgstr "Nivell III"
+
+#. module: medical_extras
+#: model:ir.model.fields.selection,name:medical_extras.selection__res_partner__trauma_level__four
+msgid "Level IV"
+msgstr "Nivell IV"
+
+#. module: medical_extras
+#: model:ir.model.fields.selection,name:medical_extras.selection__res_partner__trauma_level__five
+msgid "Level V"
+msgstr "Nivell V"
+
+#. module: medical_extras
+#: model:ir.model.fields,help:medical_extras.field_medical_abstract_entity__code_healthprof
+#: model:ir.model.fields,help:medical_extras.field_medical_insurance_company__code_healthprof
+#: model:ir.model.fields,help:medical_extras.field_medical_patient__code_healthprof
+#: model:ir.model.fields,help:medical_extras.field_res_partner__code_healthprof
+#: model:ir.model.fields,help:medical_extras.field_res_users__code_healthprof
+msgid "License ID"
+msgstr "Identificador de llicència"
+
+#. module: medical_extras
+#: model:ir.model.fields.selection,name:medical_extras.selection__medical_hospital_bed__bed_type__low_air_loss
+msgid "Low Air Loss"
+msgstr "Baixa pèrdua d'aire"
+
+#. module: medical_extras
+#: model:ir.model.fields.selection,name:medical_extras.selection__medical_hospital_bed__bed_type__low
+msgid "Low Bed"
+msgstr "Llit baix"
+
+#. module: medical_extras
+#: model:ir.model.fields,help:medical_extras.field_medical_abstract_entity__institution
+#: model:ir.model.fields,help:medical_extras.field_medical_insurance_company__institution
+#: model:ir.model.fields,help:medical_extras.field_medical_patient__institution
+#: model:ir.model.fields,help:medical_extras.field_res_partner__institution
+#: model:ir.model.fields,help:medical_extras.field_res_users__institution
+msgid "Main institution where she/he works"
+msgstr "Institució principal on treballa"
+
+#. module: medical_extras
+#. openerp-web
+#: code:addons/medical/medical_extras/static/src/js/medical.tour.js:0
+#: code:addons/medical_extras/static/src/js/medical.tour.js:0
+#, python-format
+msgid "Manage electronic medical records using the <b>Medical</b> app."
+msgstr "Gestioneu els registres mèdics electrònics mitjançant l’aplicació <b> Mèdica </b>."
+
+#. module: medical_extras
+#: model:ir.model.fields,help:medical_extras.field_medical_abstract_entity__teaching
+#: model:ir.model.fields,help:medical_extras.field_medical_insurance_company__teaching
+#: model:ir.model.fields,help:medical_extras.field_medical_patient__teaching
+#: model:ir.model.fields,help:medical_extras.field_res_partner__teaching
+#: model:ir.model.fields,help:medical_extras.field_res_users__teaching
+msgid "Mark if this is a teaching institution"
+msgstr "Marqueu si es tracta d’una institució docent"
+
+#. module: medical_extras
+#: model_terms:ir.ui.view,arch_db:medical_extras.product_template_form_view_extend
+msgid "Medical"
+msgstr "Mèdic"
+
+#. module: medical_extras
+#: model:ir.actions.act_window,name:medical_extras.medical_appointment_action
+#: model:ir.ui.menu,name:medical_extras.medical_appointment_menu
+msgid "Medical Appointment"
+msgstr "Cita mèdica"
+
+#. module: medical_extras
+#: model:ir.model.fields.selection,name:medical_extras.selection__medical_appointment__urgency__c
+msgid "Medical Emergency"
+msgstr "Urgències Mèdiques"
+
+#. module: medical_extras
+#: model:ir.model,name:medical_extras.model_medical_patient
+msgid "Medical Patient Extends"
+msgstr "El pacient mèdic s’estén"
+
+#. module: medical_extras
+#: model:ir.model,name:medical_extras.model_medical_specialty
+msgid "Medical Specialty"
+msgstr "Especialitat mèdica"
+
+#. module: medical_extras
+#: model:ir.model.fields,help:medical_extras.field_medical_appointment__speciality
+msgid "Medical Specialty / Sector"
+msgstr "Especialitat / sector mèdic"
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_insurance_template__is_medical_supply
+#: model:ir.model.fields,field_description:medical_extras.field_product_product__is_medical_supply
+#: model:ir.model.fields,field_description:medical_extras.field_product_template__is_medical_supply
+msgid "Medical Supply"
+msgstr "Subministrament mèdic"
+
+#. module: medical_extras
+#: model:ir.model,name:medical_extras.model_medical_medicament
+#: model:ir.model.fields,field_description:medical_extras.field_medical_insurance_template__is_medicament
+#: model:ir.model.fields,field_description:medical_extras.field_product_product__is_medicament
+#: model:ir.model.fields,field_description:medical_extras.field_product_template__is_medicament
+msgid "Medicament"
+msgstr "Medicament"
+
+#. module: medical_extras
+#: model:ir.model,name:medical_extras.model_medical_medicament_category
+msgid "Medicament Category"
+msgstr "Categoria de medicaments"
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_medicament_category__name
+#: model:ir.model.fields,field_description:medical_extras.field_medical_pathology__name
+msgid "Name"
+msgstr "Nom"
+
+#. module: medical_extras
+#: model:ir.model.fields,help:medical_extras.field_medical_pathology__gene
+msgid "Name of the gene(s) affected"
+msgstr "Nom dels gens afectats"
+
+#. module: medical_extras
+#: model:ir.model.fields,help:medical_extras.field_medical_pathology__protein
+msgid "Name of the protein(s) affected"
+msgstr "Nom de les proteïnes afectades"
+
+#. module: medical_extras
+#: model:ir.model.fields.selection,name:medical_extras.selection__medical_hospital_bed__state__to_clean
+msgid "Needs cleaning"
+msgstr "Necessita neteja"
+
+#. module: medical_extras
+#: model:ir.model.fields.selection,name:medical_extras.selection__medical_appointment__visit_type__new
+msgid "New health condition"
+msgstr "Nou estat de salut"
+
+#. module: medical_extras
+#: code:addons/medical/medical_extras/models/models.py:0
+#: code:addons/medical_extras/models/models.py:0
+#, python-format
+msgid "No Health Professional associated to this user!"
+msgstr "No hi ha cap professional de la salut associat a aquest usuari."
+
+#. module: medical_extras
+#: model:ir.model.fields.selection,name:medical_extras.selection__medical_appointment__state__no_show
+#: model_terms:ir.ui.view,arch_db:medical_extras.medical_appointment_tree
+msgid "No show"
+msgstr "No hi ha espectacle"
+
+#. module: medical_extras
+#: model:ir.model.fields.selection,name:medical_extras.selection__medical_appointment__urgency__a
+msgid "Normal"
+msgstr "Normal"
+
+#. module: medical_extras
+#: model:ir.model.fields.selection,name:medical_extras.selection__medical_hospital_bed__state__na
+msgid "Not available"
+msgstr "No disponible"
+
+#. module: medical_extras
+#: model:ir.model.fields.selection,name:medical_extras.selection__res_partner__institution_type__nursing_home
+msgid "Nursing Home"
+msgstr "Asil d'ancians"
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_abstract_entity__or_number
+#: model:ir.model.fields,field_description:medical_extras.field_medical_insurance_company__or_number
+#: model:ir.model.fields,field_description:medical_extras.field_medical_patient__or_number
+#: model:ir.model.fields,field_description:medical_extras.field_res_partner__or_number
+#: model:ir.model.fields,field_description:medical_extras.field_res_users__or_number
+msgid "ORs"
+msgstr ""
+
+#. module: medical_extras
+#: model:ir.model.fields.selection,name:medical_extras.selection__medical_hospital_bed__state__occupied
+msgid "Occupied"
+msgstr "Ocupat"
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_abstract_entity__operating_room
+#: model:ir.model.fields,field_description:medical_extras.field_medical_insurance_company__operating_room
+#: model:ir.model.fields,field_description:medical_extras.field_medical_patient__operating_room
+#: model:ir.model.fields,field_description:medical_extras.field_res_partner__operating_room
+#: model:ir.model.fields,field_description:medical_extras.field_res_users__operating_room
+msgid "Operating Room"
+msgstr "Sala d'operacions"
+
+#. module: medical_extras
+#: model:ir.model.fields.selection,name:medical_extras.selection__medical_appointment__appointment_type__outpatient
+msgid "Outpatient"
+msgstr "Ambulatori"
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_medicament__overdosage
+#: model:ir.model.fields,help:medical_extras.field_medical_medicament__overdosage
+msgid "Overdosage"
+msgstr "Sobredosi"
+
+#. module: medical_extras
+#: model:ir.model.fields,help:medical_extras.field_medical_medicament__presentation
+msgid "Packaging"
+msgstr "Embalatge"
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_medicament_category__parent_id
+msgid "Parent Category"
+msgstr "Categoria pare"
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_medicament_category__parent_path
+msgid "Parent Path"
+msgstr "Camí dels pares"
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_appointment__patient
+msgid "Patient"
+msgstr "Pacient"
+
+#. module: medical_extras
+#: model:ir.model,name:medical_extras.model_medical_appointment
+msgid "Patient Appointments"
+msgstr "Cites al pacient"
+
+#. module: medical_extras
+#: model:ir.model.fields,help:medical_extras.field_medical_appointment__patient
+msgid "Patient Name"
+msgstr "Nom del pacient"
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_abstract_entity__picture
+#: model:ir.model.fields,field_description:medical_extras.field_medical_insurance_company__picture
+#: model:ir.model.fields,field_description:medical_extras.field_medical_patient__picture
+#: model:ir.model.fields,field_description:medical_extras.field_res_partner__picture
+#: model:ir.model.fields,field_description:medical_extras.field_res_users__picture
+msgid "Picture"
+msgstr "Imatge"
+
+#. module: medical_extras
+#: model:ir.model.fields,help:medical_extras.field_medical_drug_form__code
+#: model:ir.model.fields,help:medical_extras.field_medical_drug_route__code
+msgid "Please use CAPITAL LETTERS and no spaces"
+msgstr "Utilitzeu MAJÚSCULES i no hi ha espais"
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_medicament__pregnancy_category
+msgid "Pregnancy Category"
+msgstr "Categoria Embaràs"
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_medicament__pregnancy_warning
+msgid "Pregnancy Warning"
+msgstr "Advertiment d’embaràs"
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_medicament__pregnancy
+msgid "Pregnancy and Lactancy"
+msgstr "Embaràs i Lactància"
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_medicament__presentation
+msgid "Presentation"
+msgstr "Presentació"
+
+#. module: medical_extras
+#: model:ir.model.fields.selection,name:medical_extras.selection__res_partner__institution_type__primary_care
+msgid "Primary Care Center"
+msgstr "Centre d’Atenció Primària"
+
+#. module: medical_extras
+#: model:ir.model.fields.selection,name:medical_extras.selection__res_partner__public_level__private
+msgid "Private"
+msgstr "Privat"
+
+#. module: medical_extras
+#: model:ir.model.fields.selection,name:medical_extras.selection__res_partner__public_level__mixed
+msgid "Private - State"
+msgstr "Privat - Estat"
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_medicament__name
+msgid "Product"
+msgstr "Producte"
+
+#. module: medical_extras
+#: model:ir.model.fields,help:medical_extras.field_medical_medicament__name
+msgid "Product Name"
+msgstr "Nom del producte"
+
+#. module: medical_extras
+#: model:ir.model,name:medical_extras.model_product_template
+msgid "Product Template"
+msgstr "Plantilla de producte"
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_pathology__protein
+msgid "Protein involved"
+msgstr "Proteïna implicada"
+
+#. module: medical_extras
+#: model:ir.model.fields.selection,name:medical_extras.selection__res_partner__public_level__public
+msgid "Public"
+msgstr "Públic"
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_abstract_entity__public_level
+#: model:ir.model.fields,field_description:medical_extras.field_medical_insurance_company__public_level
+#: model:ir.model.fields,field_description:medical_extras.field_medical_patient__public_level
+#: model:ir.model.fields,field_description:medical_extras.field_res_partner__public_level
+#: model:ir.model.fields,field_description:medical_extras.field_res_users__public_level
+msgid "Public Level"
+msgstr "Nivell públic"
+
+#. module: medical_extras
+#: model:ir.model.fields.selection,name:medical_extras.selection__medical_hospital_bed__state__reserved
+msgid "Reserved"
+msgstr "Reservat"
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_patient__rh
+msgid "Rh"
+msgstr ""
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_drug_route__name
+msgid "Route"
+msgstr "Ruta"
+
+#. module: medical_extras
+#: model:ir.model.fields.selection,name:medical_extras.selection__res_partner__institution_type__rural
+msgid "Rural facility"
+msgstr "Instal·lació rural"
+
+#. module: medical_extras
+#: model:ir.model.fields.selection,name:medical_extras.selection__medical_patient__hb__sc
+msgid "SC"
+msgstr ""
+
+#. module: medical_extras
+#: model:ir.model.fields.selection,name:medical_extras.selection__medical_patient__hb__ss
+msgid "SS"
+msgstr ""
+
+#. module: medical_extras
+#: model:ir.model.fields,help:medical_extras.field_medical_medicament__sol_vol
+msgid "Solution concentration volume"
+msgstr "Volum de concentració de la solució"
+
+#. module: medical_extras
+#: model:ir.model.fields,help:medical_extras.field_medical_medicament__sol_conc
+msgid "Solution drug concentration"
+msgstr "Solució concentració de fàrmacs"
+
+#. module: medical_extras
+#: model:ir.model.fields.selection,name:medical_extras.selection__res_partner__institution_type__specialized
+msgid "Specialized Hospital"
+msgstr "Hospital especialitzat"
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_abstract_entity__specialties
+#: model:ir.model.fields,field_description:medical_extras.field_medical_insurance_company__specialties
+#: model:ir.model.fields,field_description:medical_extras.field_medical_patient__specialties
+#: model:ir.model.fields,field_description:medical_extras.field_res_partner__specialties
+#: model:ir.model.fields,field_description:medical_extras.field_res_users__specialties
+msgid "Specialties"
+msgstr "Especialitats"
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_appointment__speciality
+#: model:ir.model.fields,field_description:medical_extras.field_medical_hp_specialty__specialty
+#: model:ir.model.fields,field_description:medical_extras.field_medical_specialty__name
+msgid "Specialty"
+msgstr "Especialitat"
+
+#. module: medical_extras
+#: model:ir.model.fields,help:medical_extras.field_medical_hp_specialty__specialty
+msgid "Specialty Code"
+msgstr "Codi d’especialitat"
+
+#. module: medical_extras
+#: model:ir.model.fields,help:medical_extras.field_medical_pathology__code
+msgid "Specific Code for the Disease (eg, ICD-10)"
+msgstr "Codi específic per a la malaltia (per exemple, CIM-10)"
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_appointment__state
+msgid "State"
+msgstr "Estat"
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_hospital_bed__state
+msgid "Status"
+msgstr "Estat"
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_medicament__storage
+msgid "Storage Conditions"
+msgstr "Condicions d’emmagatzematge"
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_medicament__strength
+msgid "Strength"
+msgstr "Força"
+
+#. module: medical_extras
+#: model:ir.model.fields.selection,name:medical_extras.selection__medical_hospital_bed__bed_type__stretcher
+msgid "Stretcher"
+msgstr "Llitera"
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_abstract_entity__teaching
+#: model:ir.model.fields,field_description:medical_extras.field_medical_insurance_company__teaching
+#: model:ir.model.fields,field_description:medical_extras.field_medical_patient__teaching
+#: model:ir.model.fields,field_description:medical_extras.field_res_partner__teaching
+#: model:ir.model.fields,field_description:medical_extras.field_res_users__teaching
+msgid "Teaching"
+msgstr "Ensenyament"
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_hospital_bed__telephone_number
+msgid "Telephone Number"
+msgstr "Número de telèfon"
+
+#. module: medical_extras
+#: model:ir.model.fields,help:medical_extras.field_medical_hospital_bed__telephone_number
+msgid "Telephone number / Extension"
+msgstr "Número de telèfon / Extensió"
+
+#. module: medical_extras
+#: model:ir.model.constraint,message:medical_extras.constraint_medical_hospital_bed_name_uniq
+msgid "The Bed must be unique per Health Center!"
+msgstr "El llit ha de ser únic per centre de salut."
+
+#. module: medical_extras
+#: model:ir.model.constraint,message:medical_extras.constraint_medical_drug_form_code_uniq
+#: model:ir.model.constraint,message:medical_extras.constraint_medical_drug_route_code_uniq
+#: model:ir.model.constraint,message:medical_extras.constraint_medical_specialty_code_uniq
+#: model:ir.model.constraint,message:medical_extras.constraint_res_partner_code_uniq
+msgid "The CODE must be unique!"
+msgstr "El CODI ha de ser únic."
+
+#. module: medical_extras
+#: model:ir.model.constraint,message:medical_extras.constraint_medical_specialty_name_uniq
+msgid "The Specialty must be unique!"
+msgstr "L’especialitat ha de ser única."
+
+#. module: medical_extras
+#: model:ir.model.constraint,message:medical_extras.constraint_medical_dose_unit_name_uniq
+#: model:ir.model.constraint,message:medical_extras.constraint_medical_drug_form_name_uniq
+#: model:ir.model.constraint,message:medical_extras.constraint_medical_drug_route_name_uniq
+msgid "The Unit must be unique!"
+msgstr "La unitat ha de ser única."
+
+#. module: medical_extras
+#: model:ir.model.constraint,message:medical_extras.constraint_medical_pathology_code_uniq
+msgid "The disease code must be unique!"
+msgstr "El codi de la malaltia ha de ser únic."
+
+#. module: medical_extras
+#: model:ir.model.fields,help:medical_extras.field_medical_medicament__pregnancy_warning
+msgid "The drug represents risk to pregnancy or lactancy"
+msgstr "El medicament representa un risc per a l’embaràs o la lactància"
+
+#. module: medical_extras
+#: model:ir.model.constraint,message:medical_extras.constraint_res_partner_name_uniq
+msgid "The health professional must be unique!"
+msgstr "El professional de la salut ha de ser únic."
+
+#. module: medical_extras
+#: model_terms:ir.ui.view,arch_db:medical_extras.medical_appointment_tree
+msgid "The patient did not show up"
+msgstr "El pacient no es va presentar"
+
+#. module: medical_extras
+#: model_terms:ir.ui.view,arch_db:medical_extras.medical_appointment_tree
+msgid "The patient has arrived and is waiting"
+msgstr "El pacient ha arribat i està esperant"
+
+#. module: medical_extras
+#: model:ir.model.fields,help:medical_extras.field_medical_medicament__therapeutic_action
+msgid "Therapeutic action"
+msgstr "Acció terapèutica"
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_medicament__therapeutic_action
+msgid "Therapeutic effect"
+msgstr "Efecte terapèutic"
+
+#. module: medical_extras
+#: model:ir.model.constraint,message:medical_extras.constraint_medical_hp_specialty_name_uniq
+msgid "This specialty is already assigned to the Health Professional!"
+msgstr "Aquesta especialitat ja està assignada al professional de la salut."
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_abstract_entity__trauma_center
+#: model:ir.model.fields,field_description:medical_extras.field_medical_insurance_company__trauma_center
+#: model:ir.model.fields,field_description:medical_extras.field_medical_patient__trauma_center
+#: model:ir.model.fields,field_description:medical_extras.field_res_partner__trauma_center
+#: model:ir.model.fields,field_description:medical_extras.field_res_users__trauma_center
+msgid "Trauma Center"
+msgstr "Centre de Traumes"
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_abstract_entity__trauma_level
+#: model:ir.model.fields,field_description:medical_extras.field_medical_insurance_company__trauma_level
+#: model:ir.model.fields,field_description:medical_extras.field_medical_patient__trauma_level
+#: model:ir.model.fields,field_description:medical_extras.field_res_partner__trauma_level
+#: model:ir.model.fields,field_description:medical_extras.field_res_users__trauma_level
+msgid "Trauma Level"
+msgstr "Nivell de trauma"
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_abstract_entity__institution_type
+#: model:ir.model.fields,field_description:medical_extras.field_medical_appointment__appointment_type
+#: model:ir.model.fields,field_description:medical_extras.field_medical_insurance_company__institution_type
+#: model:ir.model.fields,field_description:medical_extras.field_medical_patient__institution_type
+#: model:ir.model.fields,field_description:medical_extras.field_res_partner__institution_type
+#: model:ir.model.fields,field_description:medical_extras.field_res_users__institution_type
+msgid "Type"
+msgstr "Tipus"
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_dose_unit__name
+#: model:ir.model.fields,field_description:medical_extras.field_medical_medicament__sol_conc_unit
+#: model:ir.model.fields,field_description:medical_extras.field_medical_medicament__sol_vol_unit
+msgid "Unit"
+msgstr "Unitat"
+
+#. module: medical_extras
+#: model:ir.model.fields,help:medical_extras.field_medical_medicament__unit
+msgid "Unit of measure for the medication to be taken"
+msgstr "Unitat de mesura de la medicació a prendre"
+
+#. module: medical_extras
+#: model:ir.model.fields,help:medical_extras.field_medical_medicament__sol_conc_unit
+msgid "Unit of the drug concentration"
+msgstr "Unitat de la concentració de fàrmacs"
+
+#. module: medical_extras
+#: model:ir.model.fields,help:medical_extras.field_medical_medicament__sol_vol_unit
+msgid "Unit of the solution volume"
+msgstr "Unitat del volum de la solució"
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_appointment__urgency
+msgid "Urgency"
+msgstr "Urgència"
+
+#. module: medical_extras
+#: model:ir.model.fields.selection,name:medical_extras.selection__medical_appointment__urgency__b
+msgid "Urgent"
+msgstr "Urgent"
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_insurance_template__is_vaccine
+#: model:ir.model.fields,field_description:medical_extras.field_medical_medicament__is_vaccine
+#: model:ir.model.fields,field_description:medical_extras.field_product_product__is_vaccine
+#: model:ir.model.fields,field_description:medical_extras.field_product_template__is_vaccine
+msgid "Vaccine"
+msgstr "Vacuna"
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_appointment__visit_type
+msgid "Visit"
+msgstr "Visita"
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_medicament__sol_vol
+msgid "Volume"
+msgstr "Volum"
+
+#. module: medical_extras
+#: model:ir.model.fields,help:medical_extras.field_medical_medicament__pregnancy
+msgid "Warnings for Pregnant Women"
+msgstr "Advertiments per a dones embarassades"
+
+#. module: medical_extras
+#: model:ir.model.fields.selection,name:medical_extras.selection__medical_appointment__visit_type__well_child
+msgid "Well Child visit"
+msgstr "Doncs visita infantil"
+
+#. module: medical_extras
+#: model:ir.model.fields.selection,name:medical_extras.selection__medical_appointment__visit_type__well_man
+msgid "Well Man visit"
+msgstr "Doncs visita de l'home"
+
+#. module: medical_extras
+#: model:ir.model.fields.selection,name:medical_extras.selection__medical_appointment__visit_type__well_woman
+msgid "Well Woman visit"
+msgstr "Doncs visita de dona"
+
+#. module: medical_extras
+#: model:ir.model.fields,help:medical_extras.field_medical_pathology__chromosome
+msgid "chromosome number"
+msgstr "nombre de cromosomes"
+
+#. module: medical_extras
+#: model:ir.model.fields,field_description:medical_extras.field_medical_medicament__unit
+msgid "dose unit"
+msgstr "unitat de dosi"
+
+#. module: medical_extras
+#: model:ir.model.fields,help:medical_extras.field_medical_specialty__code
+msgid "ie, ADP. Please use CAPITAL LETTERS and no spaces"
+msgstr "és a dir, ADP. Utilitzeu MAJÚSCULES i no hi ha espais"
+
+#. module: medical_extras
+#: model:ir.model.fields,help:medical_extras.field_medical_specialty__name
+msgid "ie, Addiction Psychiatry"
+msgstr "és a dir, psiquiatria de l’addicció"

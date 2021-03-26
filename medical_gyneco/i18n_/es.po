@@ -1,0 +1,1416 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* medical_gyneco
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-26 10:32+0000\n"
+"PO-Revision-Date: 2021-03-26 10:32+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: medical_gyneco
+#: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_patient_pregnancy__hb__athal
+msgid "A-THAL"
+msgstr ""
+
+#. module: medical_gyneco
+#: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_patient_pregnancy__hb__aa
+msgid "AA"
+msgstr ""
+
+#. module: medical_gyneco
+#: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_patient_pregnancy__blood_type__ab
+msgid "AB"
+msgstr ""
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_prenatal_evaluation__fetal_ac
+msgid "AC"
+msgstr ""
+
+#. module: medical_gyneco
+#: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_patient_pap_history__result__g4
+msgid "AIS"
+msgstr ""
+
+#. module: medical_gyneco
+#: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_patient_pregnancy__hb__as
+msgid "AS"
+msgstr ""
+
+#. module: medical_gyneco
+#: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_patient_pap_history__result__c2
+msgid "ASC-H"
+msgstr ""
+
+#. module: medical_gyneco
+#: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_patient_pap_history__result__c1
+msgid "ASC-US"
+msgstr ""
+
+#. module: medical_gyneco
+#: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_patient_pap_history__result__g1
+msgid "ASG"
+msgstr ""
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_perinatal__abortion
+#: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_patient_pregnancy__pregnancy_end_result__abortion
+msgid "Abortion"
+msgstr "Aborto"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient__abortions
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_pregnancy__abortions
+msgid "Abortions"
+msgstr "Abortos"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_perinatal__abruptio_placentae
+#: model:ir.model.fields,help:medical_gyneco.field_medical_perinatal__abruptio_placentae
+msgid "Abruptio Placentae"
+msgstr "Desprendimiento de placenta"
+
+#. module: medical_gyneco
+#: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_patient_prenatal_evaluation__invasive_placentation__accreta
+msgid "Accreta"
+msgstr ""
+
+#. module: medical_gyneco
+#: model:ir.model,name:medical_gyneco.model_medical_patient
+msgid ""
+"Add to the Medical patient_data class (medical.patient) the gynecological "
+"and obstetric fields."
+msgstr "Agregue a la clase Medical patient_data (medical.patient) el ginecológico y campos obstétricos."
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_perinatal__admission_date
+msgid "Admission"
+msgstr "Admisión"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_pregnancy__computed_age
+msgid "Age"
+msgstr "Edad"
+
+#. module: medical_gyneco
+#: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_patient_pregnancy__iugr__assymetric
+msgid "Asymmetric"
+msgstr "Asimétrico"
+
+#. module: medical_gyneco
+#: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_patient_pregnancy__hb__bthal
+msgid "B-THAL"
+msgstr ""
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_pregnancy__bba
+msgid "BBA"
+msgstr ""
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_prenatal_evaluation__fetal_bpd
+msgid "BPD"
+msgstr ""
+
+#. module: medical_gyneco
+#: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_perinatal__laceration__bladder
+msgid "Bladder"
+msgstr "Vejiga"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_perinatal_monitor__bleeding
+msgid "Bleeding"
+msgstr "Sangrado"
+
+#. module: medical_gyneco
+#: model_terms:ir.ui.view,arch_db:medical_gyneco.medical_patient_pregnancy_view
+msgid "Blood Info"
+msgstr "Información de sangre"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_pregnancy__blood_type
+msgid "Blood Type"
+msgstr "Tipo de sangre"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient__born_alive
+msgid "Born Alive"
+msgstr "Nacido vivo"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,help:medical_gyneco.field_medical_patient_pregnancy__bba
+msgid "Born Before Arrival"
+msgstr "Nacido antes de la llegada"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient__breast_self_examination
+msgid "Breast self-examination"
+msgstr "Autoexamen de mamas"
+
+#. module: medical_gyneco
+#: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_perinatal__fetus_presentation__breech
+msgid "Breech"
+msgstr "Recámara"
+
+#. module: medical_gyneco
+#: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_perinatal__laceration__broad_ligament
+msgid "Broad Ligament"
+msgstr "Ligamento ancho"
+
+#. module: medical_gyneco
+#: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_perinatal__start_labor_mode__c
+msgid "C-section"
+msgstr ""
+
+#. module: medical_gyneco
+#: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_patient_pregnancy__hb__cc
+msgid "CC"
+msgstr ""
+
+#. module: medical_gyneco
+#: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_perinatal__fetus_presentation__cephalic
+msgid "Cephalic"
+msgstr "Dolor de la cabeza "
+
+#. module: medical_gyneco
+#: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_perinatal__laceration__cervical
+msgid "Cervical"
+msgstr "Cervical"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_perinatal_monitor__dilation
+msgid "Cervix dilation"
+msgstr "Dilatación del cuello uterino "
+
+#. module: medical_gyneco
+#: model:ir.model.fields,help:medical_gyneco.field_medical_patient__breast_self_examination
+msgid "Check if patient does and knows how to self examine her breasts"
+msgstr "Compruebe si la paciente lo hace y sabe cómo autoexaminarse los senos."
+
+#. module: medical_gyneco
+#: model:ir.model.fields,help:medical_gyneco.field_medical_patient__pap_test
+msgid "Check if patient does periodic cytologic pelvic smear screening"
+msgstr "Verifique si la paciente realiza una prueba citológica periódica de frotis pélvico."
+
+#. module: medical_gyneco
+#: model:ir.model.fields,help:medical_gyneco.field_medical_patient__fertile
+msgid "Check if patient is in fertile age"
+msgstr "Compruebe si la paciente está en edad fértil "
+
+#. module: medical_gyneco
+#: model:ir.model.fields,help:medical_gyneco.field_medical_patient__mammography
+msgid "Check if the patient does periodic mammographys"
+msgstr "Verificar si la paciente realiza mamografías periódicas."
+
+#. module: medical_gyneco
+#: model:ir.model.fields,help:medical_gyneco.field_medical_patient__colposcopy
+msgid "Check if the patient has done a colposcopy exam"
+msgstr "Compruebe si la paciente se ha realizado un examen de colposcopia. "
+
+#. module: medical_gyneco
+#: model:ir.model.fields,help:medical_gyneco.field_medical_patient_prenatal_evaluation__diabetes
+msgid "Check this box if the mother has glucose intolerance or diabetes"
+msgstr "Marque esta casilla si la madre tiene intolerancia a la glucosa o diabetes "
+
+#. module: medical_gyneco
+#: model:ir.model.fields,help:medical_gyneco.field_medical_patient_prenatal_evaluation__hypertension
+msgid "Check this box if the mother has hypertension"
+msgstr "Marque esta casilla si la madre tiene hipertensión "
+
+#. module: medical_gyneco
+#: model:ir.model.fields,help:medical_gyneco.field_medical_patient_prenatal_evaluation__preeclampsia
+msgid "Check this box if the mother has pre-eclampsia"
+msgstr "Marque esta casilla si la madre tiene preeclampsia "
+
+#. module: medical_gyneco
+#: model:ir.model.fields,help:medical_gyneco.field_medical_patient_prenatal_evaluation__overweight
+msgid "Check this box if the mother is overweight or obesity"
+msgstr "Marque esta casilla si la madre tiene sobrepeso u obesidad "
+
+#. module: medical_gyneco
+#: model:ir.model.fields,help:medical_gyneco.field_medical_patient_pregnancy__warning
+msgid "Check this box if this is pregancy is or was NOT normal"
+msgstr "Marque esta casilla si el embarazo es normal o NO "
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_perinatal__admission_code
+msgid "Code"
+msgstr "Código"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient__colposcopy
+#: model_terms:ir.ui.view,arch_db:medical_gyneco.medical_colposcopy_history_view
+msgid "Colposcopy"
+msgstr "Colposcopia"
+
+#. module: medical_gyneco
+#: model:ir.model,name:medical_gyneco.model_medical_patient_colposcopy_history
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient__colposcopy_history
+#: model_terms:ir.ui.view,arch_db:medical_gyneco.medical_patient_view
+msgid "Colposcopy History"
+msgstr "Historial de colposcopia"
+
+#. module: medical_gyneco
+#: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_perinatal_monitor__fetus_position__cb
+msgid "Complete Breech"
+msgstr "Nalgas completas"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,help:medical_gyneco.field_medical_patient_pregnancy__computed_age
+msgid "Computed patient age at the moment of LMP"
+msgstr "Edad calculada del paciente en el momento del último periodo de menstruación"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_perinatal_monitor__contractions
+msgid "Contractions"
+msgstr "Contracciones"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_colposcopy_history__create_uid
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_mammography_history__create_uid
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_menstrual_history__create_uid
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_pap_history__create_uid
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_pregnancy__create_uid
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_prenatal_evaluation__create_uid
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_perinatal__create_uid
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_perinatal_monitor__create_uid
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_puerperium_monitor__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_colposcopy_history__create_date
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_mammography_history__create_date
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_menstrual_history__create_date
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_pap_history__create_date
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_pregnancy__create_date
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_prenatal_evaluation__create_date
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_perinatal__create_date
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_perinatal_monitor__create_date
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_puerperium_monitor__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_pregnancy__current_pregnancy
+msgid "Current Pregnancy"
+msgstr "Embarazo actual"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_colposcopy_history__evaluation_date
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_mammography_history__evaluation_date
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_menstrual_history__evaluation_date
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_pap_history__evaluation_date
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_prenatal_evaluation__evaluation_date
+#: model:ir.model.fields,help:medical_gyneco.field_medical_patient_colposcopy_history__evaluation_date
+#: model:ir.model.fields,help:medical_gyneco.field_medical_patient_mammography_history__evaluation_date
+#: model:ir.model.fields,help:medical_gyneco.field_medical_patient_pap_history__evaluation_date
+msgid "Date"
+msgstr "Fecha"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_perinatal_monitor__date
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_puerperium_monitor__date
+msgid "Date and Time"
+msgstr "Fecha y hora"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,help:medical_gyneco.field_medical_perinatal__admission_date
+msgid "Date when she was admitted to give birth"
+msgstr "Fecha en que fue admitida para dar a luz"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_perinatal__gestational_days
+msgid "Days"
+msgstr "Días"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient__deaths_2nd_week
+msgid "Deceased after 2nd week"
+msgstr "Fallecido después de la segunda semana"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient__deaths_1st_week
+msgid "Deceased during 1st week"
+msgstr "Fallecido después de la primera semana"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_perinatal__start_labor_mode
+msgid "Delivery mode"
+msgstr "Modo de entrega"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_prenatal_evaluation__diabetes
+msgid "Diabetes"
+msgstr "Diabetes"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_perinatal_monitor__diastolic
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_puerperium_monitor__diastolic
+msgid "Diastolic Pressure"
+msgstr "Presión diastólica"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient__display_name
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_colposcopy_history__display_name
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_mammography_history__display_name
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_menstrual_history__display_name
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_pap_history__display_name
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_pregnancy__display_name
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_prenatal_evaluation__display_name
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_perinatal__display_name
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_perinatal_monitor__display_name
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_puerperium_monitor__display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,help:medical_gyneco.field_medical_patient_prenatal_evaluation__fundal_height
+#: model:ir.model.fields,help:medical_gyneco.field_medical_puerperium_monitor__uterus_involution
+msgid ""
+"Distance between the symphysis pubis and the uterine fundus (S-FD) in cm"
+msgstr "Distancia entre la sínfisis del pubis y el fondo uterino (S-FD) en cm"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_menstrual_history__dysmenorrhea
+msgid "Dysmenorrhea"
+msgstr "Dismenorrea"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_perinatal__dystocia
+msgid "Dystocia"
+msgstr "Distocia"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_prenatal_evaluation__efw
+msgid "EFW"
+msgstr ""
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_pregnancy__pregnancy_end_date
+msgid "End of Pregnancy"
+msgstr "Fin del embarazo"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,help:medical_gyneco.field_medical_patient__pap_test_last
+msgid "Enter the date of the last Papanicolau test"
+msgstr "Ingrese la fecha de la última prueba de Papanicolau"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,help:medical_gyneco.field_medical_patient__colposcopy_last
+msgid "Enter the date of the last colposcopy"
+msgstr "Ingrese la fecha de la última colposcopia"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,help:medical_gyneco.field_medical_patient__mammography_last
+msgid "Enter the date of the last mammography"
+msgstr "Ingrese la fecha de la última mamografía"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_perinatal__episiotomy
+msgid "Episiotomy"
+msgstr "Episiotomía"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,help:medical_gyneco.field_medical_patient_prenatal_evaluation__efw
+msgid "Estimated Fetal Weight"
+msgstr "Peso fetal estimado"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_colposcopy_history__evaluation
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_mammography_history__evaluation
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_menstrual_history__evaluation
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_pap_history__evaluation
+#: model_terms:ir.ui.view,arch_db:medical_gyneco.medical_colposcopy_history_view
+#: model_terms:ir.ui.view,arch_db:medical_gyneco.medical_mammography_history_view
+#: model_terms:ir.ui.view,arch_db:medical_gyneco.medical_menstrual_history_view
+#: model_terms:ir.ui.view,arch_db:medical_gyneco.medical_pap_history_view
+msgid "Evaluation"
+msgstr "Evaluación"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,help:medical_gyneco.field_medical_patient_menstrual_history__evaluation_date
+msgid "Evaluation Date"
+msgstr "Fecha de evaluación"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_prenatal_evaluation__fetal_fl
+msgid "FL"
+msgstr ""
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient__fertile
+msgid "Fertile"
+msgstr "Fértil"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,help:medical_gyneco.field_medical_patient_prenatal_evaluation__fetal_ac
+msgid "Fetal Abdominal Circumference"
+msgstr "Circunferencia abdominal fetal"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,help:medical_gyneco.field_medical_patient_prenatal_evaluation__fetal_bpd
+msgid "Fetal Biparietal Diameter"
+msgstr "Diámetro biparietal fetal"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,help:medical_gyneco.field_medical_patient_prenatal_evaluation__fetal_fl
+msgid "Fetal Femur Length"
+msgstr "Longitud del fémur fetal"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,help:medical_gyneco.field_medical_patient_prenatal_evaluation__fetal_hc
+msgid "Fetal Head Circumference"
+msgstr "Circunferencia de la cabeza fetal"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_perinatal_monitor__f_frequency
+msgid "Fetus Heart Frequency"
+msgstr "Frecuencia cardíaca del feto"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_perinatal_monitor__fetus_position
+msgid "Fetus Position"
+msgstr "Posición del feto"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_perinatal__fetus_presentation
+msgid "Fetus Presentation"
+msgstr "Presentación del feto"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_prenatal_evaluation__fetus_heart_rate
+#: model:ir.model.fields,help:medical_gyneco.field_medical_patient_prenatal_evaluation__fetus_heart_rate
+msgid "Fetus heart rate"
+msgstr "Frecuencia cardíaca del feto "
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_pregnancy__fetuses
+msgid "Fetuses"
+msgstr "Fetos"
+
+#. module: medical_gyneco
+#: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_perinatal_monitor__fetus_position__t
+msgid "Footling Breech"
+msgstr "Footling nalgas "
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_perinatal__forceps
+msgid "Forceps"
+msgstr "Pinzas"
+
+#. module: medical_gyneco
+#: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_perinatal_monitor__fetus_position__fb
+msgid "Frank Breech"
+msgstr ""
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient__full_term
+msgid "Full Term"
+msgstr "Términos"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,help:medical_gyneco.field_medical_patient__full_term
+msgid "Full term pregnancies"
+msgstr "Términos de embarazos"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_prenatal_evaluation__fundal_height
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_perinatal_monitor__fundal_height
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_puerperium_monitor__uterus_involution
+msgid "Fundal Height"
+msgstr "Altura del fondo uterino"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient__gpa
+msgid "GPA"
+msgstr ""
+
+#. module: medical_gyneco
+#: model_terms:ir.ui.view,arch_db:medical_gyneco.medical_patient_pregnancy_view
+#: model_terms:ir.ui.view,arch_db:medical_gyneco.medical_patient_view
+msgid "General"
+msgstr ""
+
+#. module: medical_gyneco
+#: model_terms:ir.ui.view,arch_db:medical_gyneco.medical_colposcopy_history_view
+#: model_terms:ir.ui.view,arch_db:medical_gyneco.medical_mammography_history_view
+#: model_terms:ir.ui.view,arch_db:medical_gyneco.medical_menstrual_history_view
+#: model_terms:ir.ui.view,arch_db:medical_gyneco.medical_pap_history_view
+#: model_terms:ir.ui.view,arch_db:medical_gyneco.medical_patient_pregnancy_view
+#: model_terms:ir.ui.view,arch_db:medical_gyneco.medical_perinatal_monitor_view
+#: model_terms:ir.ui.view,arch_db:medical_gyneco.medical_perinatal_view
+#: model_terms:ir.ui.view,arch_db:medical_gyneco.medical_prenatal_evaluation_view
+#: model_terms:ir.ui.view,arch_db:medical_gyneco.medical_puerperium_monitor_view
+msgid "General Info"
+msgstr "Información general"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_prenatal_evaluation__gestational_weeks
+msgid "Gestational Weeks"
+msgstr "Semanas de gestación"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_prenatal_evaluation__gestational_days
+msgid "Gestational days"
+msgstr "Días de gestación"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_perinatal__gestational_weeks
+msgid "Gestational wks"
+msgstr "Semanas gestacionales"
+
+#. module: medical_gyneco
+#: model_terms:ir.ui.view,arch_db:medical_gyneco.medical_patient_view
+msgid "Ginecology"
+msgstr "Ginecología"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_perinatal__gravida_number
+msgid "Gravida #"
+msgstr "Embarazada #"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,help:medical_gyneco.field_medical_patient__gpa
+msgid ""
+"Gravida, Para, Abortus Notation. For example G4P3A1 : 4 Pregnancies, 3 "
+"viable and 1 abortion"
+msgstr ""
+
+#. module: medical_gyneco
+#: model_terms:ir.ui.view,arch_db:medical_gyneco.medical_patient_view
+msgid "Gynecological Info"
+msgstr "Información Ginecológica"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_prenatal_evaluation__fetal_hc
+msgid "HC"
+msgstr ""
+
+#. module: medical_gyneco
+#: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_patient_pap_history__result__c4
+msgid "HSIL"
+msgstr ""
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_pregnancy__hb
+msgid "Hb"
+msgstr ""
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_puerperium_monitor__frequency
+msgid "Heart Frequency"
+msgstr "Frecuencia cardiaca"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_perinatal__hematoma
+msgid "Hematoma"
+msgstr "Hematoma"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_pregnancy__home_birth
+#: model:ir.model.fields,help:medical_gyneco.field_medical_patient_pregnancy__home_birth
+msgid "Home Birth"
+msgstr "Nacimiento en casa"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_prenatal_evaluation__hypertension
+msgid "Hypertension"
+msgstr "Hipertensión"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient__id
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_colposcopy_history__id
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_mammography_history__id
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_menstrual_history__id
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_pap_history__id
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_pregnancy__id
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_prenatal_evaluation__id
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_perinatal__id
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_perinatal_monitor__id
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_puerperium_monitor__id
+msgid "ID"
+msgstr ""
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_pregnancy__iugr
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_prenatal_evaluation__iugr
+msgid "IUGR"
+msgstr ""
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_perinatal__placenta_incomplete
+msgid "Incomplete"
+msgstr "Incompleto"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,help:medical_gyneco.field_medical_perinatal__placenta_incomplete
+msgid "Incomplete Placenta"
+msgstr "Placenta incompleta"
+
+#. module: medical_gyneco
+#: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_patient_prenatal_evaluation__invasive_placentation__increta
+msgid "Increta"
+msgstr ""
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_colposcopy_history__institution
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_mammography_history__institution
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_menstrual_history__institution
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_pap_history__institution
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_pregnancy__institution
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_prenatal_evaluation__institution
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_perinatal__institution
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_puerperium_monitor__institution
+msgid "Institution"
+msgstr "Institución"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,help:medical_gyneco.field_medical_patient_prenatal_evaluation__iugr
+msgid "Intra Uterine Growth Restriction"
+msgstr "Restricción del crecimiento intrauterino"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_menstrual_history__lmp
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_pregnancy__lmp
+msgid "LMP"
+msgstr ""
+
+#. module: medical_gyneco
+#: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_patient_pap_history__result__c3
+msgid "LSIL"
+msgstr ""
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_perinatal__laceration
+msgid "Lacerations"
+msgstr "Laceraciones"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,help:medical_gyneco.field_medical_patient_mammography_history__last_mammography
+msgid "Last Mammography"
+msgstr "Última mamografía"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,help:medical_gyneco.field_medical_patient_menstrual_history__lmp
+#: model:ir.model.fields,help:medical_gyneco.field_medical_patient_pregnancy__lmp
+msgid "Last Menstrual Period"
+msgstr "El último periodo menstrual"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient____last_update
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_colposcopy_history____last_update
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_mammography_history____last_update
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_menstrual_history____last_update
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_pap_history____last_update
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_pregnancy____last_update
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_prenatal_evaluation____last_update
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_perinatal____last_update
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_perinatal_monitor____last_update
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_puerperium_monitor____last_update
+msgid "Last Modified on"
+msgstr "Última modificación el"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient__pap_test_last
+msgid "Last PAP test"
+msgstr "Última prueba de Papanicolaou"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,help:medical_gyneco.field_medical_patient_pap_history__last_pap
+msgid "Last Papanicolau"
+msgstr "Última prueba de Papanicolaou"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_colposcopy_history__write_uid
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_mammography_history__write_uid
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_menstrual_history__write_uid
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_pap_history__write_uid
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_pregnancy__write_uid
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_prenatal_evaluation__write_uid
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_perinatal__write_uid
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_perinatal_monitor__write_uid
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_puerperium_monitor__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_colposcopy_history__write_date
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_mammography_history__write_date
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_menstrual_history__write_date
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_pap_history__write_date
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_pregnancy__write_date
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_prenatal_evaluation__write_date
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_perinatal__write_date
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_perinatal_monitor__write_date
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_puerperium_monitor__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient__colposcopy_last
+#: model:ir.model.fields,help:medical_gyneco.field_medical_patient_colposcopy_history__last_colposcopy
+msgid "Last colposcopy"
+msgstr "Última colposcopia"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient__mammography_last
+msgid "Last mammography"
+msgstr "Última mamografía"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_menstrual_history__lmp_length
+msgid "Length"
+msgstr "Longitud"
+
+#. module: medical_gyneco
+#: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_patient_pregnancy__pregnancy_end_result__live_birth
+msgid "Live birth"
+msgstr "Nacimiento vivo"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_puerperium_monitor__lochia_amount
+msgid "Lochia amount"
+msgstr "Cantidad de loquios"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_puerperium_monitor__lochia_color
+msgid "Lochia color"
+msgstr "Color de los loquios"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_puerperium_monitor__lochia_odor
+msgid "Lochia odor"
+msgstr "Olor a loquios"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient__mammography
+#: model_terms:ir.ui.view,arch_db:medical_gyneco.medical_mammography_history_view
+msgid "Mammography"
+msgstr "Mamografía"
+
+#. module: medical_gyneco
+#: model:ir.model,name:medical_gyneco.model_medical_patient_mammography_history
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient__mammography_history
+#: model_terms:ir.ui.view,arch_db:medical_gyneco.medical_patient_view
+msgid "Mammography History"
+msgstr "Historia de la mamografía"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_perinatal_monitor__meconium
+msgid "Meconium"
+msgstr "Meconio"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient__menarche
+msgid "Menarche age"
+msgstr "Edad de la menarquia"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient__menopausal
+msgid "Menopausal"
+msgstr "Menopáusico"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient__menopause
+msgid "Menopause age"
+msgstr "Edad de la menopausia"
+
+#. module: medical_gyneco
+#: model:ir.model,name:medical_gyneco.model_medical_patient_menstrual_history
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient__menstrual_history
+#: model_terms:ir.ui.view,arch_db:medical_gyneco.medical_menstrual_history_view
+#: model_terms:ir.ui.view,arch_db:medical_gyneco.medical_patient_view
+msgid "Menstrual History"
+msgstr "Historial menstrual"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_perinatal__monitoring
+#: model_terms:ir.ui.view,arch_db:medical_gyneco.medical_perinatal_view
+msgid "Monitors"
+msgstr "Monitores"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_pregnancy__monozygotic
+msgid "Monozygotic"
+msgstr "Monocigótico"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_perinatal_monitor__frequency
+msgid "Mother's Heart Frequency"
+msgstr "Frecuencia cardíaca de la madre"
+
+#. module: medical_gyneco
+#: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_patient_pap_history__result__negative
+msgid "Negative"
+msgstr "Negativo"
+
+#. module: medical_gyneco
+#: model_terms:ir.actions.act_window,help:medical_gyneco.gyneco_pregnancy_action
+msgid "No patient registered"
+msgstr "Ningún paciente registrado"
+
+#. module: medical_gyneco
+#: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_patient_prenatal_evaluation__invasive_placentation__normal
+msgid "Normal decidua"
+msgstr "Decidua normal"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_prenatal_evaluation__notes
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_perinatal__notes
+#: model_terms:ir.ui.view,arch_db:medical_gyneco.medical_perinatal_view
+#: model_terms:ir.ui.view,arch_db:medical_gyneco.medical_prenatal_evaluation_view
+msgid "Notes"
+msgstr "Notas"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,help:medical_gyneco.field_medical_patient__deaths_2nd_week
+msgid "Number of babies that die after the second week"
+msgstr "Número de bebés que mueren después de la segunda semana."
+
+#. module: medical_gyneco
+#: model:ir.model.fields,help:medical_gyneco.field_medical_patient__deaths_1st_week
+msgid "Number of babies that die in the first week"
+msgstr "Número de bebés que mueren después de la primera semana."
+
+#. module: medical_gyneco
+#: model:ir.model.fields,help:medical_gyneco.field_medical_patient__gravida
+#: model:ir.model.fields,help:medical_gyneco.field_medical_patient_pregnancy__gravidae
+msgid "Number of pregnancies, computed from Obstetric history"
+msgstr "Número de embarazos, calculado a partir de la historia obstétrica"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,help:medical_gyneco.field_medical_perinatal__prenatal_evaluations
+msgid "Number of visits to the doctor during pregnancy"
+msgstr "Número de visitas al médico durante el embarazo."
+
+#. module: medical_gyneco
+#: model:ir.model.fields,help:medical_gyneco.field_medical_patient_pregnancy__reverse_weeks
+msgid ""
+"Number of weeks at         the end of pregnancy. Used only with the reverse "
+"input method."
+msgstr "Número de semanas al final del embarazo. Se usa solo con el reverso método de entrada."
+
+#. module: medical_gyneco
+#: model:ir.actions.act_window,name:medical_gyneco.gyneco_pregnancy_action
+#: model:ir.ui.menu,name:medical_gyneco.gyneco_pregnancy_menu
+#: model:ir.ui.menu,name:medical_gyneco.gyneco_root_menu
+msgid "Obstetrics"
+msgstr "Obstetricia"
+
+#. module: medical_gyneco
+#: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_perinatal_monitor__fetus_position__o
+msgid "Occiput / Cephalic Posterior"
+msgstr "Occipucio / Cefálico Posterior"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_prenatal_evaluation__oligohydramnios
+msgid "Oligohydramnios"
+msgstr "Oligohidramnios"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_prenatal_evaluation__overweight
+msgid "Overweight"
+msgstr "Exceso de peso"
+
+#. module: medical_gyneco
+#: model:ir.model,name:medical_gyneco.model_medical_patient_pap_history
+#: model_terms:ir.ui.view,arch_db:medical_gyneco.medical_pap_history_view
+msgid "PAP Test History"
+msgstr "Historial de la prueba PAP"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient__pap_history
+#: model_terms:ir.ui.view,arch_db:medical_gyneco.medical_patient_view
+msgid "PAP smear History"
+msgstr "Historial de frotis de Papanicolaou"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient__pap_test
+msgid "PAP test"
+msgstr "Citología vaginal"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_colposcopy_history__name
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_mammography_history__name
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_menstrual_history__name
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_pap_history__name
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_pregnancy__name
+msgid "Patient"
+msgstr "Paciente"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_prenatal_evaluation__evaluation
+#: model_terms:ir.ui.view,arch_db:medical_gyneco.medical_prenatal_evaluation_view
+msgid "Patient Evaluation"
+msgstr "Evaluación del paciente"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_perinatal_monitor__name
+msgid "Patient Perinatal Evaluation"
+msgstr "Evaluación perinatal del paciente"
+
+#. module: medical_gyneco
+#: model:ir.model,name:medical_gyneco.model_medical_patient_pregnancy
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_prenatal_evaluation__name
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_perinatal__name
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_puerperium_monitor__name
+msgid "Patient Pregnancy"
+msgstr "Embarazo de la paciente"
+
+#. module: medical_gyneco
+#: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_patient_prenatal_evaluation__invasive_placentation__percreta
+msgid "Percreta"
+msgstr ""
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient__perinatal
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_pregnancy__perinatal
+#: model_terms:ir.ui.view,arch_db:medical_gyneco.medical_patient_pregnancy_view
+#: model_terms:ir.ui.view,arch_db:medical_gyneco.medical_patient_view
+msgid "Perinatal Info"
+msgstr "Información perinatal"
+
+#. module: medical_gyneco
+#: model:ir.model,name:medical_gyneco.model_medical_perinatal
+msgid "Perinatal Information"
+msgstr "Información perinatal"
+
+#. module: medical_gyneco
+#: model:ir.model,name:medical_gyneco.model_medical_perinatal_monitor
+#: model_terms:ir.ui.view,arch_db:medical_gyneco.medical_perinatal_monitor_view
+#: model_terms:ir.ui.view,arch_db:medical_gyneco.medical_perinatal_view
+msgid "Perinatal Monitor"
+msgstr "Monitor perinatal"
+
+#. module: medical_gyneco
+#: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_perinatal__laceration__perineal
+msgid "Perineal"
+msgstr ""
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_prenatal_evaluation__placenta_previa
+msgid "Placenta Previa"
+msgstr ""
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_prenatal_evaluation__invasive_placentation
+msgid "Placentation"
+msgstr "Placentación"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,help:medical_gyneco.field_medical_patient_pap_history__result
+msgid "Please check the lab results if the module is installed"
+msgstr "Compruebe los resultados del laboratorio si el módulo está instalado"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,help:medical_gyneco.field_medical_patient_colposcopy_history__result
+#: model:ir.model.fields,help:medical_gyneco.field_medical_patient_mammography_history__result
+msgid "Please check the lab test results if the module is installed"
+msgstr "Verifique los resultados de las pruebas de laboratorio si el módulo está instalado"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_prenatal_evaluation__polihydramnios
+msgid "Polihydramnios"
+msgstr "Polihidramnios"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_pregnancy__reverse_weeks
+msgid "Pr. Weeks"
+msgstr "Pr. Semanas"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_prenatal_evaluation__preeclampsia
+msgid "Preeclampsia"
+msgstr ""
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient__gravida
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient__pregnancy_history
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_pregnancy__gravidae
+msgid "Pregnancies"
+msgstr "Embarazos"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_pregnancy__gravida
+msgid "Pregnancy #"
+msgstr "Embarazo #"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_pregnancy__pdd
+msgid "Pregnancy Due Date"
+msgstr "Fecha de vencimiento del embarazo"
+
+#. module: medical_gyneco
+#: model_terms:ir.ui.view,arch_db:medical_gyneco.medical_patient_view
+msgid "Pregnancy History"
+msgstr "Historial de embarazo"
+
+#. module: medical_gyneco
+#: model_terms:ir.ui.view,arch_db:medical_gyneco.medical_patient_pregnancy_view
+msgid "Pregnancy Info"
+msgstr "Información de embarazo"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_pregnancy__warning_icon
+msgid "Pregnancy warning icon"
+msgstr "Icono de advertencia de embarazo"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient__currently_pregnant
+msgid "Pregnant"
+msgstr "Embarazada"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient__premature
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_pregnancy__premature
+msgid "Premature"
+msgstr "Prematuro"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_pregnancy__prenatal_evaluations
+#: model_terms:ir.ui.view,arch_db:medical_gyneco.medical_patient_pregnancy_view
+msgid "Prenatal Evaluations"
+msgstr "Evaluaciones prenatales"
+
+#. module: medical_gyneco
+#: model_terms:ir.ui.view,arch_db:medical_gyneco.medical_prenatal_evaluation_view
+msgid "Prenatal Monitor"
+msgstr "Monitor prenatal"
+
+#. module: medical_gyneco
+#: model:ir.model,name:medical_gyneco.model_medical_patient_prenatal_evaluation
+msgid "Prenatal and Antenatal Evaluations"
+msgstr "Evaluaciones prenatales y prenatales"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_perinatal__prenatal_evaluations
+msgid "Prenatal evaluations"
+msgstr "Evaluaciones prenatales"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,help:medical_gyneco.field_medical_patient__premature
+#: model:ir.model.fields,help:medical_gyneco.field_medical_patient_pregnancy__premature
+msgid "Preterm < 37 wks live births"
+msgstr "Nacimientos vivos prematuros < 37 semanas"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_colposcopy_history__last_colposcopy
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_mammography_history__last_mammography
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_pap_history__last_pap
+msgid "Previous"
+msgstr "Previo"
+
+#. module: medical_gyneco
+#: model:ir.model,name:medical_gyneco.model_medical_puerperium_monitor
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_pregnancy__puerperium_monitor
+#: model_terms:ir.ui.view,arch_db:medical_gyneco.medical_patient_pregnancy_view
+#: model_terms:ir.ui.view,arch_db:medical_gyneco.medical_puerperium_monitor_view
+msgid "Puerperium Monitor"
+msgstr "Monitor de puerperio"
+
+#. module: medical_gyneco
+#: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_perinatal__laceration__rectal
+msgid "Rectal"
+msgstr "Rectal"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_menstrual_history__is_regular
+msgid "Regular"
+msgstr "Regular"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_colposcopy_history__comments
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_mammography_history__comments
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_pap_history__comments
+#: model_terms:ir.ui.view,arch_db:medical_gyneco.medical_colposcopy_history_view
+#: model_terms:ir.ui.view,arch_db:medical_gyneco.medical_mammography_history_view
+#: model_terms:ir.ui.view,arch_db:medical_gyneco.medical_pap_history_view
+msgid "Remarks"
+msgstr "Observaciones"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_pregnancy__pregnancy_end_result
+msgid "Result"
+msgstr "Resultado"
+
+#. module: medical_gyneco
+#: model_terms:ir.ui.view,arch_db:medical_gyneco.medical_patient_view
+msgid "Resumed"
+msgstr "Reanudada"
+
+#. module: medical_gyneco
+#: model_terms:ir.ui.view,arch_db:medical_gyneco.medical_patient_pregnancy_view
+msgid "Resumed Info"
+msgstr "Información reanudada"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_perinatal__placenta_retained
+msgid "Retained"
+msgstr "Retenida"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,help:medical_gyneco.field_medical_perinatal__placenta_retained
+msgid "Retained Placenta"
+msgstr "Placenta retenida"
+
+#. module: medical_gyneco
+#: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_perinatal__hematoma__retroperitoneal
+msgid "Retroperitoneal"
+msgstr "Retroperitoneal"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_pregnancy__reverse
+msgid "Reverse"
+msgstr "Inverso"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_pregnancy__rh
+msgid "Rh"
+msgstr ""
+
+#. module: medical_gyneco
+#: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_patient_pregnancy__hb__sc
+msgid "SC"
+msgstr ""
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_prenatal_evaluation__digestive_activity_signs
+msgid "SDA"
+msgstr ""
+
+#. module: medical_gyneco
+#: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_patient_pregnancy__hb__ss
+msgid "SS"
+msgstr ""
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_prenatal_evaluation__urinary_activity_signs
+msgid "SUA"
+msgstr ""
+
+#. module: medical_gyneco
+#: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_perinatal__fetus_presentation__shoulder
+msgid "Shoulder"
+msgstr "Hombro"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,help:medical_gyneco.field_medical_patient_prenatal_evaluation__digestive_activity_signs
+msgid "Signs of Digestive Systen Activity"
+msgstr "Signos de actividad del sistema digestivo"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,help:medical_gyneco.field_medical_patient_prenatal_evaluation__urinary_activity_signs
+msgid "Signs of Urinary System Activity"
+msgstr "Signos de actividad del sistema urinario"
+
+#. module: medical_gyneco
+#: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_patient_pregnancy__pregnancy_end_result__status_unknown
+msgid "Status unknown"
+msgstr "Estado desconocido"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_perinatal__stillbirth
+#: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_patient_pregnancy__pregnancy_end_result__stillbirth
+msgid "Stillbirth"
+msgstr "Nacimiento de un niño muerto"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient__stillbirths
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_pregnancy__stillbirths
+msgid "Stillbirths"
+msgstr "Mortinatos"
+
+#. module: medical_gyneco
+#: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_patient_pregnancy__iugr__symmetric
+msgid "Symmetric"
+msgstr "Simétrico"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_perinatal_monitor__systolic
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_puerperium_monitor__systolic
+msgid "Systolic Pressure"
+msgstr "Presión sistólica"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_puerperium_monitor__temperature
+msgid "Temperature"
+msgstr "Temperatura"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,help:medical_gyneco.field_medical_patient_pregnancy__current_pregnancy
+msgid "This field marks the current pregnancy"
+msgstr "Este campo marca el embarazo actual"
+
+#. module: medical_gyneco
+#: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_perinatal__laceration__urethral
+msgid "Urethral"
+msgstr "Uretral"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,help:medical_gyneco.field_medical_patient_pregnancy__reverse
+msgid ""
+"Use this method *only* when the         pregnancy information is referred by"
+" the patient, as a history taking         procedure. Please keep in mind "
+"that the reverse pregnancy data is         subjective"
+msgstr ""
+"Utilice este método * solo * cuando la información sobre el embarazo sea referida por"
+"el paciente, como un procedimiento de toma de antecedentes. Por favor, tenga en cuenta"
+"que los datos inversos del embarazo son subjetivos"
+
+#. module: medical_gyneco
+#: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_perinatal__hematoma__vaginal
+#: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_perinatal__laceration__vaginal
+msgid "Vaginal"
+msgstr "Vaginal"
+
+#. module: medical_gyneco
+#: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_perinatal__start_labor_mode__vf
+msgid "Vaginal - Forceps Extraction"
+msgstr "Vaginal - Extracción con fórceps"
+
+#. module: medical_gyneco
+#: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_perinatal__start_labor_mode__v
+msgid "Vaginal - Spontaneous"
+msgstr "Vaginal - Espontáneo"
+
+#. module: medical_gyneco
+#: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_perinatal__start_labor_mode__ve
+msgid "Vaginal - Vacuum Extraction"
+msgstr "Vaginal - Extracción al vacío"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_perinatal__vaginal_tearing
+msgid "Vaginal tearing"
+msgstr "Desgarro vaginal"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_prenatal_evaluation__vasa_previa
+msgid "Vasa Previa"
+msgstr ""
+
+#. module: medical_gyneco
+#: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_perinatal__hematoma__vulvar
+#: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_perinatal__laceration__vulvar
+msgid "Vulvar"
+msgstr ""
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_pregnancy__warning
+msgid "Warn"
+msgstr "Advertir"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_pregnancy__pregnancy_end_age
+msgid "Weeks"
+msgstr "Semanas"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,help:medical_gyneco.field_medical_patient_pregnancy__pregnancy_end_age
+msgid "Weeks at the end of pregnancy"
+msgstr "Semanas al final del embarazo"
+
+#. module: medical_gyneco
+#: model_terms:ir.actions.act_window,help:medical_gyneco.gyneco_pregnancy_action
+msgid "You can add some pregnancy patient"
+msgstr "Puedes agregar alguna paciente embarazada"
+
+#. module: medical_gyneco
+#: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_patient_colposcopy_history__result__abnormal
+#: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_patient_mammography_history__result__abnormal
+msgid "abnormal"
+msgstr "anormal"
+
+#. module: medical_gyneco
+#: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_puerperium_monitor__lochia_amount__e
+msgid "abundant"
+msgstr "abundante"
+
+#. module: medical_gyneco
+#: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_puerperium_monitor__lochia_color__a
+msgid "alba"
+msgstr "alba"
+
+#. module: medical_gyneco
+#: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_patient_menstrual_history__frequency__amenorrhea
+msgid "amenorrhea"
+msgstr "amenorrea"
+
+#. module: medical_gyneco
+#: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_patient_menstrual_history__frequency__eumenorrhea
+msgid "eumenorrhea"
+msgstr "eumenorrea"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_menstrual_history__frequency
+msgid "frequency"
+msgstr "frecuencia"
+
+#. module: medical_gyneco
+#: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_puerperium_monitor__lochia_amount__h
+msgid "hemorrhage"
+msgstr "hemorragia"
+
+#. module: medical_gyneco
+#: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_patient_menstrual_history__volume__hypomenorrhea
+msgid "hypomenorrhea"
+msgstr "hipomenorrea"
+
+#. module: medical_gyneco
+#: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_patient_menstrual_history__volume__menorrhagia
+msgid "menorrhagia"
+msgstr "menorragia"
+
+#. module: medical_gyneco
+#: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_patient_colposcopy_history__result__normal
+#: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_patient_mammography_history__result__normal
+#: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_patient_menstrual_history__volume__normal
+#: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_puerperium_monitor__lochia_amount__n
+#: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_puerperium_monitor__lochia_odor__n
+msgid "normal"
+msgstr "normal"
+
+#. module: medical_gyneco
+#: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_puerperium_monitor__lochia_odor__o
+msgid "offensive"
+msgstr "ofensivo"
+
+#. module: medical_gyneco
+#: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_patient_menstrual_history__frequency__oligomenorrhea
+msgid "oligomenorrhea"
+msgstr "oligomenorrea"
+
+#. module: medical_gyneco
+#: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_patient_menstrual_history__frequency__polymenorrhea
+msgid "polymenorrhea"
+msgstr "polimenorrea"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_colposcopy_history__result
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_mammography_history__result
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_pap_history__result
+msgid "result"
+msgstr "resultado"
+
+#. module: medical_gyneco
+#: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_puerperium_monitor__lochia_color__r
+msgid "rubra"
+msgstr "rubra"
+
+#. module: medical_gyneco
+#: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_puerperium_monitor__lochia_color__s
+msgid "serosa"
+msgstr "serosa"
+
+#. module: medical_gyneco
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_menstrual_history__volume
+msgid "volume"
+msgstr "volumen"

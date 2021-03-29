@@ -117,7 +117,7 @@
                             <page name="general_info" string="General Info">
                                 <group>
                                     <group>
-                                        <!-- <field name="name"/> -->
+                                        <field name="name"/>
                                         <field name="institution"/>
                                         <field name="evaluation_date"/>
                                         <field name="gestational_weeks"/>
@@ -254,7 +254,7 @@
                             <page name="general_info" string="General Info">
                                 <group>
                                     <group>
-                                        <!-- <field name="name"/> -->
+                                        <field name="name"/>
                                         <field name="institution"/>
                                         <field name="date"/>
                                         <field name="systolic"/>
@@ -300,7 +300,7 @@
                             <page name="general_info" string="General Info">
                                 <group>
                                     <group>
-                                        <!-- <field name="name"/> -->
+                                        <field name="name"/>
                                         <field name="date"/>
                                         <field name="systolic"/>
                                         <field name="diastolic"/>

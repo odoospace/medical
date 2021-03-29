@@ -557,6 +557,12 @@ class Perinatal(models.Model):
         comodel_name='medical.patient.pregnancy',
         string='Patient Pregnancy'
     )
+    name_patient = fields.Many2one(
+        comodel_name='medical.patient',
+        string='Patient',
+        readonly=True,
+        required=True
+    )
     admission_code = fields.Char(
         string='Code'
     )
@@ -705,9 +711,12 @@ class Perinatal(models.Model):
         return res
 
     def get_perinatal_information(self):
-        gestational_age = datetime.datetime.date(
-            self.admission_date) - self.name.lmp
-        self.gestational_weeks = (gestational_age.days) / 7
+        gestional_weeks = 0
+        if self.admission_date and self.name and self.name.lmp:
+            gestational_age = datetime.date(
+                self.admission_date) - self.name.lmp
+            gestional_weeks = (gestational_age.days) / 7
+        self.gestational_weeks = gestional_weeks
 
 
 class PerinatalMonitor(models.Model):
@@ -860,12 +869,12 @@ class MedicalPatient(models.Model):
     )
     perinatal = fields.One2many(
         comodel_name='medical.perinatal',
-        inverse_name='name',
+        inverse_name='name_patient',
         string='Perinatal Info'
     )
     menstrual_history = fields.One2many(
         comodel_name='medical.patient.menstrual_history',
-        inverse_name='patient_id',
+        inverse_name='name',
         string='Menstrual History'
     )
     mammography_history = fields.One2many(
@@ -932,7 +941,7 @@ class PatientMenstrualHistory(models.Model):
     _name = 'medical.patient.menstrual_history'
     _description = 'Menstrual History'
 
-    patient_id = fields.Many2one(
+    name = fields.Many2one(
         comodel_name='medical.patient',
         string='Patient',
         readonly=True,
@@ -1029,11 +1038,7 @@ class PatientMammographyHistory(models.Model):
     )
     evaluation = fields.Many2one(
         comodel_name='medical.patient.evaluation',
-        string='Evaluation',
-        domain=[
-            ('patient', '=', 'name')
-        ],
-        depends=['name']
+        string='Evaluation'
     )
     evaluation_date = fields.Date(
         string='Date',
@@ -1105,11 +1110,7 @@ class PatientPAPHistory(models.Model):
     )
     evaluation = fields.Many2one(
         comodel_name='medical.patient.evaluation',
-        string='Evaluation',
-        domain=[
-            ('patient', '=', 'name')
-        ],
-        depends=['name']
+        string='Evaluation'
     )
     evaluation_date = fields.Date(
         string='Date',
@@ -1186,11 +1187,7 @@ class PatientColposcopyHistory(models.Model):
     )
     evaluation = fields.Many2one(
         comodel_name='medical.patient.evaluation',
-        string='Evaluation',
-        domain=[
-            ('patient', '=', 'name')
-        ],
-        depends=['name']
+        string='Evaluation'
     )
     evaluation_date = fields.Date(
         string='Date',

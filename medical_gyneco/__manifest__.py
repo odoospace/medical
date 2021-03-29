@@ -25,7 +25,7 @@
     'website': "https://www.gnuhealth.org",
     'category': 'Medical',
     'version': '13.0.1',
-    'depends': ['base', 'medical', 'medical_extras'],
+    'depends': ['base', 'medical', 'medical_extras', 'medical_inpatient'],
     'data': [
         'security/ir.model.access.csv',
         'views/medical_gyneco_view.xml',

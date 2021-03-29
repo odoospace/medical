@@ -255,10 +255,6 @@ class PatientPregnancy(models.Model):
     #         self.raise_user_error('patient_already_pregnant')
 
     @api.model
-    def default_current_pregnancy():
-        return True
-
-    @api.model
     def default_institution(self):
         HealthInst = self.env['res.partner']
         institution = HealthInst.get_institution()
@@ -279,12 +275,14 @@ class PatientPregnancy(models.Model):
 
     def patient_age_at_pregnancy(self):
         for rec in self:
+            computed_age = '0'
             if (rec.name.birthdate_date and rec.lmp):
                 rdelta = relativedelta(
                     rec.lmp,
                     rec.name.birthdate_date
                 )
-                rec.computed_age = str(rdelta.years)
+                computed_age = str(rdelta.years)
+            rec.computed_age = computed_age
 
     def get_pregnancy_data(self):
         for rec in self:
@@ -693,6 +691,12 @@ class Perinatal(models.Model):
     @api.model
     def default_get(self, fields):
         res = super(Perinatal, self).default_get(fields)
+        if res and res.get('name'):
+            res.update(
+                {
+                    'name': False
+                }
+            )
         res.update(
             {
                 'admission_date': datetime.now()
@@ -861,7 +865,7 @@ class MedicalPatient(models.Model):
     )
     menstrual_history = fields.One2many(
         comodel_name='medical.patient.menstrual_history',
-        inverse_name='name',
+        inverse_name='patient_id',
         string='Menstrual History'
     )
     mammography_history = fields.One2many(
@@ -928,7 +932,7 @@ class PatientMenstrualHistory(models.Model):
     _name = 'medical.patient.menstrual_history'
     _description = 'Menstrual History'
 
-    name = fields.Many2one(
+    patient_id = fields.Many2one(
         comodel_name='medical.patient',
         string='Patient',
         readonly=True,
@@ -937,10 +941,6 @@ class PatientMenstrualHistory(models.Model):
     evaluation = fields.Many2one(
         comodel_name='medical.patient.evaluation',
         string='Evaluation',
-        domain=[
-            ('patient', '=', 'name')
-        ],
-        depends=['name']
     )
     evaluation_date = fields.Date(
         string='Date',
@@ -1008,20 +1008,13 @@ class PatientMenstrualHistory(models.Model):
     @api.model
     def default_get(self, fields):
         res = super(PatientMenstrualHistory, self).default_get(fields)
+
         res.update(
             {
                 'evaluation_date': datetime.now()
             }
         )
         return res
-
-    @api.model
-    def default_frequency():
-        return 'eumenorrhea'
-
-    @api.model
-    def default_volume():
-        return 'normal'
 
 
 class PatientMammographyHistory(models.Model):

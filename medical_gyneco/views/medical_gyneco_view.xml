@@ -346,7 +346,7 @@
                         <notebook>
                             <page name="general_info" string="General Info">
                                 <group>
-                                    <field name="name"/>
+                                    <field name="patient_id"/>
                                     <field name="institution"/>
                                     <field name="evaluation_date"/>
                                     <field name="lmp"/>
@@ -374,7 +374,7 @@
             <field name="name">medical_menstrual_history_tree</field>
             <field name="arch" type="xml">
                 <tree>
-                    <field name="name"/>
+                    <field name="patient_id"/>
                     <field name="lmp"/>
                 </tree>
             </field>
@@ -553,7 +553,7 @@
                             </page>
                             <page name="menstrual_history" string="Menstrual History">
                                 <field name="menstrual_history"
-                                       context="{'default_name': id}"/>
+                                       context="{'default_patient_id': active_id}"/>
                             </page>
                             <page name="mammography_history" string="Mammography History"
                                   attrs="{'invisible': [('mammography','=', False)]}">

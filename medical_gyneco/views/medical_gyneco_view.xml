@@ -431,7 +431,7 @@
                         <notebook>
                             <page name="general_info" string="General Info">
                                 <group>
-                                    <!-- <field name="name"/> -->
+                                    <!-- <field name="patient_id"/> -->
                                     <field name="institution"/>
                                     <field name="evaluation_date"/>
                                     <field name="last_mammography"/>
@@ -456,7 +456,7 @@
             <field name="name">medical_mammography_history_tree</field>
             <field name="arch" type="xml">
                 <tree>
-                    <field name="name"/>
+                    <field name="patient_id"/>
                     <field name="result"/>
                 </tree>
             </field>
@@ -558,7 +558,7 @@
                             <page name="mammography_history" string="Mammography History"
                                   attrs="{'invisible': [('mammography','=', False)]}">
                                 <field name="mammography_history"
-                                       context="{'default_name': id}"/>
+                                       context="{'default_patient_id': id}"/>
                             </page>
                             <page name="pap_history" string="PAP smear History"
                                   attrs="{'invisible': [('pap_test','=', False)]}">

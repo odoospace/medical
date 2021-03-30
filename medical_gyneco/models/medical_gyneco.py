@@ -810,7 +810,7 @@ class MedicalPatient(models.Model):
     )
     colposcopy_history = fields.One2many(
         comodel_name='medical.patient.colposcopy_history',
-        inverse_name='name',
+        inverse_name='patient_id',
         string='Colposcopy History'
     )
     pregnancy_history = fields.One2many(
@@ -1070,7 +1070,7 @@ class PatientColposcopyHistory(models.Model):
     _name = 'medical.patient.colposcopy_history'
     _description = 'Colposcopy History'
 
-    name = fields.Many2one(
+    patient_id = fields.Many2one(
         comodel_name='medical.patient',
         string='Patient',
         readonly=True,
@@ -1110,21 +1110,11 @@ class PatientColposcopyHistory(models.Model):
         ]
     )
 
-    # healthprof = fields.Many2one(
-    #     'gnuhealth.healthprofessional', 'Reviewed', readonly=True,
-    #     help="Health Professional who last reviewed the test")
-
     @api.model
     def default_institution(self):
         HealthInst = self.env['res.partner']
         institution = HealthInst.get_institution()
         return institution
-
-    # @staticmethod
-    # def default_healthprof():
-    #     pool = Pool()
-    #     HealthProf = pool.get('gnuhealth.healthprofessional')
-    #     return HealthProf.get_health_professional()
 
     @api.model
     def default_get(self, fields):

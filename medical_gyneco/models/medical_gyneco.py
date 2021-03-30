@@ -30,7 +30,7 @@ class PatientPregnancy(models.Model):
     _name = 'medical.patient.pregnancy'
     _description = 'Patient Pregnancy'
 
-    name = fields.Many2one(
+    patient_id = fields.Many2one(
         'medical.patient',
         'Patient',
         domain=[
@@ -144,13 +144,6 @@ class PatientPregnancy(models.Model):
             ('is_institution', '=', True)
         ]
     )
-    # TODO: Doctor Relation
-    # healthprof = fields.Many2one(
-    #     comodel_name='medical.healthprofessional',
-    #     string='Health Prof',
-    #     readonly=True,
-    #     help="Health Professional who created this initial obstetric record"
-    # )
     gravidae = fields.Integer(
         string='Pregnancies',
         help="Number of pregnancies, computed from Obstetric history",
@@ -205,66 +198,31 @@ class PatientPregnancy(models.Model):
     )
 
     def patient_obstetric_info(self):
-        self.gravidae = self.name.gravida
-        self.premature = self.name.premature
-        self.abortions = self.name.abortions
-        self.stillbirths = self.name.stillbirths
+        self.gravidae = self.patient_id.gravida
+        self.premature = self.patient_id.premature
+        self.abortions = self.patient_id.abortions
+        self.stillbirths = self.patient_id.stillbirths
 
     def patient_blood_info(self):
-        self.blood_type = self.name.blood_type
-        self.rh = self.name.rh
-        self.hb = self.name.hb
+        self.blood_type = self.patient_id.blood_type
+        self.rh = self.patient_id.rh
+        self.hb = self.patient_id.hb
 
-    @api.depends('name')
-    def on_change_name(self):
-        self.gravidae = self.name.gravida
-        self.premature = self.name.premature
-        self.abortions = self.name.abortions
-        self.stillbirths = self.name.stillbirths
-        self.blood_type = self.name.blood_type
-        self.rh = self.name.rh
-        self.hb = self.name.hb
-
-    # @classmethod
-    # def __setup__(self):
-    #     super(PatientPregnancy, self).__setup__()
-    #     t = self.__table__()
-    #     self._sql_constraints += [
-    #         ('gravida_uniq', Unique(t, t.name, t.gravida),
-    #             'This pregnancy code for this patient already exists'),
-    #     ]
-    #     self._order.insert(0, ('lmp', 'DESC'))
-    #     self._error_messages.update({
-    #         'patient_already_pregnant': 'Our records indicate that the patient'
-    #         ' is already pregnant !'})
-    # @classmethod
-    # def validate(self, pregnancies):
-    #     super(PatientPregnancy, self).validate(pregnancies)
-    #     for pregnancy in pregnancies:
-    #         pregnancy.check_patient_current_pregnancy()
-    # def check_patient_current_pregnancy(self):
-    #     ''' Check for only one current pregnancy in the patient '''
-    #     pregnancy = Table('gnuhealth_patient_pregnancy')
-    #     cursor = Transaction().connection.cursor()
-    #     patient_id = int(self.name.id)
-    #     cursor.execute(*pregnancy.select(Count(pregnancy.name),
-    #                                      where=(pregnancy.current_pregnancy == 'true') &
-    #                                      (pregnancy.name == patient_id)))
-    #     records = cursor.fetchone()[0]
-    #     if records > 1:
-    #         self.raise_user_error('patient_already_pregnant')
+    @api.depends('patient_id')
+    def on_change_patient_id(self):
+        self.gravidae = self.patient_id.gravida
+        self.premature = self.patient_id.premature
+        self.abortions = self.patient_id.abortions
+        self.stillbirths = self.patient_id.stillbirths
+        self.blood_type = self.patient_id.blood_type
+        self.rh = self.patient_id.rh
+        self.hb = self.patient_id.hb
 
     @api.model
     def default_institution(self):
         HealthInst = self.env['res.partner']
         institution = HealthInst.get_institution()
         return institution
-
-    # @staticmethod
-    # def default_healthprof():
-    #     pool = Pool()
-    #     HealthProf = pool.get('medical.healthprofessional')
-    #     return HealthProf.get_health_professional()
 
     @api.depends('reverse_weeks', 'pregnancy_end_date')
     def on_change_with_lmp(self):
@@ -276,10 +234,10 @@ class PatientPregnancy(models.Model):
     def patient_age_at_pregnancy(self):
         for rec in self:
             computed_age = '0'
-            if (rec.name.birthdate_date and rec.lmp):
+            if (rec.patient_id.birthdate_date and rec.lmp):
                 rdelta = relativedelta(
                     rec.lmp,
-                    rec.name.birthdate_date
+                    rec.patient_id.birthdate_date
                 )
                 computed_age = str(rdelta.years)
             rec.computed_age = computed_age
@@ -894,7 +852,7 @@ class MedicalPatient(models.Model):
     )
     pregnancy_history = fields.One2many(
         comodel_name='medical.patient.pregnancy',
-        inverse_name='name',
+        inverse_name='patient_id',
         string='Pregnancies'
     )
 

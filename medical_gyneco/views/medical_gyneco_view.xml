@@ -23,7 +23,7 @@
             <field name="arch" type="xml">
                 <form>
                     <group colspan="4">
-                        <field name="name"
+                        <field name="patient_id"
                                options="{'no_create_edit': True}"/>
                         <field name="computed_age"/>
                         <field name="lmp"/>
@@ -99,7 +99,7 @@
             <field name="model">medical.patient.pregnancy</field>
             <field name="arch" type="xml">
                 <tree>
-                    <field name="name"/>
+                    <field name="patient_id"/>
                     <field name="computed_age"/>
                     <field name="fetuses"/>
                 </tree>
@@ -572,7 +572,7 @@
                             </page>
                             <page name="pregnancy_history" string="Pregnancy History">
                                 <field name="pregnancy_history"
-                                       context="{'default_name': id}" readonly="1"/>
+                                       context="{'default_patient_id': id}" readonly="1"/>
                             </page>
                         </notebook>
                     </page>

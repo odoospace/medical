@@ -795,7 +795,7 @@ class MedicalPatient(models.Model):
     )
     menstrual_history = fields.One2many(
         comodel_name='medical.patient.menstrual_history',
-        inverse_name='name',
+        inverse_name='patient_id',
         string='Menstrual History'
     )
     mammography_history = fields.One2many(
@@ -862,7 +862,7 @@ class PatientMenstrualHistory(models.Model):
     _name = 'medical.patient.menstrual_history'
     _description = 'Menstrual History'
 
-    name = fields.Many2one(
+    patient_id = fields.Many2one(
         comodel_name='medical.patient',
         string='Patient',
         readonly=True,
@@ -919,21 +919,11 @@ class PatientMenstrualHistory(models.Model):
         ]
     )
 
-    # healthprof = fields.Many2one(
-    #     'medical.healthprofessional', 'Reviewed', readonly=True,
-    #     help="Health Professional who reviewed the information")
-
     @api.model
     def default_institution(self):
         HealthInst = self.env['res.partner']
         institution = HealthInst.get_institution()
         return institution
-
-    # @staticmethod
-    # def default_healthprof():
-    #     pool = Pool()
-    #     HealthProf = pool.get('medical.healthprofessional')
-    #     return HealthProf.get_health_professional()
 
     @api.model
     def default_get(self, fields):

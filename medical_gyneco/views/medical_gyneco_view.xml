@@ -374,7 +374,7 @@
             <field name="name">medical_menstrual_history_tree</field>
             <field name="arch" type="xml">
                 <tree>
-                    <field name="patient_id"/>
+                    <!-- <field name="patient_id"/> -->
                     <field name="lmp"/>
                 </tree>
             </field>
@@ -415,7 +415,7 @@
             <field name="name">medical_pap_history_tree</field>
             <field name="arch" type="xml">
                 <tree>
-                    <field name="patient_id"/>
+                    <!-- <field name="patient_id"/> -->
                     <field name="result"/>
                 </tree>
             </field>
@@ -456,7 +456,7 @@
             <field name="name">medical_mammography_history_tree</field>
             <field name="arch" type="xml">
                 <tree>
-                    <field name="patient_id"/>
+                    <!-- <field name="patient_id"/> -->
                     <field name="result"/>
                 </tree>
             </field>
@@ -497,7 +497,7 @@
             <field name="name">medical_colposcopy_history_tree</field>
             <field name="arch" type="xml">
                 <tree>
-                    <field name="patient_id"/>
+                    <!-- <field name="patient_id"/> -->
                     <field name="result"/>
                 </tree>
             </field>
@@ -572,7 +572,12 @@
                             </page>
                             <page name="pregnancy_history" string="Pregnancy History">
                                 <field name="pregnancy_history"
-                                       context="{'default_patient_id': id}" readonly="1"/>
+                                       context="{'default_patient_id': id}" readonly="1">
+                                    <tree>
+                                        <field name="computed_age"/>
+                                        <field name="fetuses"/>
+                                    </tree>
+                                </field>
                             </page>
                         </notebook>
                     </page>

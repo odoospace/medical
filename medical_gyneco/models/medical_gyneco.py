@@ -87,7 +87,7 @@ class PatientPregnancy(models.Model):
     )
     puerperium_monitor = fields.One2many(
         comodel_name='medical.puerperium.monitor',
-        inverse_name='name',
+        inverse_name='patient_pregnancy_id',
         string='Puerperium Monitor'
     )
     current_pregnancy = fields.Boolean(
@@ -403,7 +403,7 @@ class PuerperiumMonitor(models.Model):
     _name = 'medical.puerperium.monitor'
     _description = 'Puerperium Monitor'
 
-    name = fields.Many2one(
+    patient_pregnancy_id = fields.Many2one(
         comodel_name='medical.patient.pregnancy',
         string='Patient Pregnancy'
     )
@@ -464,24 +464,11 @@ class PuerperiumMonitor(models.Model):
         ]
     )
 
-    # healthprof = fields.Many2one(
-    #     comodel_name='medical.healthprofessional',
-    #     string='Health Prof',
-    #     readonly=True,
-    #     help="Health Professional in charge, or that who entered the information in the system"
-    # )
-
     @api.model
     def default_institution(self):
         HealthInst = self.env['res.partner']
         institution = HealthInst.get_institution()
         return institution
-
-    # @staticmethod
-    # def default_healthprof():
-    #     pool = Pool()
-    #     HealthProf = pool.get('medical.healthprofessional')
-    #     return HealthProf.get_health_professional()
 
     @api.model
     def default_get(self, fields):

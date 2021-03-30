@@ -87,7 +87,7 @@
                         <page name="puerperium_monitor" string="Puerperium Monitor">
                             <field name="puerperium_monitor"
                                    colspan="4"
-                                   context="{'default_name': id}"/>
+                                   context="{'default_patient_pregnancy_id': id}"/>
                         </page>
                     </notebook>
                 </form>
@@ -254,7 +254,7 @@
                             <page name="general_info" string="General Info">
                                 <group>
                                     <group>
-                                        <field name="name"/>
+                                        <field name="patient_pregnancy_id"/>
                                         <field name="institution"/>
                                         <field name="date"/>
                                         <field name="systolic"/>
@@ -283,7 +283,7 @@
             <field name="name">medical_puerperium_monitor_tree</field>
             <field name="arch" type="xml">
                 <tree>
-                    <field name="name"/>
+                    <field name="patient_pregnancy_id"/>
                     <field name="date"/>
                 </tree>
             </field>

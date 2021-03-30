@@ -221,7 +221,7 @@
                             </page>
                             <page name="monitoring" string="Monitors">
                                 <field name="monitoring"
-                                       context="{'default_name': id}"/>
+                                       context="{'default_medical_perinatal_id': id}"/>
                             </page>
                             <page name="notes" string="Notes">
                                 <field name="notes"/>
@@ -300,7 +300,7 @@
                             <page name="general_info" string="General Info">
                                 <group>
                                     <group>
-                                        <field name="name"/>
+                                        <field name="medical_perinatal_id"/>
                                         <field name="date"/>
                                         <field name="systolic"/>
                                         <field name="diastolic"/>
@@ -330,7 +330,7 @@
             <field name="name">medical_perinatal_monitor_tree</field>
             <field name="arch" type="xml">
                 <tree>
-                    <field name="name"/>
+                    <field name="medical_perinatal_id"/>
                     <field name="date"/>
                 </tree>
             </field>

@@ -570,7 +570,7 @@ class Perinatal(models.Model):
     )
     monitoring = fields.One2many(
         comodel_name='medical.perinatal.monitor',
-        inverse_name='name',
+        inverse_name='medical_perinatal_id',
         string='Monitors'
     )
     laceration = fields.Selection(
@@ -644,7 +644,7 @@ class PerinatalMonitor(models.Model):
     _name = 'medical.perinatal.monitor'
     _description = 'Perinatal Monitor'
 
-    name = fields.Many2one(
+    medical_perinatal_id = fields.Many2one(
         comodel_name='medical.perinatal',
         string='Patient Perinatal Evaluation'
     )

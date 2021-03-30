@@ -77,7 +77,7 @@ class PatientPregnancy(models.Model):
     )
     prenatal_evaluations = fields.One2many(
         comodel_name='medical.patient.prenatal.evaluation',
-        inverse_name='name',
+        inverse_name='patient_pregnancy_id',
         string='Prenatal Evaluations'
     )
     perinatal = fields.One2many(
@@ -263,7 +263,7 @@ class PrenatalEvaluation(models.Model):
     _description = 'Prenatal and Antenatal Evaluations'
     _name = 'medical.patient.prenatal.evaluation'
 
-    name = fields.Many2one(
+    patient_pregnancy_id = fields.Many2one(
         comodel_name='medical.patient.pregnancy',
         string='Patient Pregnancy'
     )
@@ -374,31 +374,18 @@ class PrenatalEvaluation(models.Model):
         ]
     )
 
-    # healthprof = fields.Many2one(
-    #     comodel_name='medical.healthprofessional',
-    #     string='Health Prof',
-    #     readonly=True,
-    #     help="Health Professional in charge, or that who entered the information in the system"
-    # )
-
     @api.model
     def default_institution(self):
         HealthInst = self.env['res.partner']
         institution = HealthInst.get_institution()
         return institution
 
-    # @staticmethod
-    # def default_healthprof():
-    #     pool = Pool()
-    #     HealthProf = pool.get('medical.healthprofessional')
-    #     return HealthProf.get_health_professional()
-
     def get_patient_evaluation_data(self):
         gestational_age = datetime.datetime.date(
-            self.evaluation_date) - self.name.lmp
+            self.evaluation_date) - self.patient_pregnancy_id.lmp
         self.gestational_weeks = (gestational_age.days) / 7
         gestational_age = datetime.datetime.date(
-            self.evaluation_date) - self.name.lmp
+            self.evaluation_date) - self.patient_pregnancy_id.lmp
         self.gestational_days = gestational_age.days
 
     @api.model

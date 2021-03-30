@@ -82,7 +82,7 @@ class PatientPregnancy(models.Model):
     )
     perinatal = fields.One2many(
         comodel_name='medical.perinatal',
-        inverse_name='name',
+        inverse_name='patient_pregnancy_id',
         string='Perinatal Info'
     )
     puerperium_monitor = fields.One2many(
@@ -485,11 +485,11 @@ class Perinatal(models.Model):
     _name = 'medical.perinatal'
     _description = 'Perinatal Information'
 
-    name = fields.Many2one(
+    patient_pregnancy_id = fields.Many2one(
         comodel_name='medical.patient.pregnancy',
         string='Patient Pregnancy'
     )
-    name_patient = fields.Many2one(
+    patient_id = fields.Many2one(
         comodel_name='medical.patient',
         string='Patient',
         readonly=True,
@@ -609,30 +609,19 @@ class Perinatal(models.Model):
         ]
     )
 
-    # healthprof = fields.Many2one(
-    #     'medical.healthprofessional', 'Health Prof', readonly=True,
-    #     help="Health Professional in charge, or that who entered the \
-    #         information in the system")
-
     @api.model
     def default_institution(self):
         HealthInst = self.env['res.partner']
         institution = HealthInst.get_institution()
         return institution
 
-    # @staticmethod
-    # def default_healthprof():
-    #     pool = Pool()
-    #     HealthProf = pool.get('medical.healthprofessional')
-    #     return HealthProf.get_health_professional()
-
     @api.model
     def default_get(self, fields):
         res = super(Perinatal, self).default_get(fields)
-        if res and res.get('name'):
+        if res and res.get('patient_pregnancy_id'):
             res.update(
                 {
-                    'name': False
+                    'patient_pregnancy_id': False
                 }
             )
         res.update(
@@ -644,9 +633,9 @@ class Perinatal(models.Model):
 
     def get_perinatal_information(self):
         gestional_weeks = 0
-        if self.admission_date and self.name and self.name.lmp:
+        if self.admission_date and self.patient_pregnancy_id and self.patient_pregnancy_id.lmp:
             gestational_age = datetime.date(
-                self.admission_date) - self.name.lmp
+                self.admission_date) - self.patient_pregnancy_id.lmp
             gestional_weeks = (gestational_age.days) / 7
         self.gestational_weeks = gestional_weeks
 
@@ -801,7 +790,7 @@ class MedicalPatient(models.Model):
     )
     perinatal = fields.One2many(
         comodel_name='medical.perinatal',
-        inverse_name='name_patient',
+        inverse_name='patient_id',
         string='Perinatal Info'
     )
     menstrual_history = fields.One2many(

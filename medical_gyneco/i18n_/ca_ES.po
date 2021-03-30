@@ -946,11 +946,12 @@ msgid "PAP test"
 msgstr "Prova PAP"
 
 #. module: medical_gyneco
-#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_colposcopy_history__name
-#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_mammography_history__name
-#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_menstrual_history__name
-#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_pap_history__name
-#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_pregnancy__name
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_colposcopy_history__patient_id
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_mammography_history__patient_id
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_menstrual_history__patient_id
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_pap_history__patient_id
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_pregnancy__patient_id
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_perinatal__patient_id
 msgid "Patient"
 msgstr "Pacient"
 
@@ -967,9 +968,9 @@ msgstr "Avaluació perinatal del pacient"
 
 #. module: medical_gyneco
 #: model:ir.model,name:medical_gyneco.model_medical_patient_pregnancy
-#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_prenatal_evaluation__name
-#: model:ir.model.fields,field_description:medical_gyneco.field_medical_perinatal__name
-#: model:ir.model.fields,field_description:medical_gyneco.field_medical_puerperium_monitor__name
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_prenatal_evaluation__patient_pregnancy_id
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_perinatal__patient_pregnancy_id
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_puerperium_monitor__patient_pregnancy_id
 msgid "Patient Pregnancy"
 msgstr "Embaràs del pacient"
 

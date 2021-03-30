@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-26 10:32+0000\n"
-"PO-Revision-Date: 2021-03-26 10:32+0000\n"
+"POT-Creation-Date: 2021-03-30 08:32+0000\n"
+"PO-Revision-Date: 2021-03-30 08:32+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -88,7 +88,9 @@ msgstr ""
 msgid ""
 "Add to the Medical patient_data class (medical.patient) the gynecological "
 "and obstetric fields."
-msgstr "Agregue a la clase Medical patient_data (medical.patient) el ginecológico y campos obstétricos."
+msgstr ""
+"Agregue a la clase Medical patient_data (medical.patient) el ginecológico y "
+"campos obstétricos."
 
 #. module: medical_gyneco
 #: model:ir.model.fields,field_description:medical_gyneco.field_medical_perinatal__admission_date
@@ -183,7 +185,7 @@ msgstr "Dolor de la cabeza "
 #. module: medical_gyneco
 #: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_perinatal__laceration__cervical
 msgid "Cervical"
-msgstr "Cervical"
+msgstr ""
 
 #. module: medical_gyneco
 #: model:ir.model.fields,field_description:medical_gyneco.field_medical_perinatal_monitor__dilation
@@ -193,12 +195,15 @@ msgstr "Dilatación del cuello uterino "
 #. module: medical_gyneco
 #: model:ir.model.fields,help:medical_gyneco.field_medical_patient__breast_self_examination
 msgid "Check if patient does and knows how to self examine her breasts"
-msgstr "Compruebe si la paciente lo hace y sabe cómo autoexaminarse los senos."
+msgstr ""
+"Compruebe si la paciente lo hace y sabe cómo autoexaminarse los senos."
 
 #. module: medical_gyneco
 #: model:ir.model.fields,help:medical_gyneco.field_medical_patient__pap_test
 msgid "Check if patient does periodic cytologic pelvic smear screening"
-msgstr "Verifique si la paciente realiza una prueba citológica periódica de frotis pélvico."
+msgstr ""
+"Verifique si la paciente realiza una prueba citológica periódica de frotis "
+"pélvico."
 
 #. module: medical_gyneco
 #: model:ir.model.fields,help:medical_gyneco.field_medical_patient__fertile
@@ -218,7 +223,8 @@ msgstr "Compruebe si la paciente se ha realizado un examen de colposcopia. "
 #. module: medical_gyneco
 #: model:ir.model.fields,help:medical_gyneco.field_medical_patient_prenatal_evaluation__diabetes
 msgid "Check this box if the mother has glucose intolerance or diabetes"
-msgstr "Marque esta casilla si la madre tiene intolerancia a la glucosa o diabetes "
+msgstr ""
+"Marque esta casilla si la madre tiene intolerancia a la glucosa o diabetes "
 
 #. module: medical_gyneco
 #: model:ir.model.fields,help:medical_gyneco.field_medical_patient_prenatal_evaluation__hypertension
@@ -266,7 +272,8 @@ msgstr "Nalgas completas"
 #. module: medical_gyneco
 #: model:ir.model.fields,help:medical_gyneco.field_medical_patient_pregnancy__computed_age
 msgid "Computed patient age at the moment of LMP"
-msgstr "Edad calculada del paciente en el momento del último periodo de menstruación"
+msgstr ""
+"Edad calculada del paciente en el momento del último periodo de menstruación"
 
 #. module: medical_gyneco
 #: model:ir.model.fields,field_description:medical_gyneco.field_medical_perinatal_monitor__contractions
@@ -350,7 +357,7 @@ msgstr "Modo de entrega"
 #. module: medical_gyneco
 #: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_prenatal_evaluation__diabetes
 msgid "Diabetes"
-msgstr "Diabetes"
+msgstr ""
 
 #. module: medical_gyneco
 #: model:ir.model.fields,field_description:medical_gyneco.field_medical_perinatal_monitor__diastolic
@@ -613,7 +620,7 @@ msgstr "Frecuencia cardiaca"
 #. module: medical_gyneco
 #: model:ir.model.fields,field_description:medical_gyneco.field_medical_perinatal__hematoma
 msgid "Hematoma"
-msgstr "Hematoma"
+msgstr ""
 
 #. module: medical_gyneco
 #: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_pregnancy__home_birth
@@ -897,7 +904,9 @@ msgstr "Número de visitas al médico durante el embarazo."
 msgid ""
 "Number of weeks at         the end of pregnancy. Used only with the reverse "
 "input method."
-msgstr "Número de semanas al final del embarazo. Se usa solo con el reverso método de entrada."
+msgstr ""
+"Número de semanas al final del embarazo. Se usa solo con el reverso método "
+"de entrada."
 
 #. module: medical_gyneco
 #: model:ir.actions.act_window,name:medical_gyneco.gyneco_pregnancy_action
@@ -939,11 +948,12 @@ msgid "PAP test"
 msgstr "Citología vaginal"
 
 #. module: medical_gyneco
-#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_colposcopy_history__name
-#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_mammography_history__name
-#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_menstrual_history__name
-#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_pap_history__name
-#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_pregnancy__name
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_colposcopy_history__patient_id
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_mammography_history__patient_id
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_menstrual_history__patient_id
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_pap_history__patient_id
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_pregnancy__patient_id
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_perinatal__patient_id
 msgid "Patient"
 msgstr "Paciente"
 
@@ -954,15 +964,15 @@ msgid "Patient Evaluation"
 msgstr "Evaluación del paciente"
 
 #. module: medical_gyneco
-#: model:ir.model.fields,field_description:medical_gyneco.field_medical_perinatal_monitor__name
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_perinatal_monitor__medical_perinatal_id
 msgid "Patient Perinatal Evaluation"
 msgstr "Evaluación perinatal del paciente"
 
 #. module: medical_gyneco
 #: model:ir.model,name:medical_gyneco.model_medical_patient_pregnancy
-#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_prenatal_evaluation__name
-#: model:ir.model.fields,field_description:medical_gyneco.field_medical_perinatal__name
-#: model:ir.model.fields,field_description:medical_gyneco.field_medical_puerperium_monitor__name
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_prenatal_evaluation__patient_pregnancy_id
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_perinatal__patient_pregnancy_id
+#: model:ir.model.fields,field_description:medical_gyneco.field_medical_puerperium_monitor__patient_pregnancy_id
 msgid "Patient Pregnancy"
 msgstr "Embarazo de la paciente"
 
@@ -1015,7 +1025,9 @@ msgstr "Compruebe los resultados del laboratorio si el módulo está instalado"
 #: model:ir.model.fields,help:medical_gyneco.field_medical_patient_colposcopy_history__result
 #: model:ir.model.fields,help:medical_gyneco.field_medical_patient_mammography_history__result
 msgid "Please check the lab test results if the module is installed"
-msgstr "Verifique los resultados de las pruebas de laboratorio si el módulo está instalado"
+msgstr ""
+"Verifique los resultados de las pruebas de laboratorio si el módulo está "
+"instalado"
 
 #. module: medical_gyneco
 #: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_prenatal_evaluation__polihydramnios
@@ -1120,12 +1132,12 @@ msgstr "Monitor de puerperio"
 #. module: medical_gyneco
 #: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_perinatal__laceration__rectal
 msgid "Rectal"
-msgstr "Rectal"
+msgstr ""
 
 #. module: medical_gyneco
 #: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_menstrual_history__is_regular
 msgid "Regular"
-msgstr "Regular"
+msgstr ""
 
 #. module: medical_gyneco
 #: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_colposcopy_history__comments
@@ -1165,7 +1177,7 @@ msgstr "Placenta retenida"
 #. module: medical_gyneco
 #: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_perinatal__hematoma__retroperitoneal
 msgid "Retroperitoneal"
-msgstr "Retroperitoneal"
+msgstr ""
 
 #. module: medical_gyneco
 #: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_pregnancy__reverse
@@ -1262,15 +1274,15 @@ msgid ""
 " the patient, as a history taking         procedure. Please keep in mind "
 "that the reverse pregnancy data is         subjective"
 msgstr ""
-"Utilice este método * solo * cuando la información sobre el embarazo sea referida por"
-"el paciente, como un procedimiento de toma de antecedentes. Por favor, tenga en cuenta"
-"que los datos inversos del embarazo son subjetivos"
+"Utilice este método * solo * cuando la información sobre el embarazo sea "
+"referida porel paciente, como un procedimiento de toma de antecedentes. Por "
+"favor, tenga en cuentaque los datos inversos del embarazo son subjetivos"
 
 #. module: medical_gyneco
 #: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_perinatal__hematoma__vaginal
 #: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_perinatal__laceration__vaginal
 msgid "Vaginal"
-msgstr "Vaginal"
+msgstr ""
 
 #. module: medical_gyneco
 #: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_perinatal__start_labor_mode__vf
@@ -1337,7 +1349,7 @@ msgstr "abundante"
 #. module: medical_gyneco
 #: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_puerperium_monitor__lochia_color__a
 msgid "alba"
-msgstr "alba"
+msgstr ""
 
 #. module: medical_gyneco
 #: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_patient_menstrual_history__frequency__amenorrhea
@@ -1376,7 +1388,7 @@ msgstr "menorragia"
 #: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_puerperium_monitor__lochia_amount__n
 #: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_puerperium_monitor__lochia_odor__n
 msgid "normal"
-msgstr "normal"
+msgstr ""
 
 #. module: medical_gyneco
 #: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_puerperium_monitor__lochia_odor__o
@@ -1403,12 +1415,12 @@ msgstr "resultado"
 #. module: medical_gyneco
 #: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_puerperium_monitor__lochia_color__r
 msgid "rubra"
-msgstr "rubra"
+msgstr ""
 
 #. module: medical_gyneco
 #: model:ir.model.fields.selection,name:medical_gyneco.selection__medical_puerperium_monitor__lochia_color__s
 msgid "serosa"
-msgstr "serosa"
+msgstr ""
 
 #. module: medical_gyneco
 #: model:ir.model.fields,field_description:medical_gyneco.field_medical_patient_menstrual_history__volume

@@ -381,10 +381,10 @@ class PrenatalEvaluation(models.Model):
         return institution
 
     def get_patient_evaluation_data(self):
-        gestational_age = datetime.datetime.date(
+        gestational_age = datetime.date(
             self.evaluation_date) - self.patient_pregnancy_id.lmp
         self.gestational_weeks = (gestational_age.days) / 7
-        gestational_age = datetime.datetime.date(
+        gestational_age = datetime.date(
             self.evaluation_date) - self.patient_pregnancy_id.lmp
         self.gestational_days = gestational_age.days
 
@@ -493,7 +493,7 @@ class Perinatal(models.Model):
         comodel_name='medical.patient',
         string='Patient',
         readonly=True,
-        required=True
+        related='patient_pregnancy_id.patient_id'
     )
     admission_code = fields.Char(
         string='Code'

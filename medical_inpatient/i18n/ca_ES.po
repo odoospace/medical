@@ -1,0 +1,1723 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* medical_inpatient
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-12 10:32+0000\n"
+"PO-Revision-Date: 2021-04-12 10:32+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: medical_inpatient
+#: model:medical.diet.therapeutic,description:medical_inpatient.CCH
+msgid ""
+"1200-3000 cal/day .The diet provides consistent amount of carbohydrate based on\n"
+"                caloric level to allow for optimal blood glucose control. The diet provides a Bedtime snack for all\n"
+"                calorie levels. (45% CHO, 25% protein, 30% fat)\n"
+"            "
+msgstr ""
+"1200-3000 cal / dia. La dieta proporciona una quantitat constant d'hidrats de carboni basada en \ n"
+"Nivell calòric per permetre un control òptim de la glucosa a la sang. La dieta proporciona un aperitiu per dormir per a tots \ n"
+"nivells de calories. (45% CHO, 25% proteïnes, 30% greixos) \ n"
+""
+
+#. module: medical_inpatient
+#: model:medical.diet.therapeutic,description:medical_inpatient.CDD
+msgid ""
+"1800-3000 cal/day .The diet provides consistent amount of carbohydrate based on\n"
+"                caloric level to allow for optimal blood glucose control. Snacks provided between meals to provide\n"
+"                approximately 35-40% of Kcal from CHO.\n"
+"            "
+msgstr ""
+"1800-3000 cal / dia. La dieta proporciona una quantitat constant d'hidrats de carboni basada en \ n"
+"nivell calòric per permetre un control òptim de la glucosa a la sang. Entrepans entre els menjars per proporcionar \ n"
+"aproximadament un 35-40% de Kcal de CHO. \ n"
+""
+
+#. module: medical_inpatient
+#: model:medical.diet.therapeutic,name:medical_inpatient.2GS
+msgid "2 gram Sodium"
+msgstr "2 grams de sodi"
+
+#. module: medical_inpatient
+#: model:medical.diet.therapeutic,description:medical_inpatient.NAS
+msgid ""
+"4 grams Sodium. Provides a moderate sodium restriction by eliminating foods and\n"
+"                condiments high in sodium\n"
+"            "
+msgstr ""
+"4 grams de sodi. Proporciona una restricció moderada de sodi eliminant els aliments i \ n"
+"condiments rics en sodi \ n"
+""
+
+#. module: medical_inpatient
+#: code:addons/medical/medical_inpatient/models/medical_inpatient.py:0
+#: code:addons/medical_inpatient/models/medical_inpatient.py:0
+#, python-format
+msgid ""
+"===== MEAL WARNING ! =====\n"
+"\n"
+"\n"
+"This patient has special meal needs \n"
+"\n"
+"Check and acknowledge that\n"
+"the meal items in this order are correct \n"
+"\n"
+msgstr ""
+"===== AVÍS DEL MENJAR! ===== \ n"
+"\ n"
+"\ n"
+"Aquest pacient té necessitats especials de menjar \ n"
+"\ n"
+"Comproveu i reconegueu que \ n"
+"els menjars d'aquest ordre són correctes \ n"
+"\ n"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_meal_order__meal_warning_ack
+msgid "Ack"
+msgstr ""
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_medication__is_active
+msgid "Active"
+msgstr "Actiu"
+
+#. module: medical_inpatient
+#: model:ir.model,name:medical_inpatient.model_medical_patient
+msgid ""
+"Add to the Medical patient_data class (medical.patient) the gynecological "
+"and obstetric fields."
+msgstr ""
+"Afegiu a la classe Medical_data pacient (medical.patient) el ginecològic"
+"i camps obstètrics."
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_medication__admin_times
+msgid "Admin times"
+msgstr "Temps d'administració"
+
+#. module: medical_inpatient
+#: model_terms:ir.ui.view,arch_db:medical_inpatient.medical_inpatient_medication_form_view
+msgid "Administration"
+msgstr "Administració"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_medication__route
+msgid "Administration Route"
+msgstr "Ruta d'administració"
+
+#. module: medical_inpatient
+#: model_terms:ir.ui.view,arch_db:medical_inpatient.medical_inpatient_registration_form_view
+msgid "Administrative data"
+msgstr "Dades administratives"
+
+#. module: medical_inpatient
+#: model_terms:ir.ui.view,arch_db:medical_inpatient.medical_inpatient_registration_form_view
+msgid "Admission"
+msgstr "Admissió"
+
+#. module: medical_inpatient
+#: code:addons/medical/medical_inpatient/models/medical_inpatient.py:0
+#: code:addons/medical_inpatient/models/medical_inpatient.py:0
+#, python-format
+msgid ""
+"Admission and Discharge reasons \n"
+"as well as Discharge Dx are needed."
+msgstr ""
+"Motius d'admissió i alta \ n"
+"Cal descarregar Dx."
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_registration__admission_type
+msgid "Admission type"
+msgstr "Tipus d'admissió"
+
+#. module: medical_inpatient
+#: model_terms:ir.ui.view,arch_db:medical_inpatient.medical_inpatient_registration_form_view
+msgid "Admit the patient in the health institution and assign the bed"
+msgstr "Admet el pacient a la institució sanitària i assigna el llit"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_medication__adverse_reaction
+msgid "Adverse Reactions"
+msgstr "Reaccions adverses"
+
+#. module: medical_inpatient
+#: model_terms:ir.ui.view,arch_db:medical_inpatient.medical_inpatient_medication_form_view
+msgid "Adverse Reactions and Notes"
+msgstr "Reaccions adverses i notes"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,help:medical_inpatient.field_medical_inpatient_medication__dose
+#: model:ir.model.fields,help:medical_inpatient.field_medical_inpatient_medication_admin_time__dose
+#: model:ir.model.fields,help:medical_inpatient.field_medical_inpatient_medication_log__dose
+msgid "Amount of medication (eg, 250 mg) per dose"
+msgstr "Quantitat de medicament (per exemple, 250 mg) per dosi"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_registration__attending_physician
+msgid "Attending Physician"
+msgstr "Metge assistent"
+
+#. module: medical_inpatient
+#: code:addons/medical/medical_inpatient/models/medical_inpatient.py:0
+#: code:addons/medical_inpatient/models/medical_inpatient.py:0
+#, python-format
+msgid "Bed is not available!"
+msgstr "El llit no està disponible!"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_bed_transfer_create__orig_bed_state
+msgid "Bed of origin Status"
+msgstr "Estat del llit d'origen"
+
+#. module: medical_inpatient
+#: model:ir.model,name:medical_inpatient.model_medical_bed_transfer
+msgid "Bed transfers"
+msgstr "Trasllats al llit"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_meal__diet_belief
+msgid "Belief"
+msgstr "Creença"
+
+#. module: medical_inpatient
+#: model:medical.diet.therapeutic,name:medical_inpatient.BLAND
+msgid "Bland"
+msgstr "Bland"
+
+#. module: medical_inpatient
+#: model:ir.model.fields.selection,name:medical_inpatient.selection__medical_inpatient_meal_order__mealtime__breakfast
+msgid "Breakfast"
+msgstr "Esmorzar"
+
+#. module: medical_inpatient
+#: model_terms:ir.ui.view,arch_db:medical_inpatient.medical_bed_transfer_create_wizard_view
+#: model_terms:ir.ui.view,arch_db:medical_inpatient.medical_inpatient_evaluation_create_wizard_view
+#: model_terms:ir.ui.view,arch_db:medical_inpatient.medical_inpatient_meal_order_form_view
+#: model_terms:ir.ui.view,arch_db:medical_inpatient.medical_inpatient_registration_form_view
+msgid "Cancel"
+msgstr "Cancel · lar"
+
+#. module: medical_inpatient
+#: model_terms:ir.ui.view,arch_db:medical_inpatient.medical_inpatient_registration_form_view
+msgid "Cancel Registration"
+msgstr "Cancel·la el registre"
+
+#. module: medical_inpatient
+#: model_terms:ir.ui.view,arch_db:medical_inpatient.medical_inpatient_meal_order_form_view
+msgid "Cancel order"
+msgstr "Cancel · lar la comanda"
+
+#. module: medical_inpatient
+#: model_terms:ir.ui.view,arch_db:medical_inpatient.medical_inpatient_registration_form_view
+msgid "Cancel the patient registration process ?"
+msgstr "Voleu cancel·lar el procés de registre del pacient?"
+
+#. module: medical_inpatient
+#: model_terms:ir.ui.view,arch_db:medical_inpatient.medical_inpatient_meal_order_form_view
+msgid "Cancel the this meal order ?"
+msgstr "Voleu cancel·lar la comanda d'aquest menjar?"
+
+#. module: medical_inpatient
+#: model:ir.model.fields.selection,name:medical_inpatient.selection__medical_inpatient_meal_order__state__cancelled
+msgid "Cancelled"
+msgstr "Cancel·lat"
+
+#. module: medical_inpatient
+#: model:medical.diet.therapeutic,name:medical_inpatient.CARDIAC
+msgid "Cardiac"
+msgstr "Cardíac"
+
+#. module: medical_inpatient
+#: model_terms:ir.ui.view,arch_db:medical_inpatient.medical_inpatient_registration_form_view
+msgid "Care Plan"
+msgstr "Pla d'atenció"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,help:medical_inpatient.field_medical_inpatient_medication__is_active
+msgid "Check if the patient is currently taking the medication"
+msgstr "Comproveu si el pacient està prenent actualment la medicació"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,help:medical_inpatient.field_medical_inpatient_meal_order__meal_warning_ack
+msgid "Check if you have verified the warnings on the patient meal items"
+msgstr "Comproveu si heu verificat els advertiments sobre els menjars del pacient"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,help:medical_inpatient.field_medical_inpatient_medication__indication
+msgid ""
+"Choose a disease for this medicament from the disease list. It can be an "
+"existing disease of the patient or a prophylactic."
+msgstr ""
+"Trieu una malaltia per a aquest medicament de la llista de malalties. Pot ser una"
+"malaltia existent del pacient o profilàctica"
+
+#. module: medical_inpatient
+#: model_terms:ir.ui.view,arch_db:medical_inpatient.medical_inpatient_registration_form_view
+msgid "Clean Bed"
+msgstr "Llit net"
+
+#. module: medical_inpatient
+#: model:medical.diet.therapeutic,name:medical_inpatient.CLIQUID
+msgid "Clear Liquid"
+msgstr "Líquid clar"
+
+#. module: medical_inpatient
+#: model:medical.diet.therapeutic,name:medical_inpatient.CLIQUIDNCS
+msgid "Clear Liquid / NCS"
+msgstr "Clear Liquid / NCS"
+
+#. module: medical_inpatient
+#: model:medical.diet.therapeutic,description:medical_inpatient.CLIQUIDNCS
+msgid ""
+"Clear liquid diet providing sugar-free products only (No Concentrated Sugar). This\n"
+"                diet provides very limited amounts of carbohydrate.\n"
+"            "
+msgstr ""
+"Dieta líquida clara que només ofereix productes sense sucre (sense sucre concentrat). Això \ n"
+"la dieta proporciona una quantitat molt limitada d'hidrats de carboni. \ n"
+""
+
+#. module: medical_inpatient
+#: model_terms:ir.ui.view,arch_db:medical_inpatient.medical_inpatient_registration_form_view
+msgid "Click when Bed has been cleaned"
+msgstr "Feu clic quan s'ha netejat el llit"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_diet_therapeutic__code
+msgid "Code"
+msgstr "Codi"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,help:medical_inpatient.field_medical_inpatient_registration__discharge_dx
+msgid "Code for Discharge Diagnosis"
+msgstr "Codi per al diagnòstic de l'alta"
+
+#. module: medical_inpatient
+#: model_terms:ir.ui.view,arch_db:medical_inpatient.medical_inpatient_registration_form_view
+msgid "Confirm"
+msgstr "Confirma"
+
+#. module: medical_inpatient
+#: model_terms:ir.ui.view,arch_db:medical_inpatient.medical_inpatient_registration_form_view
+msgid "Confirm Registration / Make the reservation"
+msgstr "Confirma el registre / Fes la reserva"
+
+#. module: medical_inpatient
+#: model_terms:ir.ui.view,arch_db:medical_inpatient.medical_inpatient_registration_form_view
+msgid "Confirm that the bed has been cleaned and is now ready to use"
+msgstr "Confirmeu que el llit s'ha netejat i que ja està llest per utilitzar"
+
+#. module: medical_inpatient
+#: model:medical.diet.therapeutic,name:medical_inpatient.CCH
+msgid "Consistent Carbohydrate"
+msgstr "Carbohidrats consistents"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_medication__course_completed
+msgid "Course Completed"
+msgstr "Curs completat"
+
+#. module: medical_inpatient
+#: model:ir.model,name:medical_inpatient.model_medical_bed_transfer_create
+msgid "Create Bed Transfer"
+msgstr "Crea una transferència de llit"
+
+#. module: medical_inpatient
+#: model:ir.model,name:medical_inpatient.model_medical_inpatient_evaluation_create
+msgid "Create Inpatient Evaluation"
+msgstr "Crea avaluació de pacients hospitalitzats"
+
+#. module: medical_inpatient
+#: model_terms:ir.ui.view,arch_db:medical_inpatient.medical_inpatient_evaluation_create_wizard_view
+msgid "Create Inpatient Evaluation Patient"
+msgstr "Crea pacient d'avaluació hospitalària"
+
+#. module: medical_inpatient
+#: model_terms:ir.ui.view,arch_db:medical_inpatient.medical_bed_transfer_create_wizard_view
+msgid "Create Transfer Patient"
+msgstr "Crea pacient de transferència"
+
+#. module: medical_inpatient
+#: model_terms:ir.ui.view,arch_db:medical_inpatient.medical_inpatient_meal_order_form_view
+msgid "Create order"
+msgstr "Crea una comanda"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_bed_transfer__create_uid
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_bed_transfer_create__create_uid
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_diet_therapeutic__create_uid
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_diet__create_uid
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_evaluation_create__create_uid
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_meal__create_uid
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_meal_order__create_uid
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_meal_order_item__create_uid
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_medication__create_uid
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_medication_admin_time__create_uid
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_medication_log__create_uid
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_registration__create_uid
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_patient_ecg__create_uid
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_patient_evaluation__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_bed_transfer__create_date
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_bed_transfer_create__create_date
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_diet_therapeutic__create_date
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_diet__create_date
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_evaluation_create__create_date
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_meal__create_date
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_meal_order__create_date
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_meal_order_item__create_date
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_medication__create_date
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_medication_admin_time__create_date
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_medication_log__create_date
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_registration__create_date
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_patient_ecg__create_date
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_patient_evaluation__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_bed_transfer__transfer_date
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_meal_order__order_date
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_medication_log__admin_time
+msgid "Date"
+msgstr "Data"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,help:medical_inpatient.field_medical_inpatient_medication__end_treatment
+#: model:ir.model.fields,help:medical_inpatient.field_medical_inpatient_medication__start_treatment
+msgid "Date of start of Treatment"
+msgstr "Data d'inici del tractament"
+
+#. module: medical_inpatient
+#: model:ir.model.fields.selection,name:medical_inpatient.selection__medical_inpatient_registration__discharge_reason__death
+msgid "Death"
+msgstr "Mort"
+
+#. module: medical_inpatient
+#: code:addons/medical/medical_inpatient/wizard/medical_bed_transfer_create_wizard.py:0
+#: code:addons/medical_inpatient/wizard/medical_bed_transfer_create_wizard.py:0
+#, python-format
+msgid "Destination bed is unavailable!"
+msgstr "El llit de destinació no està disponible."
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_diet__diet
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_meal__diet_therapeutic
+msgid "Diet"
+msgstr "Dieta"
+
+#. module: medical_inpatient
+#: model_terms:ir.ui.view,arch_db:medical_inpatient.medical_diet_therapeutic_form_view
+msgid "Diet Description and Indications"
+msgstr "Descripció i indicacions de la dieta"
+
+#. module: medical_inpatient
+#: model:ir.actions.act_window,name:medical_inpatient.medical_diet_therapeutic_action
+#: model:ir.ui.menu,name:medical_inpatient.medical_diet_therapeutic_menu
+msgid "Diet Therapeutic"
+msgstr "Dieta terapèutica"
+
+#. module: medical_inpatient
+#: model:ir.model,name:medical_inpatient.model_medical_diet_therapeutic
+msgid "Diet Therapy"
+msgstr "Dietoteràpia"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_diet_therapeutic__name
+msgid "Diet type"
+msgstr "Tipus de dieta"
+
+#. module: medical_inpatient
+#: model:ir.model.fields.selection,name:medical_inpatient.selection__medical_inpatient_meal_order__mealtime__dinner
+msgid "Dinner"
+msgstr "Sopar"
+
+#. module: medical_inpatient
+#: model_terms:ir.ui.view,arch_db:medical_inpatient.medical_inpatient_registration_form_view
+msgid "Discharge"
+msgstr "Descàrrega"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_registration__discharge_dx
+msgid "Discharge Dx"
+msgstr "Descàrrega Dx"
+
+#. module: medical_inpatient
+#: model_terms:ir.ui.view,arch_db:medical_inpatient.medical_inpatient_registration_form_view
+msgid "Discharge Info"
+msgstr "Informació de descàrrega"
+
+#. module: medical_inpatient
+#: model_terms:ir.ui.view,arch_db:medical_inpatient.medical_inpatient_registration_form_view
+msgid "Discharge Patient"
+msgstr "Pacient d'alta"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_registration__discharge_plan
+#: model_terms:ir.ui.view,arch_db:medical_inpatient.medical_inpatient_registration_form_view
+msgid "Discharge Plan"
+msgstr "Pla de descàrrega"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_registration__discharge_reason
+msgid "Discharge Reason"
+msgstr "Motiu de l'alta"
+
+#. module: medical_inpatient
+#: model:ir.model.fields.selection,name:medical_inpatient.selection__medical_inpatient_registration__state__done
+msgid "Discharged - needs cleaning"
+msgstr "Descarregat - necessita neteja"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_registration__discharged_by
+msgid "Discharged by"
+msgstr "Descarregat per"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_medication__discontinued
+msgid "Discontinued"
+msgstr "Descatalogat"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_appointment__display_name
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_bed_transfer__display_name
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_bed_transfer_create__display_name
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_diet_therapeutic__display_name
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_diet__display_name
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_evaluation_create__display_name
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_meal__display_name
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_meal_order__display_name
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_meal_order_item__display_name
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_medication__display_name
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_medication_admin_time__display_name
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_medication_log__display_name
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_registration__display_name
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_patient__display_name
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_patient_ecg__display_name
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_patient_evaluation__display_name
+msgid "Display Name"
+msgstr "Nom mostrat"
+
+#. module: medical_inpatient
+#: model_terms:ir.ui.view,arch_db:medical_inpatient.medical_inpatient_evaluation_create_wizard_view
+msgid "Do Inpatient Evaluation"
+msgstr "Fer avaluació hospitalària"
+
+#. module: medical_inpatient
+#: model:ir.model.fields.selection,name:medical_inpatient.selection__medical_inpatient_meal_order__state__done
+#: model_terms:ir.ui.view,arch_db:medical_inpatient.medical_inpatient_meal_order_form_view
+#: model_terms:ir.ui.view,arch_db:medical_inpatient.medical_inpatient_meal_order_tree_view
+msgid "Done"
+msgstr "Fet"
+
+#. module: medical_inpatient
+#: model_terms:ir.ui.view,arch_db:medical_inpatient.medical_inpatient_medication_form_view
+msgid "Dosage"
+msgstr "Dosi"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_medication__dose
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_medication_admin_time__dose
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_medication_log__dose
+msgid "Dose"
+msgstr "Dosi"
+
+#. module: medical_inpatient
+#: model:ir.model.fields.selection,name:medical_inpatient.selection__medical_inpatient_meal_order__state__draft
+msgid "Draft"
+msgstr "Esborrany"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,help:medical_inpatient.field_medical_inpatient_medication__route
+msgid "Drug administration route code."
+msgstr "Codi de ruta d'administració de medicaments"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,help:medical_inpatient.field_medical_inpatient_medication__form
+msgid "Drug form, such as tablet or gel"
+msgstr "Forma de fàrmac, com ara pastilles o gel"
+
+#. module: medical_inpatient
+#: model:medical.diet.therapeutic,name:medical_inpatient.DYSAD
+msgid "Dysphagia Advanced"
+msgstr "Disfàgia avançada"
+
+#. module: medical_inpatient
+#: model:medical.diet.therapeutic,name:medical_inpatient.DYSA
+msgid "Dysphagia Altered"
+msgstr "Disfàgia alterada"
+
+#. module: medical_inpatient
+#: model:medical.diet.therapeutic,name:medical_inpatient.DYSP
+msgid "Dysphagia Puree"
+msgstr "Puré de disfàgia"
+
+#. module: medical_inpatient
+#: model:medical.diet.therapeutic,description:medical_inpatient.GB2
+msgid "Easily digested, semi-liquid foods to be consumed in small amounts."
+msgstr "Aliments semilíquids fàcilment digeribles per consumir en petites quantitats"
+
+#. module: medical_inpatient
+#: model:ir.model.fields.selection,name:medical_inpatient.selection__medical_inpatient_registration__admission_type__elective
+msgid "Elective"
+msgstr "Optativa"
+
+#. module: medical_inpatient
+#: model:ir.model.fields.selection,name:medical_inpatient.selection__medical_inpatient_registration__admission_type__emergency
+msgid "Emergency"
+msgstr "Emergència"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_medication__end_treatment
+msgid "End"
+msgstr "Final"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,help:medical_inpatient.field_medical_appointment__inpatient_registration_code
+#: model:ir.model.fields,help:medical_inpatient.field_medical_patient_ecg__inpatient_registration_code
+#: model:ir.model.fields,help:medical_inpatient.field_medical_patient_evaluation__inpatient_registration_code
+msgid "Enter the patient hospitalization code"
+msgstr "Introduïu el codi d'hospitalització del pacient"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_registration__discharge_date
+msgid "Expected Discharge Date"
+msgstr "Data prevista de descàrrega"
+
+#. module: medical_inpatient
+#: model_terms:ir.ui.view,arch_db:medical_inpatient.medical_inpatient_medication_form_view
+msgid "Extra Info"
+msgstr "Informació addicional"
+
+#. module: medical_inpatient
+#: model:medical.diet.therapeutic,name:medical_inpatient.FINGERFOOD
+msgid "Finger Food"
+msgstr "Menjar amb els dits"
+
+#. module: medical_inpatient
+#: model:ir.model.fields.selection,name:medical_inpatient.selection__medical_inpatient_registration__state__finished
+msgid "Finished"
+msgstr "Finalitzat"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_meal__name
+#: model:ir.model.fields,help:medical_inpatient.field_medical_inpatient_meal__name
+msgid "Food"
+msgstr "Menjar"
+
+#. module: medical_inpatient
+#: model:medical.diet.therapeutic,description:medical_inpatient.DYSAD
+msgid ""
+"Foods are nearly regular textures with the exception of hard, sticky, or crunchy\n"
+"                foods. Foods are moist, bite-sized pieces. All\n"
+"                vegetables are fork-mashable. Liquids must be ordered separately as regular, nectar, or honey.\n"
+"            "
+msgstr ""
+"Els aliments són textures gairebé regulars a excepció de les dures, enganxoses o cruixents \ n"
+"aliments. Els aliments són peces humides, de mida mossegada. Tots \ n"
+"les verdures es poden mascar amb forquilla. Els líquids s'han de demanar per separat com a regular, nèctar o mel. \ n"
+""
+
+#. module: medical_inpatient
+#: model:medical.diet.therapeutic,description:medical_inpatient.MS
+msgid "For patients who have difficulty in chewing or swallowing"
+msgstr "Per a pacients que tenen dificultats per mastegar o empassar"
+
+#. module: medical_inpatient
+#: model:medical.diet.therapeutic,description:medical_inpatient.DYSP
+msgid ""
+"For patients with problems chewing and swallowing or esophageal inflammation or\n"
+"                varices. Food consistency is blended. Liquids must be ordered\n"
+"                separately as regular, nectar, or honey.\n"
+"            "
+msgstr ""
+"Per a pacients amb problemes per mastegar i empassar o inflamació esofàgica o \ n"
+"varices. La consistència dels aliments es barreja. Els líquids s'han de demanar \ n"
+"per separat com a regular, nèctar o mel. \ n"
+""
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_medication__form
+msgid "Form"
+msgstr "Forma"
+
+#. module: medical_inpatient
+#: model:ir.model.fields.selection,name:medical_inpatient.selection__medical_bed_transfer_create__orig_bed_state__free
+msgid "Free"
+msgstr "Gratuït"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_medication__frequency
+msgid "Frequency"
+msgstr "Freqüència"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_bed_transfer__bed_from
+msgid "From"
+msgstr "Des de"
+
+#. module: medical_inpatient
+#: model:medical.diet.therapeutic,name:medical_inpatient.FULLLIQUID
+msgid "Full Liquid"
+msgstr "Líquid complet"
+
+#. module: medical_inpatient
+#: model:medical.diet.therapeutic,name:medical_inpatient.FLLF
+msgid "Full Liquid Lactose Free"
+msgstr "Sense líquid complet sense lactosa"
+
+#. module: medical_inpatient
+#: model:medical.diet.therapeutic,name:medical_inpatient.GISOFT
+msgid "GI Soft - Low Residue"
+msgstr "GI Soft - Residus baixos"
+
+#. module: medical_inpatient
+#: model:medical.diet.therapeutic,name:medical_inpatient.GB1
+msgid "Gastric Bypass Stage 1"
+msgstr "Bypass gàstric etapa 1"
+
+#. module: medical_inpatient
+#: model:medical.diet.therapeutic,name:medical_inpatient.GB2
+msgid "Gastric Bypass Stage 2"
+msgstr "Bypass gàstric etapa 2"
+
+#. module: medical_inpatient
+#: model:medical.diet.therapeutic,name:medical_inpatient.GB3
+msgid "Gastric Bypass Stage 3"
+msgstr "Bypass gàstric etapa 3"
+
+#. module: medical_inpatient
+#: model:medical.diet.therapeutic,name:medical_inpatient.GB4
+msgid "Gastric Bypass Stage 4"
+msgstr "Bypass gàstric etapa 4"
+
+#. module: medical_inpatient
+#: model_terms:ir.ui.view,arch_db:medical_inpatient.medical_inpatient_medication_form_view
+msgid "General Info"
+msgstr "Informació general"
+
+#. module: medical_inpatient
+#: model_terms:ir.ui.view,arch_db:medical_inpatient.medical_inpatient_meal_order_form_view
+msgid "Generate"
+msgstr "Genera"
+
+#. module: medical_inpatient
+#: model_terms:ir.ui.view,arch_db:medical_inpatient.medical_inpatient_meal_order_form_view
+msgid "Generate the meal order ?"
+msgstr "Voleu generar l'ordre del menjar?"
+
+#. module: medical_inpatient
+#: model:medical.diet.therapeutic,name:medical_inpatient.CDD
+msgid "Gestational Diabetic Diet"
+msgstr "Dieta de la diabetis gestacional"
+
+#. module: medical_inpatient
+#: model:medical.diet.therapeutic,name:medical_inpatient.GLUTENFREE
+msgid "Gluten Free"
+msgstr "Sense gluten"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_meal_order__health_professional
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_medication_log__health_professional
+msgid "Health Professional"
+msgstr "Professional de la salut"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,help:medical_inpatient.field_medical_inpatient_registration__discharged_by
+msgid "Health Professional that discharged the patient"
+msgstr "Professional de la salut que va donar d'alta el pacient"
+
+#. module: medical_inpatient
+#: model:ir.model.fields.selection,name:medical_inpatient.selection__medical_inpatient_registration__discharge_reason__home
+msgid "Home / Selfcare"
+msgstr "Llar / Autocura"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_registration__bed
+msgid "Hospital Bed"
+msgstr "Llit d'hospital"
+
+#. module: medical_inpatient
+#: model:ir.ui.menu,name:medical_inpatient.medical_inpatient_menu
+msgid "Hospitalization"
+msgstr "Hospitalització"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_registration__hospitalization_date
+msgid "Hospitalization date"
+msgstr "Data d'hospitalització"
+
+#. module: medical_inpatient
+#: model:ir.ui.menu,name:medical_inpatient.medical_inpatient_root
+msgid "Hospitalizations"
+msgstr "Hospitalitzacions"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_patient__patient_status
+msgid "Hospitalized"
+msgstr "Hospitalitzat"
+
+#. module: medical_inpatient
+#: model:medical.diet.therapeutic,name:medical_inpatient.EMESIS
+msgid "Hyperemesis"
+msgstr "Hiperèmesi"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_appointment__id
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_bed_transfer__id
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_bed_transfer_create__id
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_diet_therapeutic__id
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_diet__id
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_evaluation_create__id
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_meal__id
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_meal_order__id
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_meal_order_item__id
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_medication__id
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_medication_admin_time__id
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_medication_log__id
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_registration__id
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_patient__id
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_patient_ecg__id
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_patient_evaluation__id
+msgid "ID"
+msgstr ""
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_patient_evaluation__inpatient_registration_code
+msgid "IPC"
+msgstr ""
+
+#. module: medical_inpatient
+#: model:medical.diet.therapeutic,description:medical_inpatient.FINGERFOOD
+msgid ""
+"Indicated for patients who may not be able to use utensils or for patients\n"
+"                confined to a flat-lying position who require heart healthy foods.\n"
+"            "
+msgstr ""
+"Indicat per a pacients que poden no poder utilitzar estris o per a pacients \ n"
+"confinat a una posició plana que requereix aliments saludables per al cor. \ n"
+""
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_medication__indication
+msgid "Indication"
+msgstr "Indicació"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_diet_therapeutic__description
+msgid "Indications"
+msgstr "Indicacions"
+
+#. module: medical_inpatient
+#: model:ir.model,name:medical_inpatient.model_medical_inpatient_diet
+msgid "Inpatient Diet"
+msgstr "Dieta hospitalària"
+
+#. module: medical_inpatient
+#: model:ir.actions.act_window,name:medical_inpatient.action_medical_inpatient_evaluation_create_wizard_view
+msgid "Inpatient Evaluation"
+msgstr "Avaluació hospitalària"
+
+#. module: medical_inpatient
+#: model:ir.actions.act_window,name:medical_inpatient.medical_inpatient_meal_action
+#: model:ir.model,name:medical_inpatient.model_medical_inpatient_meal
+#: model:ir.ui.menu,name:medical_inpatient.medical_meal_menu
+msgid "Inpatient Meal"
+msgstr "Menjar hospitalitzat"
+
+#. module: medical_inpatient
+#: model:ir.model,name:medical_inpatient.model_medical_inpatient_meal_order_item
+msgid "Inpatient Meal Item"
+msgstr "Element de menjar hospitalitzat"
+
+#. module: medical_inpatient
+#: model:ir.actions.act_window,name:medical_inpatient.medical_inpatient_meal_order_action
+#: model:ir.model,name:medical_inpatient.model_medical_inpatient_meal_order
+#: model:ir.ui.menu,name:medical_inpatient.medical_meal_order_menu
+msgid "Inpatient Meal Order"
+msgstr "Ordre de menjars hospitalitzats"
+
+#. module: medical_inpatient
+#: model:ir.ui.menu,name:medical_inpatient.medical_inpatient_meal_menu
+msgid "Inpatient Meals"
+msgstr "Menjars hospitalitzats"
+
+#. module: medical_inpatient
+#: model:ir.model,name:medical_inpatient.model_medical_inpatient_medication
+msgid "Inpatient Medication"
+msgstr "Medicació hospitalària"
+
+#. module: medical_inpatient
+#: model:ir.model,name:medical_inpatient.model_medical_inpatient_medication_admin_time
+msgid "Inpatient Medication Admin Times"
+msgstr "Temps d'administració de medicaments hospitalitzats"
+
+#. module: medical_inpatient
+#: model:ir.model,name:medical_inpatient.model_medical_inpatient_medication_log
+msgid "Inpatient Medication Log History"
+msgstr "Historial de registre de medicaments hospitalaris"
+
+#. module: medical_inpatient
+#: model:ir.actions.act_window,name:medical_inpatient.medical_inpatient_registration_action
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_appointment__inpatient_registration_code
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_patient_ecg__inpatient_registration_code
+#: model:ir.ui.menu,name:medical_inpatient.medical_inpatient_registration_menu
+msgid "Inpatient Registration"
+msgstr "Registre hospitalari"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_meal__institution
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_registration__institution
+msgid "Institution"
+msgstr "Institució"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_meal_order__meal_item
+msgid "Items"
+msgstr "Articles"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_appointment____last_update
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_bed_transfer____last_update
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_bed_transfer_create____last_update
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_diet_therapeutic____last_update
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_diet____last_update
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_evaluation_create____last_update
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_meal____last_update
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_meal_order____last_update
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_meal_order_item____last_update
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_medication____last_update
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_medication_admin_time____last_update
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_medication_log____last_update
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_registration____last_update
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_patient____last_update
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_patient_ecg____last_update
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_patient_evaluation____last_update
+msgid "Last Modified on"
+msgstr "Última modificació el "
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_bed_transfer__write_uid
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_bed_transfer_create__write_uid
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_diet_therapeutic__write_uid
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_diet__write_uid
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_evaluation_create__write_uid
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_meal__write_uid
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_meal_order__write_uid
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_meal_order_item__write_uid
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_medication__write_uid
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_medication_admin_time__write_uid
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_medication_log__write_uid
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_registration__write_uid
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_patient_ecg__write_uid
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_patient_evaluation__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_bed_transfer__write_date
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_bed_transfer_create__write_date
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_diet_therapeutic__write_date
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_diet__write_date
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_evaluation_create__write_date
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_meal__write_date
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_meal_order__write_date
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_meal_order_item__write_date
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_medication__write_date
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_medication_admin_time__write_date
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_medication_log__write_date
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_registration__write_date
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_patient_ecg__write_date
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_patient_evaluation__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: medical_inpatient
+#: model:ir.model.fields.selection,name:medical_inpatient.selection__medical_inpatient_registration__discharge_reason__against_advice
+msgid "Left against medical advice"
+msgstr "Es va deixar contra el consell mèdic"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_medication__log_history
+msgid "Log History"
+msgstr "Historial de registres"
+
+#. module: medical_inpatient
+#: model:medical.diet.therapeutic,description:medical_inpatient.PGMY
+msgid ""
+"Low sugar, low fat, low lactose foods. No fluids with meals. Small frequent\n"
+"                feedings\n"
+"            "
+msgstr ""
+"Aliments baixos en sucre, baixos en greixos i baixos en lactosa. No hi ha líquids durant els àpats.
+"alimentacions \ n"
+""
+
+#. module: medical_inpatient
+#: model:medical.diet.therapeutic,name:medical_inpatient.LOWFAT
+msgid "Low-Fat"
+msgstr "Baix en greixos"
+
+#. module: medical_inpatient
+#: model:ir.model.fields.selection,name:medical_inpatient.selection__medical_inpatient_meal_order__mealtime__lunch
+msgid "Lunch"
+msgstr "Dinar"
+
+#. module: medical_inpatient
+#: model:ir.model.fields.selection,name:medical_inpatient.selection__medical_inpatient_registration__admission_type__maternity
+msgid "Maternity"
+msgstr "Maternitat"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_meal_order_item__meal
+msgid "Meal"
+msgstr "Menjar"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_meal_order_item__name
+msgid "Meal Order"
+msgstr "Comanda de menjar"
+
+#. module: medical_inpatient
+#: model:ir.ui.menu,name:medical_inpatient.medical_inpatient_meal_order_menu
+msgid "Meal Orders"
+msgstr "Comandes de menjar"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_meal_order__mealtime
+msgid "Meal time"
+msgstr "Temps de menjar"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_registration__therapeutic_diets
+msgid "Meals / Diet Program"
+msgstr "Programa de menjars / dieta"
+
+#. module: medical_inpatient
+#: model:medical.diet.therapeutic,name:medical_inpatient.MS
+msgid "Mechanical Soft / Dental Soft"
+msgstr "Soft Soft / Dental Soft"
+
+#. module: medical_inpatient
+#: model:medical.diet.therapeutic,description:medical_inpatient.DYSA
+msgid ""
+"Mechanically altered. Meats are ground or minced. Foods are moist, soft-textured,\n"
+"                and easily formed into a bolus. All vegetables\n"
+"                are fork-mashable. Liquids must be ordered separately as regular, nectar, or honey.\n"
+"            "
+msgstr ""
+"Alterat mecànicament. Les carns estan triturades o picades. Els aliments són humits, de textura suau \ n"
+"i es pot convertir fàcilment en un bol. Totes les verdures \ n"
+"es poden mascar amb forquilla. Els líquids s'han de demanar per separat, de forma regular, de nèctar o de mel. \ n"
+""
+
+#. module: medical_inpatient
+#: model:res.groups,name:medical_inpatient.group_medical_inpatient_admin
+msgid "Medical Inpatient Administration"
+msgstr "Administració mèdica hospitalària"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_medication__medicament
+msgid "Medicament"
+msgstr "Medicament"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_medication_admin_time__name
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_medication_log__name
+#: model_terms:ir.ui.view,arch_db:medical_inpatient.medical_inpatient_medication_form_view
+msgid "Medication"
+msgstr "Medicació"
+
+#. module: medical_inpatient
+#: model_terms:ir.ui.view,arch_db:medical_inpatient.medical_inpatient_registration_form_view
+msgid "Medication Plan"
+msgstr "Pla de medicaments"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_registration__medications
+msgid "Medications"
+msgstr "Medicaments"
+
+#. module: medical_inpatient
+#: model:ir.model.fields.selection,name:medical_inpatient.selection__medical_bed_transfer_create__orig_bed_state__to_clean
+msgid "Needs cleaning"
+msgstr "Necessita neteja"
+
+#. module: medical_inpatient
+#: model:medical.diet.therapeutic,name:medical_inpatient.NEUTROPENIC
+msgid "Neutropenic"
+msgstr "Neutropènic"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_bed_transfer_create__newbed
+msgid "New Bed"
+msgstr "Llit nou"
+
+#. module: medical_inpatient
+#: model:medical.diet.therapeutic,description:medical_inpatient.NPO
+msgid "Nil per Os. Withhold oral food and fluids from the patient"
+msgstr "Nil per Os. Retenir els aliments i líquids orals del pacient"
+
+#. module: medical_inpatient
+#: model:medical.diet.therapeutic,description:medical_inpatient.REG
+msgid "No dietary modifications required"
+msgstr "No cal modificacions dietètiques"
+
+#. module: medical_inpatient
+#: code:addons/medical/medical_inpatient/models/medical_inpatient.py:0
+#: code:addons/medical/medical_inpatient/models/medical_inpatient.py:0
+#: code:addons/medical/medical_inpatient/models/medical_inpatient.py:0
+#: code:addons/medical_inpatient/models/medical_inpatient.py:0
+#: code:addons/medical_inpatient/models/medical_inpatient.py:0
+#: code:addons/medical_inpatient/models/medical_inpatient.py:0
+#, python-format
+msgid "No health professional associated to this user!"
+msgstr "Cap professional de la salut associat a aquest usuari!"
+
+#. module: medical_inpatient
+#: model:medical.diet.therapeutic,name:medical_inpatient.NAS
+msgid "Not Added Salt - NAS"
+msgstr "Sal no afegida: NAS"
+
+#. module: medical_inpatient
+#: model:ir.model.fields.selection,name:medical_inpatient.selection__medical_bed_transfer_create__orig_bed_state__na
+msgid "Not available"
+msgstr "No disponible"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_registration__info
+#: model_terms:ir.ui.view,arch_db:medical_inpatient.medical_inpatient_registration_form_view
+msgid "Notes"
+msgstr "Notes"
+
+#. module: medical_inpatient
+#: model:medical.diet.therapeutic,name:medical_inpatient.NPO
+msgid "Nothing by Mouth / NPO"
+msgstr "Res per boca / NPO"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_registration__nursing_plan
+#: model_terms:ir.ui.view,arch_db:medical_inpatient.medical_inpatient_registration_form_view
+msgid "Nursing Plan"
+msgstr "Pla d'infermeria"
+
+#. module: medical_inpatient
+#: model_terms:ir.ui.view,arch_db:medical_inpatient.medical_inpatient_registration_form_view
+msgid "Nutrition"
+msgstr "Nutrició"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_registration__nutrition_notes
+msgid "Nutrition notes / directions"
+msgstr "Indicacions / indicacions nutricionals"
+
+#. module: medical_inpatient
+#: model:ir.model.fields.selection,name:medical_inpatient.selection__medical_bed_transfer_create__orig_bed_state__occupied
+msgid "Occupied"
+msgstr "Ocupat"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_registration__operating_physician
+msgid "Operating Physician"
+msgstr "Metge operador"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_meal_order__meal_order
+msgid "Order"
+msgstr "Ordre"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,help:medical_inpatient.field_medical_inpatient_meal_order__order_date
+msgid "Order date"
+msgstr "Data d'Ordre"
+
+#. module: medical_inpatient
+#: model:ir.model.fields.selection,name:medical_inpatient.selection__medical_inpatient_meal_order__state__ordered
+msgid "Ordered"
+msgstr "Ordenat"
+
+#. module: medical_inpatient
+#: model_terms:ir.ui.view,arch_db:medical_inpatient.medical_inpatient_registration_form_view
+msgid "Other nutrition notes / directions"
+msgstr "Altres notes / indicacions nutricionals"
+
+#. module: medical_inpatient
+#: model:medical.diet.therapeutic,name:medical_inpatient.PRERENAL
+msgid "PRERENAL"
+msgstr ""
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_medication__frequency_prn
+msgid "PRN"
+msgstr ""
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_registration__patient
+msgid "Patient"
+msgstr "Pacient"
+
+#. module: medical_inpatient
+#: model_terms:ir.ui.view,arch_db:medical_inpatient.medical_inpatient_registration_form_view
+msgid "Patient Admission"
+msgstr "Admissió del pacient"
+
+#. module: medical_inpatient
+#: model:ir.model,name:medical_inpatient.model_medical_appointment
+msgid "Patient Appointments"
+msgstr "Cites al pacient"
+
+#. module: medical_inpatient
+#: model:ir.model,name:medical_inpatient.model_medical_patient_ecg
+msgid "Patient ECG"
+msgstr "ECG del pacient"
+
+#. module: medical_inpatient
+#: code:addons/medical/medical_inpatient/wizard/medical_inpatient_evaluation_create_wizard.py:0
+#: code:addons/medical_inpatient/wizard/medical_inpatient_evaluation_create_wizard.py:0
+#: model:ir.model,name:medical_inpatient.model_medical_patient_evaluation
+#, python-format
+msgid "Patient Evaluation"
+msgstr "Avaluació del pacient"
+
+#. module: medical_inpatient
+#: model_terms:ir.ui.view,arch_db:medical_inpatient.medical_inpatient_registration_form_view
+msgid "Patient Info"
+msgstr "Informació del pacient"
+
+#. module: medical_inpatient
+#: model:ir.model,name:medical_inpatient.model_medical_inpatient_registration
+msgid "Patient admission History"
+msgstr "Historial d'admissió de pacients"
+
+#. module: medical_inpatient
+#: model:medical.diet.therapeutic,name:medical_inpatient.PGMY
+msgid "Post-Gastrectomy"
+msgstr "Post-gastrectomia"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,help:medical_inpatient.field_medical_inpatient_medication__medicament
+msgid "Prescribed Medicament"
+msgstr "Medicament prescrit"
+
+#. module: medical_inpatient
+#: model:ir.model.fields.selection,name:medical_inpatient.selection__medical_inpatient_meal_order__state__processing
+msgid "Processing"
+msgstr "Processant"
+
+#. module: medical_inpatient
+#: model:medical.diet.therapeutic,description:medical_inpatient.RENAL
+msgid ""
+"Provides adequate protein (80 - 100g/d) and limited amounts of potassium (2g) and\n"
+"                sodium (2g) for the dialyzed patient.\n"
+"            "
+msgstr ""
+"Proporciona proteïna adequada (80 - 100 g / d) i quantitats limitades de potassi (2 g) i \ n"
+"sodi (2 g) per al pacient dialitzat. \ n"
+""
+
+#. module: medical_inpatient
+#: model:medical.diet.therapeutic,description:medical_inpatient.CARDIAC
+msgid ""
+"Provides controlled amounts of sodium, cholesterol, saturated and total fat\n"
+"            "
+msgstr ""
+"Proporciona quantitats controlades de sodi, colesterol, greixos saturats i totals \ n"
+""
+
+#. module: medical_inpatient
+#: model:medical.diet.therapeutic,description:medical_inpatient.LOWFAT
+msgid "Provides less than 30% energy from fat."
+msgstr "Proporciona menys d'un 30% d'energia a partir de greixos."
+
+#. module: medical_inpatient
+#: model:medical.diet.therapeutic,description:medical_inpatient.PRERENAL
+msgid ""
+"Provides limited amounts of protein (40-60g/d), potassium (2g/d), and sodium\n"
+"                (2g/d) for the pre-dialyzed patient.\n"
+"            "
+msgstr ""
+"Proporciona quantitats limitades de proteïna (40-60 g / d), potassi (2 g / d) i sodi \ n"
+"(2 g / d) per al pacient predialitzat. \ N"
+""
+
+#. module: medical_inpatient
+#: model:ir.model.fields,help:medical_inpatient.field_medical_inpatient_medication__qty
+msgid "Quantity of units (eg, 2 capsules) of the medicament"
+msgstr "Quantitat d'unitats (per exemple, 2 càpsules) del medicament"
+
+#. module: medical_inpatient
+#: model:medical.diet.therapeutic,name:medical_inpatient.RENAL
+msgid "RENAL"
+msgstr ""
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_bed_transfer__reason
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_bed_transfer_create__reason
+msgid "Reason"
+msgstr "Raó"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_registration__admission_reason
+#: model:ir.model.fields,help:medical_inpatient.field_medical_inpatient_registration__admission_reason
+msgid "Reason for Admission"
+msgstr "Motiu de l'admissió"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_medication__discontinued_reason
+msgid "Reason for discontinuation"
+msgstr "Motiu de la suspensió"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,help:medical_inpatient.field_medical_inpatient_registration__discharge_reason
+msgid "Reason for patient discharge"
+msgstr "Motiu de l'alta mèdica"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_bed_transfer__name
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_diet__name
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_meal_order__name
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_medication__name
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_registration__name
+msgid "Registration Code"
+msgstr "Codi de registre"
+
+#. module: medical_inpatient
+#: model:medical.diet.therapeutic,name:medical_inpatient.REG
+msgid "Regular"
+msgstr "Regular"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_patient_ecg__description
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_patient_evaluation__description
+msgid "Remark"
+msgstr "Observació"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_meal_order__remarks
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_meal_order_item__remarks
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_medication_admin_time__remarks
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_medication_log__remarks
+msgid "Remarks"
+msgstr "Observacions"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_diet__remarks
+msgid "Remarks / Directions"
+msgstr "Observacions / indicacions"
+
+#. module: medical_inpatient
+#: model:ir.model.fields.selection,name:medical_inpatient.selection__medical_bed_transfer_create__orig_bed_state__reserved
+msgid "Reserved"
+msgstr "Reservat"
+
+#. module: medical_inpatient
+#: model:ir.model.fields.selection,name:medical_inpatient.selection__medical_inpatient_registration__admission_type__routine
+msgid "Routine"
+msgstr "Rutina"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,help:medical_inpatient.field_medical_inpatient_medication__discontinued_reason
+msgid "Short description for discontinuing the treatment"
+msgstr "Breu descripció de la interrupció del tractament"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,help:medical_inpatient.field_medical_patient__patient_status
+msgid "Show the hospitalization status of the patient"
+msgstr "Mostra l'estat d'hospitalització del pacient"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,help:medical_inpatient.field_medical_inpatient_medication__adverse_reaction
+msgid "Side effects or adverse reactions that the patient experienced"
+msgstr "Efectes secundaris o reaccions adverses que va experimentar el pacient"
+
+#. module: medical_inpatient
+#: model:medical.diet.therapeutic,name:medical_inpatient.SFM
+msgid "Small Frequent Meals"
+msgstr "Menjars freqüents petits"
+
+#. module: medical_inpatient
+#: model:ir.model.fields.selection,name:medical_inpatient.selection__medical_inpatient_meal_order__mealtime__snack
+msgid "Snack"
+msgstr "Berenar"
+
+#. module: medical_inpatient
+#: model:medical.diet.therapeutic,description:medical_inpatient.SLL
+msgid "Soft bland foods that have low fiber content. Lactose is limited."
+msgstr "Aliments suaus i suaus que tenen un contingut baix en fibra. La lactosa és limitada"
+
+#. module: medical_inpatient
+#: model:medical.diet.therapeutic,description:medical_inpatient.GB4
+msgid "Soft foods such as cooked vegetables and soft or ground meats"
+msgstr "Aliments tous com ara verdures cuites i carns toves o mòltes"
+
+#. module: medical_inpatient
+#: model:medical.diet.therapeutic,description:medical_inpatient.GB3
+msgid "Soft or pureed foods that are easy to chew and digest"
+msgstr "Aliments suaus o en puré fàcils de mastegar i digerir"
+
+#. module: medical_inpatient
+#: model:ir.model.fields.selection,name:medical_inpatient.selection__medical_inpatient_meal_order__mealtime__special
+msgid "Special order"
+msgstr "Comanda especial"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_medication__start_treatment
+msgid "Start"
+msgstr "Començar"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_meal_order__state
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_registration__state
+#: model_terms:ir.ui.view,arch_db:medical_inpatient.medical_inpatient_medication_form_view
+msgid "Status"
+msgstr "Estat"
+
+#. module: medical_inpatient
+#: model:medical.diet.therapeutic,description:medical_inpatient.GB1
+msgid "Sugar-Free fluids"
+msgstr "Fluids sense sucre"
+
+#. module: medical_inpatient
+#: model:medical.diet.therapeutic,name:medical_inpatient.SLL
+msgid "Surgical Low Lactose"
+msgstr "Quirúrgica de baixa lactosa"
+
+#. module: medical_inpatient
+#: code:addons/medical/medical_inpatient/models/medical_inpatient.py:0
+#: code:addons/medical_inpatient/models/medical_inpatient.py:0
+#, python-format
+msgid "The Admission date must be today."
+msgstr "La data d'admissió ha de ser avui."
+
+#. module: medical_inpatient
+#: model:ir.model.constraint,message:medical_inpatient.constraint_medical_diet_therapeutic_code_uniq
+msgid "The Diet code already exists!"
+msgstr "El codi Diet ja existeix!"
+
+#. module: medical_inpatient
+#: code:addons/medical/medical_inpatient/models/medical_inpatient.py:0
+#: code:addons/medical_inpatient/models/medical_inpatient.py:0
+#, python-format
+msgid "The Discharge date must later than the Admission!"
+msgstr "La data de descàrrega ha de ser posterior a l'admissió."
+
+#. module: medical_inpatient
+#: model:ir.model.constraint,message:medical_inpatient.constraint_medical_inpatient_meal_order_meal_order_uniq
+msgid "The Meal Order code already exists!"
+msgstr "El codi de comanda de menjar ja existeix!"
+
+#. module: medical_inpatient
+#: model:ir.model.constraint,message:medical_inpatient.constraint_medical_inpatient_registration_name_uniq
+msgid "The Registration code already exists!"
+msgstr "El codi de registre ja existeix!"
+
+#. module: medical_inpatient
+#: model:medical.diet.therapeutic,description:medical_inpatient.FULLLIQUID
+msgid ""
+"The diet consists of foods that are liquid at body temperature. Foods are easy to\n"
+"                digest and provide minimal stimulation to the GI tract. The diet is not nutritionally adequate.\n"
+"            "
+msgstr ""
+"La dieta consisteix en aliments líquids a temperatura corporal. Els aliments són fàcils de fer \ n"
+"digereix i proporciona una estimulació mínima al tracte gastrointestinal. La dieta no és nutricionalment adequada. \ n"
+""
+
+#. module: medical_inpatient
+#: model:medical.diet.therapeutic,description:medical_inpatient.NEUTROPENIC
+msgid ""
+"The diet eliminates certain foods to provide a lower level of bacteria than is\n"
+"                present in a typical hospital diet.\n"
+"            "
+msgstr ""
+"La dieta elimina certs aliments per proporcionar un nivell de bacteris inferior al que és \ n"
+"present en una dieta hospitalària típica. \ n"
+""
+
+#. module: medical_inpatient
+#: model:medical.diet.therapeutic,description:medical_inpatient.BLAND
+msgid ""
+"The diet eliminates seasoned foods and condiments that may stimulate gastric\n"
+"                discomfort and GERD\n"
+"            "
+msgstr ""
+"La dieta elimina els aliments i condiments condimentats que poden estimular el gàstric \ n"
+"malestar i GERD \ n"
+""
+
+#. module: medical_inpatient
+#: model:medical.diet.therapeutic,description:medical_inpatient.CLIQUID
+msgid ""
+"The diet is indicated for short-term use whenever an acute illness or surgery\n"
+"                causes intolerance to food; or to temporarily restrict undigested material in the GI tract. The diet is\n"
+"                not nutritionally adequate.\n"
+"            "
+msgstr ""
+"La dieta està indicada per a ús a curt termini sempre que es produeixi una malaltia aguda o una cirurgia \ n"
+"causa intolerància als aliments o restringeix temporalment el material no digerit al tracte gastrointestinal. La dieta és \ n"
+"no és nutricionalment adequat. \ n"
+""
+
+#. module: medical_inpatient
+#: model:medical.diet.therapeutic,description:medical_inpatient.GISOFT
+msgid ""
+"The diet limits most raw, highly-seasoned and fried foods. The diet contains only\n"
+"                moderate amounts of fiber\n"
+"            "
+msgstr ""
+"La dieta limita la majoria dels aliments crus, molt condimentats i fregits. La dieta només conté \ n"
+"quantitats moderades de fibra \ n"
+""
+
+#. module: medical_inpatient
+#: model:medical.diet.therapeutic,description:medical_inpatient.GLUTENFREE
+msgid ""
+"The diet omits foods processed with Gluten. The diet is the primary means of\n"
+"                treatment for celiac sprue\n"
+"            "
+msgstr ""
+"La dieta omet els aliments processats amb gluten. La dieta és el principal mitjà de \ n"
+"tractament per al broll celíac \ n"
+""
+
+#. module: medical_inpatient
+#: model:medical.diet.therapeutic,description:medical_inpatient.SFM
+msgid "The diet provides 6 small meals daily"
+msgstr "La dieta proporciona 6 menjars petits al dia"
+
+#. module: medical_inpatient
+#: model:medical.diet.therapeutic,description:medical_inpatient.EMESIS
+msgid ""
+"The diet provides bland, room temperature or cold foods separated into solids and\n"
+"                liquids. Patients on this diet may request additional foods they feel can be tolerated. Patients are\n"
+"                encouraged to separate their intake of food and drink\n"
+"            "
+msgstr ""
+"La dieta proporciona aliments suaus, a temperatura ambient o freds separats en sòlids i \ n"
+"líquids. Els pacients amb aquesta dieta poden sol·licitar aliments addicionals que considerin tolerables. Els pacients són \ n"
+"animat a separar la ingesta d'aliments i begudes \ n"
+""
+
+#. module: medical_inpatient
+#: model_terms:ir.ui.view,arch_db:medical_inpatient.medical_inpatient_meal_order_form_view
+#: model_terms:ir.ui.view,arch_db:medical_inpatient.medical_inpatient_meal_order_tree_view
+msgid "The meal order is done"
+msgstr "La comanda del menjar està feta"
+
+#. module: medical_inpatient
+#: model_terms:ir.ui.view,arch_db:medical_inpatient.medical_inpatient_meal_order_form_view
+#: model_terms:ir.ui.view,arch_db:medical_inpatient.medical_inpatient_meal_order_tree_view
+msgid "The meal order will be closed"
+msgstr "L'ordre de menjar es tancarà"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,help:medical_inpatient.field_medical_inpatient_meal_order__meal_warning
+msgid "The patient has special needs on meals"
+msgstr "El pacient té necessitats especials en els àpats"
+
+#. module: medical_inpatient
+#: model:ir.ui.menu,name:medical_inpatient.medical_therapeutic_diet_menu
+msgid "Therapeutic diets"
+msgstr "Dietes terapèutiques"
+
+#. module: medical_inpatient
+#: model:medical.diet.therapeutic,description:medical_inpatient.FLLF
+msgid ""
+"This diet is frequently used for GYN surgical patients. Provides foods such as\n"
+"                non-cream based soups, Jell-O, juice, lactaid milk, tea and coffee\n"
+"            "
+msgstr ""
+"Aquesta dieta s'utilitza freqüentment per a pacients quirúrgics de GYN. Proporciona aliments com \ n"
+"sopes sense crema, gelatina, sucs, llet lactosa, te i cafè \ n"
+""
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_medication_admin_time__admin_time
+msgid "Time"
+msgstr "Temps"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,help:medical_inpatient.field_medical_inpatient_medication__frequency
+msgid ""
+"Time in between doses the patient must wait (ie, for 1 pill each 8 hours, "
+"put here 8 and select \"hours\" in the unit field"
+msgstr ""
+"Temps entre dosis que el pacient ha d'esperar (és a dir, 1 pastilla cada 8 hores)"
+"posa aquí 8 i selecciona \' hores \ 'al camp de la unitat"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_bed_transfer__bed_to
+msgid "To"
+msgstr "A"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_registration__bed_transfers
+msgid "Transfer History"
+msgstr "Historial de transferències"
+
+#. module: medical_inpatient
+#: model:ir.actions.act_window,name:medical_inpatient.action_medical_bed_transfer_create_wizard_view
+#: model_terms:ir.ui.view,arch_db:medical_inpatient.medical_bed_transfer_create_wizard_view
+msgid "Transfer Patient"
+msgstr "Pacient de transferència"
+
+#. module: medical_inpatient
+#: model:ir.model.fields.selection,name:medical_inpatient.selection__medical_inpatient_registration__discharge_reason__transfer
+msgid "Transferred to another institution"
+msgstr "Transferit a una altra institució"
+
+#. module: medical_inpatient
+#: model_terms:ir.ui.view,arch_db:medical_inpatient.medical_inpatient_medication_form_view
+msgid "Treatment period"
+msgstr "Període de tractament"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,help:medical_inpatient.field_medical_inpatient_medication__dose_unit
+#: model:ir.model.fields,help:medical_inpatient.field_medical_inpatient_medication_admin_time__dose_unit
+#: model:ir.model.fields,help:medical_inpatient.field_medical_inpatient_medication_log__dose_unit
+msgid "Unit of measure for the medication to be taken"
+msgstr "Unitat de mesura per prendre la medicació"
+
+#. module: medical_inpatient
+#: model:ir.model.fields.selection,name:medical_inpatient.selection__medical_inpatient_registration__admission_type__urgent
+msgid "Urgent"
+msgstr "Urgent"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,help:medical_inpatient.field_medical_inpatient_medication__frequency_prn
+msgid "Use it as needed, pro re nata"
+msgstr "Utilitzeu-lo segons sigui necessari, pro re nata"
+
+#. module: medical_inpatient
+#: model:medical.diet.therapeutic,description:medical_inpatient.2GS
+msgid ""
+"Used in the treatment of conditions characterized by edema, including the\n"
+"                following: cirrhosis of the\n"
+"                liver with ascites, Congested Heart Failure - CHF, essential hypertension and renal disease.\n"
+"            "
+msgstr ""
+"S'utilitza en el tractament de malalties caracteritzades per edema, inclòs el \ n"
+"següent: cirrosi del \ n"
+"fetge amb ascitis, insuficiència cardíaca congestionada - ICC, hipertensió essencial i malaltia renal. \ n"
+""
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_meal__diet_vegetarian
+msgid "Vegetarian"
+msgstr "Vegetarià"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_meal_order__meal_warning
+msgid "Warning"
+msgstr "Advertiment"
+
+#. module: medical_inpatient
+#: model_terms:ir.ui.view,arch_db:medical_inpatient.medical_inpatient_registration_form_view
+msgid "You are about to discharge the patient from the health institution."
+msgstr "Esteu a punt de donar d'alta al pacient de la institució sanitària"
+
+#. module: medical_inpatient
+#: code:addons/medical/medical_inpatient/wizard/medical_bed_transfer_create_wizard.py:0
+#: code:addons/medical_inpatient/wizard/medical_bed_transfer_create_wizard.py:0
+#, python-format
+msgid "You have chosen more than 1 records. Please choose only one!"
+msgstr "Heu escollit més d'1 registres. Seleccioneu-ne un de sol."
+
+#. module: medical_inpatient
+#: code:addons/medical/medical_inpatient/wizard/medical_inpatient_evaluation_create_wizard.py:0
+#: code:addons/medical_inpatient/wizard/medical_inpatient_evaluation_create_wizard.py:0
+#, python-format
+msgid "You need to select an inpatient registration record!"
+msgstr "Heu de seleccionar un registre de registre d'hospitalització!"
+
+#. module: medical_inpatient
+#: code:addons/medical/medical_inpatient/models/medical_inpatient.py:0
+#: code:addons/medical_inpatient/models/medical_inpatient.py:0
+#, python-format
+msgid "You need to set up the company timezone."
+msgstr "Cal configurar la zona horària de l'empresa."
+
+#. module: medical_inpatient
+#: model:ir.model.fields.selection,name:medical_inpatient.selection__medical_inpatient_registration__state__cancelled
+msgid "cancelled"
+msgstr "cancel·lat"
+
+#. module: medical_inpatient
+#: model:ir.model.fields.selection,name:medical_inpatient.selection__medical_inpatient_registration__state__confirmed
+msgid "confirmed"
+msgstr "confirmat"
+
+#. module: medical_inpatient
+#: model:ir.model.fields.selection,name:medical_inpatient.selection__medical_inpatient_medication__frequency_unit__days
+msgid "days"
+msgstr "dies"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_medication__dose_unit
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_medication_admin_time__dose_unit
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_medication_log__dose_unit
+msgid "dose unit"
+msgstr "unitat de dosi"
+
+#. module: medical_inpatient
+#: model:ir.model.fields.selection,name:medical_inpatient.selection__medical_inpatient_registration__state__free
+msgid "free"
+msgstr "gratuït"
+
+#. module: medical_inpatient
+#: model:ir.model.fields.selection,name:medical_inpatient.selection__medical_inpatient_registration__state__hospitalized
+msgid "hospitalized"
+msgstr "hospitalitzat"
+
+#. module: medical_inpatient
+#: model:ir.model.fields.selection,name:medical_inpatient.selection__medical_inpatient_medication__frequency_unit__hours
+msgid "hours"
+msgstr "hores"
+
+#. module: medical_inpatient
+#: model:ir.model.fields.selection,name:medical_inpatient.selection__medical_inpatient_medication__frequency_unit__minutes
+msgid "minutes"
+msgstr "minuts"
+
+#. module: medical_inpatient
+#: model:ir.model.fields.selection,name:medical_inpatient.selection__medical_inpatient_medication__frequency_unit__seconds
+msgid "seconds"
+msgstr "segons"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,help:medical_inpatient.field_medical_inpatient_diet__remarks
+msgid "specific remarks for this diet / patient"
+msgstr "observacions específiques per a aquesta dieta / pacient"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,help:medical_inpatient.field_medical_inpatient_medication_admin_time__remarks
+#: model:ir.model.fields,help:medical_inpatient.field_medical_inpatient_medication_log__remarks
+msgid "specific remarks for this dose"
+msgstr "observacions específiques per a aquesta dosi"
+
+#. module: medical_inpatient
+#: model:ir.model.fields,field_description:medical_inpatient.field_medical_inpatient_medication__frequency_unit
+msgid "unit"
+msgstr "unitat"
+
+#. module: medical_inpatient
+#: model:ir.model.fields.selection,name:medical_inpatient.selection__medical_inpatient_medication__frequency_unit__weeks
+msgid "weeks"
+msgstr "setmanes"
+
+#. module: medical_inpatient
+#: model:ir.model.fields.selection,name:medical_inpatient.selection__medical_inpatient_medication__frequency_unit__wr
+msgid "when required"
+msgstr "quan sigui necessari"

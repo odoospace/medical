@@ -29,8 +29,6 @@
     'data': [
         'security/ir.model.access.csv',
         'views/medical_gyneco_view.xml',
-        # data/gnuhealth_commands.xml,
-        # security/access_rights.xml,
     ],
     'demo': [],
     'installable': True,

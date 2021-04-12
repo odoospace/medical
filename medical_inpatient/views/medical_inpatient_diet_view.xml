@@ -32,17 +32,17 @@
             </field>
         </record>
 
-<!--        <record model="ir.actions.act_window" id="medical_inpatient_diet_action">-->
-<!--            <field name="name">Inpatient Diet</field>-->
-<!--            <field name="res_model">medical.inpatient.diet</field>-->
-<!--            <field name="view_mode">tree,form</field>-->
-<!--        </record>-->
+        <!--        <record model="ir.actions.act_window" id="medical_inpatient_diet_action">-->
+        <!--            <field name="name">Inpatient Diet</field>-->
+        <!--            <field name="res_model">medical.inpatient.diet</field>-->
+        <!--            <field name="view_mode">tree,form</field>-->
+        <!--        </record>-->
 
-<!--        <menuitem-->
-<!--                id="medical_inpatient_diet_menu"-->
-<!--                name="Inpatient Diet"-->
-<!--                parent="medical_inpatient_menu"-->
-<!--                action="medical_inpatient_diet_action"-->
-<!--        />-->
+        <!--        <menuitem-->
+        <!--                id="medical_inpatient_diet_menu"-->
+        <!--                name="Inpatient Diet"-->
+        <!--                parent="medical_inpatient_menu"-->
+        <!--                action="medical_inpatient_diet_action"-->
+        <!--        />-->
     </data>
 </odoo>

@@ -414,7 +414,7 @@ class InpatientRegistration(models.Model):
     def check_discharge_context(self):
         if ((not self.discharge_reason or not self.discharge_dx
              or not self.admission_reason)
-            and self.state == 'done'):
+                and self.state == 'done'):
             raise UserError(
                 _(
                     'Admission and Discharge reasons \n'
@@ -481,9 +481,6 @@ class Appointment(models.Model):
         'Inpatient Registration',
         help="Enter the patient hospitalization code"
     )
-
-
-
 
 
 class MedicalPatient(models.Model):
@@ -595,7 +592,7 @@ class InpatientMedication(models.Model):
         required=True,
         help='Quantity of units (eg, 2 capsules) of the medicament'
     )
-    #TODO falta la clase 'medical.medication.dosage' ???
+    # TODO falta la clase 'medical.medication.dosage' ???
     # common_dosage = fields.Many2one(
     #     'medical.medication.dosage',
     #     'Frequency',
@@ -986,21 +983,23 @@ class InpatientMealOrder(models.Model):
         self.ensure_one()
         self.write({'state': 'done'})
 
-#Evaluation
+
+# Evaluation
 class PatientEvaluation(models.Model):
     _name = 'medical.patient.evaluation'
     _description = 'Patient Evaluation'
-    #_inherit = 'medical.patient.evaluation'
+    # _inherit = 'medical.patient.evaluation'
     inpatient_registration_code = fields.Many2one('medical.inpatient.registration',
                                                   'IPC',
                                                   help="Enter the patient hospitalization code")
     description = fields.Text('Remark')
 
+
 # ECG
 class PatientECG(models.Model):
     _name = 'medical.patient.ecg'
     _description = 'Patient ECG'
-    #_inherit = 'medical.patient.ecg'
+    # _inherit = 'medical.patient.ecg'
     inpatient_registration_code = fields.Many2one('medical.inpatient.registration',
                                                   'Inpatient Registration',
                                                   help="Enter the patient hospitalization code")

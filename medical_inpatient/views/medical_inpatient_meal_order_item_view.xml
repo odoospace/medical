@@ -34,18 +34,18 @@
             </field>
         </record>
 
-<!--        <record model="ir.actions.act_window" id="medical_inpatient_meal_order_item_action">-->
-<!--            <field name="name">Inpatient Meal Order Item</field>-->
-<!--            <field name="res_model">medical.inpatient.meal.order.item</field>-->
-<!--            <field name="view_mode">tree,form</field>-->
-<!--        </record>-->
+        <!--        <record model="ir.actions.act_window" id="medical_inpatient_meal_order_item_action">-->
+        <!--            <field name="name">Inpatient Meal Order Item</field>-->
+        <!--            <field name="res_model">medical.inpatient.meal.order.item</field>-->
+        <!--            <field name="view_mode">tree,form</field>-->
+        <!--        </record>-->
 
-<!--        <menuitem-->
-<!--                id="medical_inpatient_meal_order_item_menu"-->
-<!--                name="Inpatient Meal Order Item"-->
-<!--                parent="medical_inpatient_menu"-->
-<!--                action="medical_inpatient_meal_order_item_action"-->
-<!--        />-->
+        <!--        <menuitem-->
+        <!--                id="medical_inpatient_meal_order_item_menu"-->
+        <!--                name="Inpatient Meal Order Item"-->
+        <!--                parent="medical_inpatient_menu"-->
+        <!--                action="medical_inpatient_meal_order_item_action"-->
+        <!--        />-->
     </data>
 </odoo>
 

@@ -39,18 +39,18 @@
             </field>
         </record>
 
-<!--        <record model="ir.actions.act_window" id="medical_inpatient_medication_admin_time_action">-->
-<!--            <field name="name">Inpatient Medication Admin Times</field>-->
-<!--            <field name="res_model">medical.inpatient.medication.admin_time</field>-->
-<!--            <field name="view_mode">tree,form</field>-->
-<!--        </record>-->
+        <!--        <record model="ir.actions.act_window" id="medical_inpatient_medication_admin_time_action">-->
+        <!--            <field name="name">Inpatient Medication Admin Times</field>-->
+        <!--            <field name="res_model">medical.inpatient.medication.admin_time</field>-->
+        <!--            <field name="view_mode">tree,form</field>-->
+        <!--        </record>-->
 
-<!--        <menuitem-->
-<!--                id="medical_inpatient_medication_admin_time_menu"-->
-<!--                name="Inpatient Medication Admin Times"-->
-<!--                parent="medical_inpatient_menu"-->
-<!--                action="medical_inpatient_medication_admin_time_action"-->
-<!--        />-->
+        <!--        <menuitem-->
+        <!--                id="medical_inpatient_medication_admin_time_menu"-->
+        <!--                name="Inpatient Medication Admin Times"-->
+        <!--                parent="medical_inpatient_menu"-->
+        <!--                action="medical_inpatient_medication_admin_time_action"-->
+        <!--        />-->
     </data>
 </odoo>
 

@@ -8,19 +8,19 @@
     <record model="ir.ui.view" id="medical_insurance_company_view_form">
         <field name="name">medical.insurance.company.view.form</field>
         <field name="model">medical.insurance.company</field>
-        <field name="inherit_id" ref="medical.medical_abstract_entity_view_form" />
+        <field name="inherit_id" ref="medical.medical_abstract_entity_view_form"/>
         <field name="mode">primary</field>
         <field name="arch" type="xml">
             <xpath expr="//form" position="attributes">
                 <attribute name="string">Insurance Provider</attribute>
             </xpath>
             <xpath expr="//h1" position="after">
-                <field name="is_company" invisible="True" />
+                <field name="is_company" invisible="True"/>
                 <h3>
                     <field
-                        name="parent_id" placeholder="Parent Company"
-                        domain="[('is_company', '=', True)]"
-                        context="{'default_is_company':True, 'default_type':'medical.insurance.company'}"
+                            name="parent_id" placeholder="Parent Company"
+                            domain="[('is_company', '=', True)]"
+                            context="{'default_is_company':True, 'default_type':'medical.insurance.company'}"
                     />
                 </h3>
             </xpath>
@@ -29,25 +29,25 @@
     <record model="ir.ui.view" id="medical_insurance_company_view_tree">
         <field name="name">medical.insurance.company.view.tree</field>
         <field name="model">medical.insurance.company</field>
-        <field name="inherit_id" ref="medical.medical_abstract_entity_view_tree" />
+        <field name="inherit_id" ref="medical.medical_abstract_entity_view_tree"/>
         <field name="mode">primary</field>
         <field name="arch" type="xml">
             <xpath expr="//tree" position="attributes">
                 <attribute name="string">Insurance Providers</attribute>
             </xpath>
             <xpath expr="//field[@name='email']" position="after">
-                <field name="parent_id" />
-                <field name="street" />
-                <field name="city" />
-                <field name="state_id" />
-                <field name="zip" />
+                <field name="parent_id"/>
+                <field name="street"/>
+                <field name="city"/>
+                <field name="state_id"/>
+                <field name="zip"/>
             </xpath>
         </field>
     </record>
     <record model="ir.ui.view" id="medical_insurance_company_view_kanban">
         <field name="name">medical.insurance.company.kanban</field>
         <field name="model">medical.insurance.company</field>
-        <field name="inherit_id" ref="medical.medical_abstract_entity_view_kanban" />
+        <field name="inherit_id" ref="medical.medical_abstract_entity_view_kanban"/>
         <field name="mode">primary</field>
         <field name="arch" type="xml">
             <xpath expr="//kanban" position="attributes">
@@ -63,38 +63,38 @@
     <record model="ir.ui.view" id="medical_insurance_company_view_search">
         <field name="name">medical.insurance.company.view.search</field>
         <field name="model">medical.insurance.company</field>
-        <field name="inherit_id" ref="medical.medical_abstract_entity_view_search" />
+        <field name="inherit_id" ref="medical.medical_abstract_entity_view_search"/>
         <field name="mode">primary</field>
         <field name="arch" type="xml">
             <xpath expr="//search" position="attributes">
                 <attribute name="string">Insurance Providers</attribute>
             </xpath>
             <xpath expr="//field[@name='category_id']" position="after">
-                <field name="name" />
-                <field name="parent_id" />
-                <field name="street" />
-                <field name="city" />
-                <field name="state_id" />
-                <field name="zip" />
+                <field name="name"/>
+                <field name="parent_id"/>
+                <field name="street"/>
+                <field name="city"/>
+                <field name="state_id"/>
+                <field name="zip"/>
             </xpath>
             <xpath expr="//filter" position="after">
                 <filter
-                    name="company"
-                    string="Company"
-                    domain="[]"
-                    context="{'group_by':'parent_id'}"
+                        name="company"
+                        string="Company"
+                        domain="[]"
+                        context="{'group_by':'parent_id'}"
                 />
                 <filter
-                    name="state"
-                    string="State"
-                    domain="[]"
-                    context="{'group_by': 'state_id'}"
+                        name="state"
+                        string="State"
+                        domain="[]"
+                        context="{'group_by': 'state_id'}"
                 />
                 <filter
-                    name="zip"
-                    string="Zip"
-                    domain="[]"
-                    context="{'group_by': 'zip'}"
+                        name="zip"
+                        string="Zip"
+                        domain="[]"
+                        context="{'group_by': 'zip'}"
                 />
             </xpath>
         </field>
@@ -104,10 +104,10 @@
         <field name="type">ir.actions.act_window</field>
         <field name="res_model">medical.insurance.company</field>
         <field name="view_mode">kanban,tree,form</field>
-        <field name="search_view_id" ref="medical_insurance_company_view_search" />
+        <field name="search_view_id" ref="medical_insurance_company_view_search"/>
         <field
-            name="view_ids"
-            eval="[
+                name="view_ids"
+                eval="[
                 (5, 0, 0),
                 (0, 0, {'view_mode': 'kanban', 'view_id': ref('medical_insurance_company_view_kanban')}),
                 (0, 0, {'view_mode': 'tree', 'view_id': ref('medical_insurance_company_view_tree')}),

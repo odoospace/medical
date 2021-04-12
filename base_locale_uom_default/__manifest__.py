@@ -14,10 +14,8 @@
     'installable': True,
     'depends': ['product'],
     'data': [
-        # 'views/res_lang_view.xml',
     ],
     'demo': [
-        # 'demo/res_lang_demo.xml',
     ],
     'maintainer': 'Ángel Ramírez Isea <angel.ramirez.isea@yandex.com>'
 }

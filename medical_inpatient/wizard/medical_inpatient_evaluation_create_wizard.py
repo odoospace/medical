@@ -35,6 +35,7 @@ class CreateInpatientEvaluation(models.TransientModel):
     """
     _name = 'medical.inpatient.evaluation.create'
     _description = 'Create Inpatient Evaluation'
+
     def do_inpatient_evaluation(self):
         self.ensure_one()
         inpatient_registrations = self.env['medical.inpatient.registration']

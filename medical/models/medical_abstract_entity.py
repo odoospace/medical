@@ -27,6 +27,7 @@ class MedicalAbstractEntity(models.AbstractModel):
         default=lambda s: s._name,
         related='partner_id.type',
     )
+
     # image = fields.Char(
     #     compute='_create_default_image',
     #     string='Imagen'
@@ -76,8 +77,8 @@ class MedicalAbstractEntity(models.AbstractModel):
         if vals.get('image'):
             return False
         if any((
-            getattr(threading.currentThread(), 'testing', False),
-            self._context.get('install_mode')
+                getattr(threading.currentThread(), 'testing', False),
+                self._context.get('install_mode')
         )):
             if not self.env.context.get('__image_create_allow'):
                 return False

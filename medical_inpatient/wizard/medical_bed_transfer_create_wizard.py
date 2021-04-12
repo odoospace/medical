@@ -59,6 +59,7 @@ class CreateBedTransfer(models.TransientModel):
         default='to_clean',
         required=True
     )
+
     def button_create_bed_transfer(self):
         inpatient_registrations = self.env['medical.inpatient.registration']
         bed = self.env['medical.hospital.bed']

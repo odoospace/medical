@@ -13,7 +13,7 @@
             <xpath expr="//notebook" position="inside">
                 <page name="insurance_plan" string="Insurance">
                     <group>
-                        <field name="insurance_plan_ids" />
+                        <field name="insurance_plan_ids"/>
                     </group>
                 </page>
             </xpath>

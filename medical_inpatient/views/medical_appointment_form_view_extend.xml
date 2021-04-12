@@ -13,7 +13,7 @@
             <field name="priority" eval="20"/>
             <field name="arch" type="xml">
                 <field name="institution" position="after">
-<!--                    <label for="inpatient_registration_code"/>-->
+                    <!--                    <label for="inpatient_registration_code"/>-->
                     <field name="inpatient_registration_code"/>
                 </field>
             </field>

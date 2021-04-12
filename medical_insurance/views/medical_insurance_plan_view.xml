@@ -10,11 +10,11 @@
         <field name="model">medical.insurance.plan</field>
         <field name="arch" type="xml">
             <tree string="Insurance Plans">
-                <field name="name" />
-                <field name="patient_id" />
-                <field name="number" />
-                <field name="insurance_company_id" />
-                <field name="insurance_template_id" />
+                <field name="name"/>
+                <field name="patient_id"/>
+                <field name="number"/>
+                <field name="insurance_company_id"/>
+                <field name="insurance_template_id"/>
             </tree>
         </field>
     </record>
@@ -24,21 +24,21 @@
         <field name="model">medical.insurance.plan</field>
         <field name="arch" type="xml">
             <form string="Insurance Plan">
-                <header />
+                <header/>
                 <sheet>
                     <h2>
-                        <field name="name" nolabel="1" />
+                        <field name="name" nolabel="1"/>
                     </h2>
                     <group name="data">
-                        <field name="patient_id" />
-                        <field name="number" />
-                        <field name="member_since" />
-                        <field name="member_exp" />
+                        <field name="patient_id"/>
+                        <field name="number"/>
+                        <field name="member_since"/>
+                        <field name="member_exp"/>
                     </group>
                     <notebook>
                         <page string="Plan Information">
                             <group name="plan_info">
-                                <field name="insurance_template_id" />
+                                <field name="insurance_template_id"/>
                                 <field name="plan_number"/>
                                 <field name="product_id"/>
                                 <field name="insurance_company_id"/>
@@ -46,11 +46,11 @@
                             </group>
                         </page>
                         <page string="Additional">
-                            <field name="notes" placeholder="Notes..." />
+                            <field name="notes" placeholder="Notes..."/>
                         </page>
                     </notebook>
                 </sheet>
-                <footer />
+                <footer/>
             </form>
         </field>
     </record>
@@ -60,46 +60,46 @@
         <field name="model">medical.insurance.plan</field>
         <field name="arch" type="xml">
             <search string="Insurance Plans">
-                <field name="name" />
-                <field name="patient_id" />
-                <field name="number" />
-                <field name="insurance_company_id" />
-                <field name="insurance_template_id" />
-                <field name="notes" />
-                <field name="plan_number" />
-                <field name="product_id" />
-                <newline />
+                <field name="name"/>
+                <field name="patient_id"/>
+                <field name="number"/>
+                <field name="insurance_company_id"/>
+                <field name="insurance_template_id"/>
+                <field name="notes"/>
+                <field name="plan_number"/>
+                <field name="product_id"/>
+                <newline/>
                 <group expand="0" string="Group By...">
                     <filter
-                        name="insurance company"
-                        string="Insurance Company"
-                        domain="[]"
-                        context="{'group_by':'insurance_company_id'}"
-                        />
+                            name="insurance company"
+                            string="Insurance Company"
+                            domain="[]"
+                            context="{'group_by':'insurance_company_id'}"
+                    />
                     <filter
-                        name="insurance affiliation"
-                        string="Insurance Affiliation"
-                        domain="[]"
-                        context="{'group_by':'insurance_affiliation'}"
-                        />
+                            name="insurance affiliation"
+                            string="Insurance Affiliation"
+                            domain="[]"
+                            context="{'group_by':'insurance_affiliation'}"
+                    />
                     <filter
-                        name="insurance product"
-                        string="Insurance Product"
-                        domain="[]"
-                        context="{'group_by':'product_id'}"
-                        />
+                            name="insurance product"
+                            string="Insurance Product"
+                            domain="[]"
+                            context="{'group_by':'product_id'}"
+                    />
                     <filter
-                        name="insurance template"
-                        string="Insurance Template"
-                        domain="[]"
-                        context="{'group_by':'insurance_template_id'}"
-                        />
+                            name="insurance template"
+                            string="Insurance Template"
+                            domain="[]"
+                            context="{'group_by':'insurance_template_id'}"
+                    />
                     <filter
-                        name="plan number"
-                        string="Plan Number"
-                        domain="[]"
-                        context="{'group_by':'plan_number'}"
-                        />
+                            name="plan number"
+                            string="Plan Number"
+                            domain="[]"
+                            context="{'group_by':'plan_number'}"
+                    />
                 </group>
             </search>
         </field>
@@ -110,7 +110,7 @@
         <field name="type">ir.actions.act_window</field>
         <field name="res_model">medical.insurance.plan</field>
         <field name="view_mode">tree,form</field>
-        <field name="search_view_id" ref="medical_insurance_plan_view_search" />
+        <field name="search_view_id" ref="medical_insurance_plan_view_search"/>
         <field name="domain">[]</field>
         <field name="context">{}</field>
     </record>

@@ -78,17 +78,17 @@
         <field name="view_mode">tree,form</field>
     </record>
     <menuitem
-        id="lifestyle_conf_root"
-        name="Lifestyle"
-        parent="medical.medical_root_sub"
-        sequence="11"
-        groups="health_lifestyle.group_health_lifestyle_admin"
+            id="lifestyle_conf_root"
+            name="Lifestyle"
+            parent="medical.medical_root_sub"
+            sequence="11"
+            groups="health_lifestyle.group_health_lifestyle_admin"
     />
     <menuitem
-        id="drugs_recreational_menu"
-        name="Recreational Drugs"
-        parent="lifestyle_conf_root"
-        action="drugs_recreational_action"
-        groups="health_lifestyle.group_health_lifestyle_admin"
+            id="drugs_recreational_menu"
+            name="Recreational Drugs"
+            parent="lifestyle_conf_root"
+            action="drugs_recreational_action"
+            groups="health_lifestyle.group_health_lifestyle_admin"
     />
 </odoo>

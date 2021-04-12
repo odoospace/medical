@@ -42,10 +42,10 @@
         <field name="view_mode">tree,form</field>
     </record>
     <menuitem
-        id="diet_belief_menu"
-        name="Belief diets"
-        parent="lifestyle_conf_root"
-        action="diet_belief_action"
-        groups="health_lifestyle.group_health_lifestyle_admin"
+            id="diet_belief_menu"
+            name="Belief diets"
+            parent="lifestyle_conf_root"
+            action="diet_belief_action"
+            groups="health_lifestyle.group_health_lifestyle_admin"
     />
 </odoo>

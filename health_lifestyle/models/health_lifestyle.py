@@ -30,7 +30,7 @@ class VegetarianTypes(models.Model):
 
 
 # Diet by belief / religion
-class DietBelief (models.Model):
+class DietBelief(models.Model):
     _name = "medical.diet.belief"
     _description = 'Diet by Belief'
 
@@ -118,36 +118,36 @@ class DrugsRecreational(models.Model):
     withdrawal_level = fields.Integer(
         string='Withdrawal',
         help="Presence and severity of characteristic withdrawal symptoms.\n"
-        "Using Henningfield rating. 1=highest and 6=lowest"
+             "Using Henningfield rating. 1=highest and 6=lowest"
     )
     reinforcement_level = fields.Integer(
         string='Reinforcement',
         help="A measure of the substance's ability to get users to take it "
-        " again and again, and in preference to other substances.\n"
-        "Using Henningfield rating. 1=highest and 6=lowest"
+             " again and again, and in preference to other substances.\n"
+             "Using Henningfield rating. 1=highest and 6=lowest"
     )
     tolerance_level = fields.Integer(
         string='Tolerance',
         help="How much of the substance is needed to satisfy increasing "
-        "cravings for it, and the level of stable need that is eventually "
-        "reached.\n"
-        "Using Henningfield rating. 1=highest and 6=lowest"
+             "cravings for it, and the level of stable need that is eventually "
+             "reached.\n"
+             "Using Henningfield rating. 1=highest and 6=lowest"
     )
     dependence_level = fields.Integer(
         string='Dependence',
         help="How difficult it is for the user to quit, the relapse rate, "
-        "the percentage of people who eventually become dependent, the "
-        "rating users give their own need for the substance and the "
-        "degree to which the substance will be used in the face of "
-        "evidence that it causes harm.\nUsing Henningfield rating. "
-        "1=highest and 6=lowest"
+             "the percentage of people who eventually become dependent, the "
+             "rating users give their own need for the substance and the "
+             "degree to which the substance will be used in the face of "
+             "evidence that it causes harm.\nUsing Henningfield rating. "
+             "1=highest and 6=lowest"
     )
     intoxication_level = fields.Integer(
         string='Intoxication',
         help="the level of intoxication is associated with addiction and "
-        "increases the personal and social damage a substance may do. \n"
-        "Using Henningfield rating."
-        "1=highest and 6=lowest"
+             "increases the personal and social damage a substance may do. \n"
+             "Using Henningfield rating."
+             "1=highest and 6=lowest"
     )
     route_oral = fields.Boolean(string='Oral')
     route_popping = fields.Boolean(
@@ -169,62 +169,62 @@ class DrugsRecreational(models.Model):
     dea_schedule_i = fields.Boolean(
         string='DEA schedule I',
         help="Schedule I and II drugs have a high potential for abuse. "
-        "They require greater storage security and have a quota on "
-        "manufacturing, among other restrictions. Schedule I drugs are "
-        "available for research only and have no approved medical use; "
-        "Schedule II drugs are available only by prescription "
-        "(unrefillable) and require a form for ordering. Schedule III "
-        "and IV drugs are available by prescription, may have five "
-        "refills in 6 months, and may be ordered orally. "
-        "Some Schedule V drugs are available over the counter"
+             "They require greater storage security and have a quota on "
+             "manufacturing, among other restrictions. Schedule I drugs are "
+             "available for research only and have no approved medical use; "
+             "Schedule II drugs are available only by prescription "
+             "(unrefillable) and require a form for ordering. Schedule III "
+             "and IV drugs are available by prescription, may have five "
+             "refills in 6 months, and may be ordered orally. "
+             "Some Schedule V drugs are available over the counter"
     )
     dea_schedule_ii = fields.Boolean(
         string='II',
         help="Schedule I and II drugs have a high potential for abuse."
-        "They require greater storage security and have a quota on"
-        "manufacturing, among other restrictions. Schedule I drugs are"
-        "available for research only and have no approved medical use; "
-        "Schedule II drugs are available only by prescription "
-        "(unrefillable) and require a form for ordering. Schedule III "
-        "and IV drugs are available by prescription, may have five"
-        "refills in 6 months, and may be ordered orally. "
-        "Some Schedule V drugs are available over the counter"
+             "They require greater storage security and have a quota on"
+             "manufacturing, among other restrictions. Schedule I drugs are"
+             "available for research only and have no approved medical use; "
+             "Schedule II drugs are available only by prescription "
+             "(unrefillable) and require a form for ordering. Schedule III "
+             "and IV drugs are available by prescription, may have five"
+             "refills in 6 months, and may be ordered orally. "
+             "Some Schedule V drugs are available over the counter"
     )
     dea_schedule_iii = fields.Boolean(
         string='III',
         help="Schedule I and II drugs have a high potential for abuse. "
-        "They require greater storage security and have a quota on "
-        "manufacturing, among other restrictions. Schedule I drugs are "
-        "available for research only and have no approved medical use; "
-        "Schedule II drugs are available only by prescription "
-        "(unrefillable) and require a form for ordering. Schedule III "
-        "and IV drugs are available by prescription, may have five "
-        "refills in 6 months, and may be ordered orally. "
-        "Some Schedule V drugs are available over the counter"
+             "They require greater storage security and have a quota on "
+             "manufacturing, among other restrictions. Schedule I drugs are "
+             "available for research only and have no approved medical use; "
+             "Schedule II drugs are available only by prescription "
+             "(unrefillable) and require a form for ordering. Schedule III "
+             "and IV drugs are available by prescription, may have five "
+             "refills in 6 months, and may be ordered orally. "
+             "Some Schedule V drugs are available over the counter"
     )
     dea_schedule_iv = fields.Boolean(
         string='IV',
         help="Schedule I and II drugs have a high potential for abuse. "
-        "They require greater storage security and have a quota on "
-        "manufacturing, among other restrictions. Schedule I drugs are "
-        "available for research only and have no approved medical use; "
-        "Schedule II drugs are available only by prescription "
-        "(unrefillable) and require a form for ordering. Schedule III "
-        "and IV drugs are available by prescription, may have five "
-        "refills in 6 months, and may be ordered orally. "
-        "Some Schedule V drugs are available over the counter"
+             "They require greater storage security and have a quota on "
+             "manufacturing, among other restrictions. Schedule I drugs are "
+             "available for research only and have no approved medical use; "
+             "Schedule II drugs are available only by prescription "
+             "(unrefillable) and require a form for ordering. Schedule III "
+             "and IV drugs are available by prescription, may have five "
+             "refills in 6 months, and may be ordered orally. "
+             "Some Schedule V drugs are available over the counter"
     )
     dea_schedule_v = fields.Boolean(
         string='V',
         help="Schedule I and II drugs have a high potential for abuse. "
-        "They require greater storage security and have a quota on "
-        "manufacturing, among other restrictions. Schedule I drugs are "
-        "available for research only and have no approved medical use; "
-        "Schedule II drugs are available only by prescription "
-        "(unrefillable) and require a form for ordering. Schedule III "
-        "and IV drugs are available by prescription, may have five "
-        "refills in 6 months, and may be ordered orally. "
-        "Some Schedule V drugs are available over the counter"
+             "They require greater storage security and have a quota on "
+             "manufacturing, among other restrictions. Schedule I drugs are "
+             "available for research only and have no approved medical use; "
+             "Schedule II drugs are available only by prescription "
+             "(unrefillable) and require a form for ordering. Schedule III "
+             "and IV drugs are available by prescription, may have five "
+             "refills in 6 months, and may be ordered orally. "
+             "Some Schedule V drugs are available over the counter"
     )
     info = fields.Text(string='Extra Info')
 
@@ -429,12 +429,12 @@ class MedicalPatient(models.Model):
     car_child_safety = fields.Boolean(
         'Car Child Safety',
         help="Safety measures when driving : child seats, "
-        "proper seat belting, not seating on the front seat, ...."
+             "proper seat belting, not seating on the front seat, ...."
     )
     home_safety = fields.Boolean(
         'Home safety',
         help="Keep safety measures for kids in the kitchen, "
-        "correct storage of chemicals, ..."
+             "correct storage of chemicals, ..."
     )
     motorcycle_rider = fields.Boolean(
         'Motorcycle Rider',

@@ -5,8 +5,8 @@
 
 <odoo>
     <data>
-<!--todo import patient.ecg from health-->
-<!--        <record model="ir.ui.view" id="medical_patient_ecg_form_extend">-->
+        <!--todo import patient.ecg from health-->
+        <!--        <record model="ir.ui.view" id="medical_patient_ecg_form_extend">-->
         <!--            <field name="name">medical.patient.ecg.form.extend</field>-->
         <!--            <field name="model">medical.patient.ecg</field>-->
         <!--            <field name="inherit_id" ref="medical.medical_patient_ecg_form"/>-->

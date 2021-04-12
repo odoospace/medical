@@ -79,8 +79,8 @@ class ResPartner(models.Model):
     def create(self, vals):
         """ It overrides create to bind appropriate medical entity. """
         if all((
-            vals.get('type', '').startswith('medical.'),
-            not self.env.context.get('medical_entity_no_create'),
+                vals.get('type', '').startswith('medical.'),
+                not self.env.context.get('medical_entity_no_create'),
         )):
             model = self.env[vals['type']].with_context(
                 medical_entity_no_create=True,

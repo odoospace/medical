@@ -18,12 +18,10 @@
     'license': 'GPL-3',
     'data': [
         'security/ir.model.access.csv',
-        # 'views/template.xml',
         'views/views.xml',
         'data/medical_extras_sequence.xml',
     ],
     'demo': [
-        # 'demo/medical_patient_demo.xml',
     ],
     'installable': True,
     'application': False,

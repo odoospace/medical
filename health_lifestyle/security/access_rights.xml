@@ -6,20 +6,20 @@
     License GPL-3.0 or later (http://www.gnu.org/licenses/gpl).
 -->
 <odoo>
-<!-- BEGIN lifestyle ADMINISTRATION GROUP ACCESS RIGHTS -->
+    <!-- BEGIN lifestyle ADMINISTRATION GROUP ACCESS RIGHTS -->
 
-<!-- Create the Health lifestyle Administration group -->
+    <!-- Create the Health lifestyle Administration group -->
     <record model="res.groups" id="group_health_lifestyle_admin">
         <field name="name">Health Lifestyle Administration</field>
     </record>
 
-<!-- Assign the Group to the "admin" user -->
+    <!-- Assign the Group to the "admin" user -->
     <!-- <record model="res.groups" id="user_admin_group_health_lifestyle">
         <field name="users" eval="[(4, ref('base.user_root'))]"/>
         <field name="implied_ids" eval="[(4, ref('group_health_lifestyle_admin'))]"/>
     </record> -->
 
-<!-- Access rights to models for the health lifestyle admin group -->
+    <!-- Access rights to models for the health lifestyle admin group -->
     <!-- <record model="ir.model.access" id="access_health_drugs_recreational_admin">
         <field name="model" search="[('model', '=', 'medical.drugs_recreational')]"/>
         <field name="group" ref="group_health_lifestyle_admin"/>
@@ -45,9 +45,9 @@
         <field name="perm_delete" eval="True"/>
     </record> -->
 
-<!-- END OF lifestyle ADMINISTRATION GROUP ACCESS RIGHTS -->
-<!-- BEGIN DEFAULT ACCESS RIGHTS -->
-<!-- Default access rights to models -->
+    <!-- END OF lifestyle ADMINISTRATION GROUP ACCESS RIGHTS -->
+    <!-- BEGIN DEFAULT ACCESS RIGHTS -->
+    <!-- Default access rights to models -->
     <!-- <record model="ir.model.access" id="access_health_drugs_recreational">
         <field name="model" search="[('model', '=', 'medical.drugs_recreational')]"/>
         <field name="perm_read" eval="True"/>
@@ -71,9 +71,9 @@
         <field name="perm_delete" eval="False"/>
     </record> -->
 
-<!-- END OF DEFAULT ACCESS RIGHTS -->
-<!-- BEGIN DOCTOR GROUP ACCESS RIGHTS -->
-<!-- Access rights to models for the health doctor group -->
+    <!-- END OF DEFAULT ACCESS RIGHTS -->
+    <!-- BEGIN DOCTOR GROUP ACCESS RIGHTS -->
+    <!-- Access rights to models for the health doctor group -->
     <!-- <record model="ir.model.access" id="access_health_drugs_recreational_doctor">
         <field name="model" search="[('model', '=', 'medical.drugs_recreational')]"/>
         <field name="group" ref="health.group_health_doctor"/>
@@ -98,9 +98,9 @@
         <field name="perm_create" eval="True"/>
         <field name="perm_delete" eval="True"/>
     </record> -->
-<!-- END OF DOCTOR GROUP ACCESS RIGHTS -->
-<!-- BEGIN SOCIAL WORKER GROUP ACCESS RIGHTS -->
-<!-- Access rights to models for the health social worker group -->
+    <!-- END OF DOCTOR GROUP ACCESS RIGHTS -->
+    <!-- BEGIN SOCIAL WORKER GROUP ACCESS RIGHTS -->
+    <!-- Access rights to models for the health social worker group -->
     <!-- <record model="ir.model.access" id="access_health_drugs_recreational_social_worker">
         <field name="model" search="[('model', '=', 'medical.drugs_recreational')]"/>
         <field name="group" ref="health.group_health_social_worker"/>
@@ -118,8 +118,8 @@
         <field name="perm_delete" eval="True"/>
     </record> -->
 
-<!-- END OF SOCIAL WORKER GROUP ACCESS RIGHTS -->
-<!-- BEGIN FRONTDESK ACCESS RIGHTS: RESTRICT ALL RELEVANT LIFESTYLE FIELDS ON PATIENT MODEL -->
+    <!-- END OF SOCIAL WORKER GROUP ACCESS RIGHTS -->
+    <!-- BEGIN FRONTDESK ACCESS RIGHTS: RESTRICT ALL RELEVANT LIFESTYLE FIELDS ON PATIENT MODEL -->
     <!-- <record model="ir.model.field.access" id="access_health_patient_frontdesk_field_sexuality_info">
         <field name="field" search="[('model.model', '=', 'medical.patient'), ('name', '=', 'sexuality_info')]"/>
         <field name="group" ref="health.group_health_frontdesk"/>
@@ -414,5 +414,5 @@
         <field name="perm_read" eval="False"/>
         <field name="perm_write" eval="False"/>
     </record> -->
-<!-- END FRONTDESK ACCESS RIGHTS -->
+    <!-- END FRONTDESK ACCESS RIGHTS -->
 </odoo>

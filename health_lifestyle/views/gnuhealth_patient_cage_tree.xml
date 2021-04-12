@@ -12,7 +12,7 @@
         <field name="type">tree</field>
         <field name="arch" type="xml">
             <tree editable="top">
-                <field name="evaluation_date" widget="date" />
+                <field name="evaluation_date" widget="date"/>
                 <field name="cage_c"/>
                 <field name="cage_a"/>
                 <field name="cage_g"/>

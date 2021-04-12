@@ -17,7 +17,7 @@ class MedicalInsuranceTemplate(models.Model):
     is_default = fields.Boolean(
         string='Default Plan',
         help='Check this if the plan should be the default when assigning'
-        'company to patient',
+             'company to patient',
     )
     insurance_company_id = fields.Many2one(
         string='Insurance Provider',

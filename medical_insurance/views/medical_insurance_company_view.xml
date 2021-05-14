@@ -24,6 +24,9 @@
                     />
                 </h3>
             </xpath>
+            <field name="email" position="after">
+                <field name="vat" string="CIF"/>
+            </field>
         </field>
     </record>
     <record model="ir.ui.view" id="medical_insurance_company_view_tree">
